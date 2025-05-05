@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".KuindgiPaint">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView709"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:text="Галерея"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView106"
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                app:srcCompat="@drawable/museum_kuindgi" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView708"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ранний период (1860-е - 1870-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView710"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В это время Куинджи работал под влиянием академического искусства и реализма. Он изучал природу и создавал пейзажи, в которых уже проявлялись его интерес к свету и цвету."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton104"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ladogskoe_ozero" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton105"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ostrov_valaame" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton106"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/after_rain" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton107"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/berezovaya_roscha" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView711"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Зрелый период (1880-е - 1890-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView712"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Этот период характеризуется наибольшим расцветом его творчества. Куинджи начинает использовать яркие, насыщенные цвета и экспериментировать с освещением. Его работы, такие как &quot;Лунная ночь на Днепре&quot; и &quot;Березовая роща&quot;, стали знаковыми. В это время он также стал активно участвовать в выставках и получил признание."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton108"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/moon_night_na_dnepre" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton109"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/ai_petri" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton110"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/albros" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton111"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/uschelie" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView713"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Поздний период (1900-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView714"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В этот период Куинджи продолжает развивать свои идеи, но его стиль становится более свободным и экспрессивным. Он работает над новыми композициями и темами, включая более абстрактные элементы. Также в это время он уделяет внимание преподаванию и воспитанию молодых художников."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton112"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/hristos" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton113"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/raduga" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton114"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/nochnoe" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton117"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/red_zakat" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView716"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Куинджи оставил значительное наследие в русской живописи, его работы продолжают вдохновлять и восхищать зрителей по всему миру."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

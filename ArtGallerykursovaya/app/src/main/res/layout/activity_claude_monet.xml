@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".ClaudeMonet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                app:srcCompat="@drawable/monet__1_" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView540"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Оска́р Клод Моне́ (фр. Oscar-Claude Monet; 14 ноября 1840, Париж, Франция — 5 декабря 1926, Живерни, Франция) — французский живописец, один из основателей импрессионизма. Считается одним из ключевых предшественников модернизма, особенно в связи с попытками изобразить природу такой, какой он её воспринимал. В течение своей долгой карьеры Моне был самым последовательным и плодовитым последователем философии импрессионизма, выражающей восприятие природы, в особенности применительно к пленэру — пейзажной живописи на открытом воздухе. Термин «импрессионизм» происходит от названия его картины «Impression, soleil levant», выставленной в 1874 году на первой выставке импрессионистов, организованной по инициативе Моне и его единомышленников в качестве альтернативы Салону."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView541"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Биография"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView542"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Оскар Клод Моне родился 14 ноября 1840 года в Париже. Он был вторым ребёнком бакалейщика Клода Адольфа Моне и Луизы Жюстины (урождённой Обре). Когда мальчику было пять лет, семья переехала в Нормандию, в Гавр. Отец хотел, чтобы Клод стал бакалейщиком и продолжил семейное дело. Юность Моне, как он сам отмечал впоследствии, была, по существу, юностью бродяги. Он проводил больше времени в воде и на скалах, чем в классе. Школа ему, по натуре недисциплинированному, всегда казалась тюрьмой. Он развлекался, разрисовывая обложки тетрадей и используя их для портретов своих учителей, сделанных в весьма непочтительной, карикатурной манере, и в этой забаве вскоре достиг совершенства. В пятнадцать лет Моне был известен всему Гавру как карикатурист. Он настолько упрочил свою репутацию, что со всех сторон его осаждали просьбами сделать карикатурные портреты. Изобилие подобных заказов и недостаточная щедрость родителей внушили ему смелое решение, которое шокировало его семью: за свои портреты Моне стал брать по двадцать франков, накопив таким образом около 2000 франков."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView543"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Приобретя этим путём некоторую известность, Моне вскоре стал «важной персоной» в городе. В витрине единственной лавки художественных принадлежностей гордо красовались его карикатуры, выставленные по пять-шесть в ряд, и когда он видел, как перед ними в восхищении толпятся зеваки, он «готов был лопнуть от гордости». Часто в витрине той же лавки Моне видел помещённые над его собственными произведениями морские пейзажи, которые он, подобно большинству своих сограждан, считал «омерзительными». Автором пейзажей, внушавших ему «крайнее отвращение», был Эжен Буден, и, ещё не зная этого человека, Моне возненавидел его. Он отказался познакомиться с ним через владельца лавки, но однажды, зайдя в неё, не заметил, что в задней половине находится Буден. Владелец лавки воспользовался случаем и представил ему Моне как молодого человека, у которого такой большой талант к карикатуре. Как вспоминал Моне:  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView544"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="«Буден тотчас же подошёл ко мне, похвалил меня своим мягким голосом и сказал: я всегда с удовольствием смотрю на ваши рисунки; это забавно, легко, умно. Вы талантливы — это видно с первого взгляда, но, я надеюсь, вы не остановитесь на этом. Всё это очень хорошо для начала, но скоро вам надоест карикатура. Занимайтесь, учитесь видеть, писать и рисовать, делайте пейзажи. Море и небо, животные, люди и деревья так красивы именно в том виде, в каком их создала природа, со всеми их качествами, в их подлинном бытии, такие, как они есть, окружённые воздухом и светом».  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView559"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Но, признавался сам Моне, призывы Будена не имели эффекта. В конечном счёте этот человек понравился Моне. Он был убеждённым, искренним, но Моне не мог «переварить» его живопись, и когда Буден приглашал его с собой поработать на открытом воздухе, Моне всегда находил повод вежливо отказаться. Настало лето; Моне, устав сопротивляться, наконец сдался, и Буден охотно взялся за его обучение. «Глаза мои наконец раскрылись, — вспоминал Моне, — я по-настоящему понял природу и в то же время научился любить её»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне объявил отцу, что желает стать художником и поедет учиться в Париж. Отец Моне не был решительно настроен против этой идеи, тем более, что мадам Лекадр, тётка Моне в Гавре, сама немного рисовала и разрешила племяннику в свободное время работать в её мастерской (там Моне обнаружил маленькую картинку Добиньи, которой так восхищался, что тётка ему её подарила). Хотя родители Моне видели талант своего сына, они отчасти не хотели, а отчасти и не имели возможности оказывать ему материальную поддержку.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView546"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Отец Моне разрешил ему кратковременную поездку в Париж для того, чтобы сын мог посоветоваться с другими художниками и побывать в Салоне, который должен был закрыться в июне. Перед отъездом Моне получил от некоторых любителей картин, посещавших Будена, рекомендательные письма к различным более или менее известным художникам.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView547"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне спросил Труайона и Монжино, куда бы они рекомендовали ему поступить. Оба высказались за Кутюра, но Моне решил не слушаться их совета, потому что ему не понравились работы Кутюра. Вместо этого Моне посещал собрания в «Кабачке мучеников», где нашёл то, чего ему недоставало в Гавре: воодушевляющую компанию и оживлённые споры. По истечении двух месяцев Моне решил остаться в Париже на неопределённое время. Родители, пожалуй, согласились бы на это, если бы он не отказался поступать в Школу изящных искусств. Отец прекратил выплачивать ему содержание, и Моне был вынужден жить на свои сбережения, которые ему пересылала тётя."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView548"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1860 году Моне был призван в армию и попал в Алжир, но там он заболел брюшным тифом. Финансовое вмешательство тётушки помогло художнику откупиться от воинской повинности, и он вернулся домой уже в 1861 году. Отец откупить его от армии отказался. Вернувшись в Гавр, он познакомился с Яном Бартолдом Йонгкиндом."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView549"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне поступил в университет на факультет искусств, но быстро разочаровался в царившем там подходе к живописи. Покинув учебное заведение, он вскоре поступил в студию живописи, которую организовал Шарль Глейр. В студии он познакомился с такими художниками, как Огюст Ренуар, Альфред Сислей и Фредерик Базиль. Они были практически сверстниками, придерживались схожих взглядов на искусство и вскоре составили костяк группы импрессионистов.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView550"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Известность Моне принёс портрет Камиллы Донсье, написанный в 1866 году («Камилла, или портрет дамы в зелёном платье»). Камилла 28 июня 1870 года стала женой художника, в браке у них родилось двое сыновей: Жан (1867 год) и Мишель (17 марта 1878 года).  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView551"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="После начала франко-прусской войны в 1870 г. Моне уезжает в Англию, где знакомится с работами Джона Констебла и Уильяма Тёрнера. Весной 1871 года работам Моне было отказано в разрешении на участие в выставке Королевской академии. В мае 1871 года он покинул Лондон, чтобы переехать жить в Зандам, город в Нидерландах, где он написал двадцать пять картин (и где полиция подозревала его в революционной деятельности). Он также в первый раз съездил в соседний Амстердам. После возвращения во Францию в конце 1872 года Моне пишет свой знаменитый пейзаж «Впечатление. Восходящее солнце» («Impression, soleil levant»). Именно эта картина и дала название группе импрессионистов и целому художественному направлению. Картина была показана на первой импрессионистской выставке в 1874 году. Знаменитый критик Леруа так писал об этой выставке: «На ней не было ничего, кроме впечатленчества». С декабря 1871 по 1878 год Моне жил в Аржантёе, селе на правом берегу реки Сены близ Парижа, популярном для воскресных прогулок парижан, где написал некоторые из наиболее известных своих работ. В 1874 году он на короткое время вернулся в Нидерланды.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView552"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1880—1881 годах к нему обратился Дюран Рюэль, с предложением постоянно заниматься покупкой и продажей его произведений, после чего дела Моне стремительно пошли в гору.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView553"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1883 году Моне купил дом в Живерни в Верхней Нормандии, в 80 км к северо-западу от Парижа. В 1892 году он женился во второй раз, на Алисе Ошеде (1844—1911), которой тогда было 48 лет. Ещё до этого Алиса помогала художнику вести хозяйство и воспитывать детей от первого брака. В 1893 году Моне вместе с Алисой уехали в Живерни, где прожили в браке 18 лет.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView554"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1912 году врачи поставили Клоду Моне диагноз двойной катаракты, из-за чего ему пришлось перенести две операции. Но он не оставил занятий живописью.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="После операций Моне вновь обрёл зрение, однако оно не восстановилось полностью. Доктора рекомендовали ему носить массивные очки, но он отказывался принимать рекомендации, ссылаясь на то, что очки искажают восприятие игры света."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView556"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="На неполное восстановление зрения явно указывает цветовая гамма его поздних картин, которые уже не наполнены красными и коричневыми тонами, обусловленными катарактой, как это было в дооперационный период, но в них так и не вернулась та чистота холодных оттенков зелёного и синего, которыми картины Моне были наполнены в ранние годы. На поздних полотнах зелёные и синие тона несут в себе оттенки бурого, вместо чисто синего художник использует фиолетовый.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView557"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Клод Моне скончался от рака лёгких 5 декабря 1926 года в Живерни в возрасте 86 лет и был похоронен на местном церковном кладбище. Последнюю картину он написал в 84 года. Перед смертью художник настоял, чтобы прощание с ним было простым; таким образом, всего 50 человек посетили церемонию.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton84"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="112sp"
+                android:backgroundTint="#141414"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/group_18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

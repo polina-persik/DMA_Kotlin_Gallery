@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".NightOnBosfore">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView119"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                app:srcCompat="@drawable/night_bosfor" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView776"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Лунная ночь на Босфоре» — картина русского художника Ивана Константиновича Айвазовского, написанная в 1894 году. Работа написана маслом на холсте."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView782"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На полотне изображён пролив Босфор при лунном освещении. На водной глади серебрится лунная дорожка. На набережной района Ортакёй многолюдно. Находящиеся на ней люди одеты в пёстрые одежды, отчего в серебристом потоке лунного света сама набережная похожа на картинку, иллюстрирующую какую-то восточную легенду. Автор с детальной точностью передал на холсте изящные формы элементов, которыми украшен купол мечети Ортакёй и её минареты."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView783"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="От яркого света полной луны небо кажется бледно-голубым, а плывущие по небосводу лёгкие облака — белоснежными. Лишь в отдалении от светящегося лунного диска небо приобретает тёмный, почти чёрный, цвет. На спокойной водной глади медленно скользят лодки и судёнышки. Вдали видны силуэты гор, которые слегка скрыты в блёкло-розовой туманной дымке."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView784"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина впервые была показана на 120-й выставке Айвазовского в Санкт-Петербурге в 1896 году под названием «На Босфоре». Хранится в Государственной Третьяковской галерее в Москве."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Kolbeli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="match_parent"
+                android:layout_height="503dp"
+                app:srcCompat="@drawable/kolbeli" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView474"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Произведение «Колыбель» кисти французской художницы Берты Моризо (годы жизни 1841-1895) прекрасно сочетает в себе сразу две темы – импрессионизм и жизнь – с женской точки зрения XIX столетия. Моризо всегда предлагала на это движение свою собственную уникальную точку зрения.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView475"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Фигуры, запечатлённые в сцене – это родная сестра Моризо – Эдма (годы жизни 1839-1921) и её недавно родившаяся дочь Бланш. Атмосфера материнства сохранялась на протяжении всей творческой карьеры художницы и предлагала приятный отдых от бесконечных пейзажных картин импрессионистского движения (при этом полностью принимая красоту и новаторство их работ в этом жанре).  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView476"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Европейская художественная сцена той поры явно нуждалась во влиянии и идеях некоторых женщин-художниц, в лице всё той же Моризо, Мэри Стивенсон-Кэссетт (годы жизни 1844-1926), Евы Гонсалес (годы жизни 1849-1883) и Мари Бракемон (годы жизни 1840-1916). В последние годы их работы, а также женщин-художниц в целом, становятся всё более и более популярными.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView477"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Данная картина в творческой карьере Моризо оказалась крайне популярной: многие её последователи высоко оценили тему материнства, а также расслабляющую атмосферу сей композиции. В результате чего её часто воспроизводили в виде художественной репродукции. Ребёнок мирно спит, а Эдма смотрит на него, приняв позу, которая выглядит как сочетание лёгкой тревоги и усталости, такой типичной для молодой матери.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView478"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Роли большинства женщин в обществе тогда всё ещё были ограничены, и это привело к тому, что большая часть их произведений искусства и была посвящена подобным сценам. Работа «Колыбель» оказалась представлена на самой первой выставке импрессионистов, но её так и не купили, что вынудило художницу с того самого момента хранить её в своей родной семье.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView479"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Форма треугольника часто использовалась художниками для построения композиций ещё со времён эпохи Возрождения. В этой конкретной сцене мы видим, что туловище Эдмы является первым треугольником, тогда как второй – завесой, закрывающей собой колыбель. Такая последовательность объединяет мать и ребёнка, вполне вероятно, это сознательное добавление художницы, таким образом она сумела создать впечатление связи между ними.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView480"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Сама Эдма также была выдающейся художницей, но затем решила целиком и полностью посвятить свою жизнь семье и стала матерью сразу нескольких детей – возможно, по ходу написания этой работы она ещё частично хотела вернуться к искусству, поскольку выражение лица девушки далеко не самое радостное.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView481"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 56 х 46 сантиметров."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView482"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Музей Орсе (Париж, Франция)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

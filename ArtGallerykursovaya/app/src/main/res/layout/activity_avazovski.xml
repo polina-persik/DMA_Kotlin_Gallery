@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Avazovski">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView103"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                app:srcCompat="@drawable/aivazovsky__1_" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView670"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ива́н Константи́нович Айвазо́вский, Гайвазовский (Ованнес Айвазян; 17 [29] июля 1817, Феодосия, Таврическая губерния, Российская империя — 19 апреля [2 мая] 1900, там же) — русский живописец и график, один из самых известных маринистов XIX века, коллекционер и меценат. Живописец Главного морского штаба (с 1844), действительный тайный советник. Академик (с 1845), профессор (с 1847) и почётный член (с 1887) Императорской Академии художеств; почётный иностранный член ряда художественных обществ европейских стран. Младший брат историка и архиепископа Армянской церкви Габриэла Айвазовского."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView671"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Биография"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView672"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ованнес (Иван) Константинович Айвазовский родился в армянской семье купца Геворка (Константина) и Рипсиме Айвазян. 17 (29) июля 1817 года священник Армянской церкви города Феодосии сделал запись о рождении «Ованнеса, сына Геворка Айвазяна». Предки Айвазовского были из армян, которые переселились в Галицию из Западной Армении в XVIII веке. Известно, что дедушку художника звали Григор Айвазян, бабушку — Ашхен, а его родственники владели крупной земельной собственностью в районе Львова, однако никаких документов, более точно описывающих его происхождение, не сохранилось. Его отец Константин (Геворк) и после переселения в Феодосию писал фамилию на польский манер: «Гайвазовский». Сам Айвазовский в автобиографии говорит об отце, что тот из-за ссоры со своими братьями в юности переселился из Галиции в Дунайские княжества (Молдавию или Валахию), где занялся торговлей, а оттуда в Феодосию."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView673"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Еще в детстве у Ивана были выявлены способности к музыке и рисованию. Первые уроки художественного мастерства были даны ему известным феодосийским архитектором, Я. Х. Кохом. Став выпускником училища, Айвазовский поступил в симферопольскую гимназию. После ее окончания, по протекции феодосийского градоначальника, А. И. Казначеева, будущего художника зачислили в столичную Императорскую Академию художеств."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView674"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В августе 1833 г. Айвазовский прибыл в Санкт-Петербург. Он учился у таких мастеров, как М. Воробьев, Ф. Таннер, А. И. Зауервейд. Его картины, написанные во время обучения, были удостоены серебряной медали. Айвазовский был настолько одаренным студентом, что его выпустили из Академии на 2 года раньше срока. Для самостоятельного творчества Ивана Константиновича отправили сперва в родной Крым, а потом в заграничную командировку на 6 лет. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView675"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Весной 1838 г. Айвазовский уехал в Крым. Там он создавал морские пейзажи, занимался батальной живописью. В Крыму он пробыл 2 года. Затем вместе с В. Штернбергом, своим товарищем по пейзажному классу, художник отправился в Рим. По дороге они посетили Флоренцию и Венецию, где состоялось знакомство Айвазовского с Н. Гоголем. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView676"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="1844 г. был знаковым для художника. Он стал главным живописцем российского Главного морского штаба. Через 3 года ему присвоили звание профессора Академии художеств г. Санкт-Петербурга. Для детей, интересующихся жизнью великого художника, важно знать, что главными его работами являются картины “Девятый вал” и “Черное море”. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView677"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Но сражениями и морскими пейзажами его творчество не ограничивалось. Он создал серию крымских и украинских пейзажей, написал несколько исторических полотен. Всего за свою жизнь Айвазовский написал более 6000 полотен."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView678"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1864 г. художник стал потомственным дворянином. Также он был награжден чином действительного тайного советника. Это звание соответствовало адмиральскому."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton101"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="112sp"
+                android:backgroundTint="#141414"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/group_18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

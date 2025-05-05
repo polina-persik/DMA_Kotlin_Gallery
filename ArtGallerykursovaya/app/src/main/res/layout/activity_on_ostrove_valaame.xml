@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".OnOstroveValaame">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView123"
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                app:srcCompat="@drawable/valaame" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView801"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«На острове Валааме» — картина русского художника Архипа Куинджи (1841/1842—1910), написанная в 1873 году. Картина является частью собрания Государственной Третьяковской галереи. Размер картины — 76 × 130 см"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView807"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина была написана во время одной из поездок Куинджи на остров Валаам, находящийся на Ладожском озере. В 1873 году картина «На острове Валааме» выставлялась на академической выставке. Хотя она была датирована 1873 годом, предполагается, что в основном она была написана в 1872 году, во время второй летней поездки Куинджи на Валаам. Картина «На острове Валааме» вошла в трилогию художника о северной природе, к которой также относятся картины «Ладожское озеро» (1873) и «Север» (1879)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView808"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Художник Илья Репин сообщал о новой работе Куинджи: «Всем она ужасно нравится, и еще не дальше как сегодня заходил ко мне Крамской — он от неё в восторге». В результате картина «На острове Валааме» стала первой картиной Куинджи, купленной Павлом Третьяковым, который приобрёл её прямо с выставки 1873 года."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView809"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На картине изображён дикий берег острова в серебристом предгрозовом освещении. На переднем плане — два дерева, сосна и берёза, проросшие сквозь потрескавшийся гранит и стоящие у впадающей в озеро речушки, поросшей осокой. На заднем плане — тёмный лес и край озера."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

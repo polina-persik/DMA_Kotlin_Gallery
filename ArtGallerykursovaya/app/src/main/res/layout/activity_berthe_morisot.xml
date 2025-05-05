@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    android:backgroundTint="#141414"
+    tools:context=".BertheMorisot">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                app:srcCompat="@drawable/berthe" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView413"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Биография"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView414"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Бе́рта Мари́ Поли́н Моризо́ (фр. Berthe Marie Pauline Morisot; 14 января 1841, Бурж — 2 марта 1895, Париж) — французская художница, одна из четырёх «великих дам» импрессионизма."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView415"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1864 году она впервые выставила свои работы на одной из самых престижных художественных выставок Франции — Парижском салоне, официальной ежегодной экспозиции Академии изящных искусств Франции. Её работы отбирались для участия в шести Парижских салонах подряд, пока в 1874 году она не примкнула к группе «отверженных» импрессионистов, созданной Сезанном, Дега, Моне, Моризо, Писсарро, Ренуаром и Сислеем, приняв участие в их первой экспозиции в студии фотографа Надара."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView416"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Она доводилась внучатой племянницей Жану-Оноре Фрагонару и была замужем за живописцем Эженом Мане (1833—1892), братом своего друга и коллеги Эдуарда Мане. В 1878-м у них родилась дочь Жюли."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView417"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ранние годы"
+                android:textColor="#FBFBFB"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView418"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Берта Моризо родилась в богатой буржуазной семье в Бурже 14 января 1841 года, в департаменте Шер, префектом которого был её отец Эдме Тибюрсе Моризо. Она и её старшая сестра Эдма Моризо стали художницами. Её семья, после того как Берта определилась с выбором профессии, не мешала её карьере. Ее мать, Мари-Жозефина-Корнели Тома, была внучатой племянницей Жана-Оноре Фрагонара, одного из самых плодовитых художников эпохи рококо. Семья переехала в Париж в 1852 году, когда Моризо была еще ребенком."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView419"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Образование"
+                android:textColor="#FBFBFB"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView420"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Художница родилась и выросла в семье с богатыми культурными традициями, к которой принадлежал, в частности, знаменитый мастер стиля рококо Фрагонар, чьё искусство повлияло на многие поколения художников. В возрасте двадцати лет Берта повстречалась со знаменитым ландшафтным живописцем Барбизонской школы Камилем Коро."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView421"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Коро давал Берте и её сестре Эдме частные уроки живописи и познакомил их с другими живописцами; однако Эдма оставила живопись вскоре после замужества. Тем не менее она морально поддерживала работу сестры, их семьи всегда оставались в близких отношениях."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView422"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Творчество"
+                android:textColor="#FBFBFB"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView423"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Картины Моризо отражают культурные ограничения XIX века для её класса и пола. В основном она изображала то, что видела в повседневной жизни. Так, художница избегала городских и уличных сцен и редко писала обнаженную натуру. Как и другая импрессионистка — Мэри Кассат, — Берта сосредоточилась на домашней жизни и портретах, что позволяло использовать в качестве моделей друзей и родных, в том числе дочь Жюли. До 1860-х годов Моризо писала свои темы в соответствии с Барбизонской школой, прежде чем перейти к сценам современной женственности. Такие картины, как Колыбель (1872), в которых она отображала, в частности, текущие тенденции для детской мебели, передают её понимание моды и рекламы, которые были очевидны для её женской аудитории. Её работы также включают пейзажи, портреты, садовые постройки и сцены катания на лодках. Тем не менее позже в своей карьере Моризо бралась и за более амбициозные темы и жанры, такие как ню."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView424"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Работы Моризо почти всегда невелики по размерам. Она работала масляными красками, акварелью и пастелью, выполняла наброски с использованием различных рисовальных средств. Около 1880 года она начала рисовать на незагрунтованном холсте — техника, с которой в то время также экспериментировали Эдуард Мане и Ева Гонсалес; её манера письма стала свободнее. В 1888—1889 годах Моризо перешла от коротких и быстрых мазков к длинным, извилистым, формообразующим. Внешние края её картин часто оставались незавершенными, на этих участках сквозь краски просматривался холст, что усиливало ощущение спонтанности. После 1885 года она в основном работала с предварительными рисунками, прежде чем начать писать картину маслом."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView425"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Моризо создаёт ощущение пространства и глубины благодаря использованию цвета. Хотя цветовая палитра художницы несколько ограничена, собратья-импрессионисты называли её «виртуозом цвета». Как правило, Берта Моризо экспансивно использовала белый цвет, чистый или смешанный из других красок. В её большой картине Вишня (1891) цвета более живые, но все ещё используются с целью подчеркнуть форму."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView426"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1892 году состоялась её первая персональная выставка."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView427"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 2013 году Моризо стала самой дорогостоящей художницей, когда её картину «После обеда» (1881) продали на аукционе Кристис за $10,9 миллиона."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton65"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="112sp"
+                android:backgroundTint="#141414"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/group_18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

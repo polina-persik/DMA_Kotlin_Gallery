@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Sister">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="match_parent"
+                android:layout_height="466dp"
+                app:srcCompat="@drawable/sister_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView428"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Сестра Художницы у Окна» – это картина кисти Берты Моризо (годы жизни 1841-1895), написанная маслом на холсте в 1869 году. В ней присутствуют характерные и отличительные черты художницы."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView443"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В основе своей работы Берты демонстрируют нам женщин, погружённых в свои мысли, и когда она изображает на данной картине свою родную сестру Эдму (годы жизни 1839-1921), которая к тому времени уже ждала своего первого ребёнка, становится легче представить, как она сосредотачивалась на рисунке. На полотне Эдма отображается сидящей на стуле возле открытого окна и о чём-то глубоко размышляющей. Видно, как она смотрит на японский веер, но сосредоточено ли её внимание именно на этом? Такие приглушённые цвета, использованные Бертой в картине, и являются явным признаком задумчивого настроения."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Как однажды рассказывала сама художница, у Эдмы было очень много мыслей. Погружаться в них она стала сразу после того, как вышла замуж и уехала из Парижа – столицы Франции. Таким образом, впервые в жизни сёстры перестали быть вместе, и Берта иногда навещала её на новой квартире. Также не стоит забывать, что Эдма тоже была художницей."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView445"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Вполне возможно, интерпретация её медитативного режима могла бы запросто заключаться в том, что из-за давления общества ей было крайне неудобно, оно так и вынуждало девушку выйти замуж, что в конечном итоге и положило конец её карьере в художественном искусстве. А всё потому, что она потеряла какую-либо связь с другими художниками, собиралась больше заниматься домашними обязанностями и, в конечном счёте, завести ребёнка, который и будет практически полностью занимать собой почти всё её творческое время."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView446"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Веер на этой картине символизирует собой не только культуру, но и влияние. Работа «Сестра Художницы у Окна» фокусируется на одной конкретной фигуре, которая является родной сестрой Берты, при этом показывая зрителю простейший задний фон. Импрессионисты того времени показывали современность, в том числе концерты в кафе и другие формы развлечений. Моризо же в своих творениях попросту не находила времени для обсуждения их композиций с коллегами по творческому цеху. По большей части в своих картинах она изображала женщин в пустых пространствах и не ориентировалась на современный мир."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView447"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Через французские двери на этом полотне можно увидеть мужские фигуры, расположенные на балконе под зелёными навесами. Их можно лицезреть во вполне себе современной квартире через дорогу, в свою очередь, они наблюдают за происходящим на улице, а в это время Эдма всё ещё остаётся в своей комнате. Обратите внимание, что на картине изображена сцена в помещении, в которое проникает свет французского солнца."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView448"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Судя по тому, как Берта позволяет свету отражаться внутри комнаты, становится ясно, что она очень любит естественный свет. Хорошо видно как он подсвечивается по краям кресла через белую дверь. Художественная палитра полотна – это современность, медитация, свет и японская культура.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView449"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 54,8 х 46,3 сантиметров."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView450"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Национальная Галерея Искусства (Вашингтон, округ Колумбия, США)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

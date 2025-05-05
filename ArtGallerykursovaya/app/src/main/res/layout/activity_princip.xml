@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Princip">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="match_parent"
+                android:layout_height="529dp"
+                app:srcCompat="@drawable/princip_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView331"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина «Принцип удовольствия», написанная в 1937 году, демонстрирует несколько узнаваемых тем в творчестве Рене Магритта: визуальный и интеллектуальный парадокс, сверхъестественное изменение знакомого и напряжение между видимым и скрытым. Это портрет Эдварда Джеймса, аристократа и наследника миллионов, который превратился в эксцентричного поэта и влиятельного покровителя сюрреалистов. В 1937 году Сальвадор Дали познакомил его с Магриттом, и в течение двух лет Джеймс заказал художнику несколько картин, включая два портрета – эту работу и «Воспроизведение запрещено»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView347"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Концепцию «Принципа удовольствия» Магритт представил ещё до встречи с Джеймсом. В 1936 году он сделал похожий набросок тушью на первой странице рукописной книги, посвященной поэту-сюрреалисту Полю Элюару."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В июне 1937 года художник написал Джеймсу: "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Я сделал картину с изображением человека, чья голова – это свет… Я полагаю, это предварительный эскиз, в действительности же картина ещё должна быть написана. Но поскольку она предназначается вам, не думаете ли вы, что на ней должна быть узнаваема ваша личность? Если идея вам нравится, всё, что нужно, – это сфотографироваться за столом анфас со скрещёнными руками, лежащими на нём, и положить какой-нибудь камень справа, не слишком далеко от руки»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Джеймс поручил сделать такой снимок ещё одному сюрреалисту – Ману Рэю. Когда Магритт завершил картину в сентябре и отослал её заказчику, тот написал в ответ:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Мой друг и я думаем, что это огромный успех, на самом деле гениальная работа»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Принцип удовольствия» олицетворяет интерес Магритта к тому, что скрыто в нашей визуальной реальности. На протяжении своей карьеры художник использовал сюрреалистические образы, которые противостоят нашему увлечению скрытым, в частности, – скрытые лица. Яблоко закрывает лицо мужчины на культовой картине «Сын человеческий», а белые покрывала – героев «Влюблённых». В одном из своих немногих интервью (а Магритт не выносил публичности и дискуссий о своём творчестве) художник сказал: «Всё видимое что-то скрывает; мы всегда хотим разглядеть скрытое за тем, что видим. Этот интерес может принять форму довольно противоречивого чувства, своего рода конфликта между видимым-скрытым и видимым-очевидным». В «Принципе удовольствия» он строит эту коллизию на одном парадоксе: нам необходим свет, чтобы увидеть, а не заслонить лицо человека в тёмной комнате – так же, как мы ожидаем, что зеркало отразит, а не скроет лицо на полотне «Воспроизведение запрещено»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Название картины относится к ключевому элементу фрейдистского психоанализа, который служил философским основанием для сюрреалистического движения. Однако сам Магритт предостерегал от интерпретаций и анализа своих названий:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Названия картин – это не объяснения, а картины – не иллюстрации названий. Связь между названием и изображением поэтична, то есть она лишь отражает некоторые особенности темы, которые мы обычно не осознаём, но иногда интуитивно понимаем, когда происходят необычные события, которые не удаётся объяснить логически»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView355"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Эдвард Джеймс, поэт и страстный коллекционер, сыграл особую роль в развитии сюрреализма, поддерживая таких художников, как Сальвадор Дали, Рене Магритт, Павел Челищев, Леонор Фини и Леонора Каррингтон. Он предоставлял пространство для творчества своим друзьям-живописцам, в частности, первые трое долгое время жили и работали в его домах в Сассексе и Лондоне. Джеймс сделал множество заказов, создав одну из лучших в мире коллекций сюрреалистического искусства (подробнее о нём читайте в материале Артхива «Волшебный сад Эдварда Джеймса – покровителя сюрреалистов»)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView356"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 73×54.5 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Принцип удовольствия» оставался в собрании Эдварда Джеймса до 1964 года, а затем был передан основанному им Фонду. В 1979 году полотно купил другой частный коллекционер – и оно оставалось в одних руках без малого сорок лет. В ноябре 2018 года картина была выставлена на аукцион Christie’s с предварительной оценкой в 15-20 млн долларов. Окончательная цена (с учётом премии) составила 26,8 миллиона, что стало аукционным рекордом для творений Рене Магритта. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

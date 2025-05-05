@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Fire">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView57"
+                android:layout_width="match_parent"
+                android:layout_height="339dp"
+                app:srcCompat="@drawable/fire_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView359"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Пламя» – картина, написанная Магриттом в 1943 году во время немецкой оккупации Бельгии. В отличие от многих коллег-сюрреалистов, отправившихся пережидать смутные времена за океан (как Дали с Галой – в Америку), он предпочел остаться на родине."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView362"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В военные годы художник несколько отошел от своего фирменного стиля: он считал, что его искусство должно приободрять людей в трудные времена и внушать если не радость, то хотя бы оптимизм. Он сознательно обратился к более яркой палитре и даже вдохновлялся импрессионистскими наработками. Несмотря на благие намерения, от этих его работ нередко сквозило скорее тревогой, нежели беззаботностью и негой. Магритт называл работы этого периода «солнечным сюрреализмом», однако критики были не в восторге от такого поворота в его творчестве."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView363"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Пламя» - показательный пример в этом отношении: на картине есть и узнаваемые магриттовские деревья в форме листьев, и нехарактерный для него вырвиглазный фон, больше напоминающий о наследии Ренуара. Хотя на этой работе бодрые импрессионистские мазки вовсе не выглядят жизнеутверждающими – напротив, создается впечатление, что этот сюрреалистический лес полыхает в огне. Название картины подсказывает, что эффект неслучаен: видимо, несмотря на все усилия художника противостоять мрачным настроениям военного времени, реальность все же вносила коррективы и в его мировосприятие и творческие порывы."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView364"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Даже листья-деревца, обычно такие хрупкие и ажурные на картинах Магритта, выглядят кусками плоти, испещренными вспухшими от крови венами. Впервые художник пришел к такой форме дерева в 1935 году и с тех пор неоднократно использовал ее в разных цветовых вариациях, а иногда и вовсе оставив лишь ажурный каркас, как на картине «Потерянный жокей» (версия 1948 года)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView365"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Магритт не сразу пришел к этой лаконичной форме. Он делился деталями своего поиска в письме Андре Бретону от июля 1934 года:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView366"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«В данный момент я пытаюсь обнаружить, что именно в дереве принадлежит ему, но будет противоречить нашему представлению о дереве». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView367"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Там же он писал о своем решении проблемы:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView368"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Дерево превратилось в большой лист, стебель которого стал стволом, посаженным прямо в землю»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Жак Мёрис в книге «Рене Магритт» так отзывался об обращении художника с природными объектами:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView370"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Природа, как ее видел Магритт, была элементом с теми же характеристиками, как и те, которыми он наделял каждый предмет, каждую вещь. В его творчестве не было ни «натуралистских» тенденций, ни экологического порыва, ни даже поэтического преобразования природы. Тем не менее деревья и листья, поодиночке или группами, одетые или голые, иногда порченные насекомыми, могут быть рассмотрены как «индивидуумы», наделенные разнообразными чувствами, одаренные чарами в разных смыслах этого слова»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView371"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 54×65 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView372"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Музей Магритта, Брюссель. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

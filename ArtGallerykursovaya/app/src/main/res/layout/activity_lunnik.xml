@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    android:backgroundTint="#141414"
+    tools:context=".Lunnik">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="532dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/lunnik_in_vase" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10sp" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="«Лунник в вазе» (нидерл. Vaas met judaspenningen) — картина Винсента Ван Гога, написанная в период осень — зима 1884–1885 годов."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Размер: 42,7 × 31,7 см."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Техника: масло, холст."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Стиль: постимпрессионизм."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Местонахождение: Музей ван Гога (Амстердам, Нидерланды)."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

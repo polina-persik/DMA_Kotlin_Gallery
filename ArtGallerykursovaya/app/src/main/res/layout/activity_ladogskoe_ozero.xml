@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".LadogskoeOzero">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="match_parent"
+                android:layout_height="505dp"
+                app:srcCompat="@drawable/ladogskoe_ozero_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Ладожское озеро» — картина русского художника Архипа Куинджи (1841/1842—1910), написанная в 1873 году (по другим данным, в 1870 или 1871 году). Картина является частью собрания Государственного Русского музея. Размер картины — 79,5 × 62,5 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView804"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина «Ладожское озеро» вошла в трилогию художника о северной природе, к которой также относятся картины «На острове Валааме» (1873) и «Север» (1879)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView805"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина «Ладожское озеро» была написана во время одной из поездок Куинджи на остров Валаам, находящийся на Ладожском озере. Куинджи привлекала суровая живописность северной природы — скалистые берега, лесные чащи и прозрачная озёрная вода. На картине изображён песчано-каменистый берег озера, прибрежные камни постепенно уходят под прозрачную воду и живописно просвечивают сквозь неё. На озере видна лодка с рыбаками, а вдали белеет парус другой лодки. Линия горизонта находится довольно низко, примерно две трети картины занимает небо с облаками."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView806"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="С этой картиной также связана следующая история. В 1883 году Куинджи обвинил в плагиате художника-мариниста Руфина Судковского (1850—1885), который был его соседом по квартире в то время, когда создавалось «Ладожское озеро». Куинджи заявил, что картина Судковского «Мёртвый штиль» скопирована с его картины «Ладожское озеро». Заявление Куинджи было поддержано некоторыми художниками (Иваном Крамским, Василием Максимовым, Ефимом Волковым и Ильёй Репиным), которые написали письмо в газету «Новое время», утверждая, что картина Судковского «прямо заимствована» у Куинджи. С другой стороны, были и те, кто вступились за Судковского."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ArtGallerykursovaya"
+        tools:targetApi="31">
+        <activity
+            android:name=".SummerNight"
+            android:exported="false" />
+        <activity
+            android:name=".PozdnimVecherom"
+            android:exported="false" />
+        <activity
+            android:name=".SickGirl"
+            android:exported="false" />
+        <activity
+            android:name=".MaridalenBlizOslo"
+            android:exported="false" />
+        <activity
+            android:name=".MunkPaint"
+            android:exported="false" />
+        <activity
+            android:name=".RedZakat"
+            android:exported="false" />
+        <activity
+            android:name=".Nochnoe"
+            android:exported="false" />
+        <activity
+            android:name=".RadugaDuga"
+            android:exported="false" />
+        <activity
+            android:name=".HristosInGarden"
+            android:exported="false" />
+        <activity
+            android:name=".DaryalskoeUschelie"
+            android:exported="false" />
+        <activity
+            android:name=".ElbrusMoonsNight"
+            android:exported="false" />
+        <activity
+            android:name=".PetriKrm"
+            android:exported="false" />
+        <activity
+            android:name=".MoonsNightOnDnepr"
+            android:exported="false" />
+        <activity
+            android:name=".BerezovayaRoscha"
+            android:exported="false" />
+        <activity
+            android:name=".AfterRain"
+            android:exported="false" />
+        <activity
+            android:name=".OnOstroveValaame"
+            android:exported="false" />
+        <activity
+            android:name=".LadogskoeOzero"
+            android:exported="false" />
+        <activity
+            android:name=".SrediVoln"
+            android:exported="false" />
+        <activity
+            android:name=".OtboynayaVolna"
+            android:exported="false" />
+        <activity
+            android:name=".NightOnBosfore"
+            android:exported="false" />
+        <activity
+            android:name=".FlotInFeodosiya"
+            android:exported="false" />
+        <activity
+            android:name=".GnevSeas"
+            android:exported="false" />
+        <activity
+            android:name=".BlackSea"
+            android:exported="false" />
+        <activity
+            android:name=".NightInBlackSea"
+            android:exported="false" />
+        <activity
+            android:name=".RainBow"
+            android:exported="false" />
+        <activity
+            android:name=".WinterObozVPuti"
+            android:exported="false" />
+        <activity
+            android:name=".SinopskoeSragenie"
+            android:exported="false" />
+        <activity
+            android:name=".DvyatVal"
+            android:exported="false" />
+        <activity
+            android:name=".ChesmenskoeSragenie"
+            android:exported="false" />
+        <activity
+            android:name=".Kerch"
+            android:exported="false" />
+        <activity
+            android:name=".BeregSeaNight"
+            android:exported="false" />
+        <activity
+            android:name=".AivazovskiPaint"
+            android:exported="false" />
+        <activity
+            android:name=".KuindgiPaint"
+            android:exported="false" />
+        <activity
+            android:name=".munk"
+            android:exported="false" />
+        <activity
+            android:name=".Matiss"
+            android:exported="false" />
+        <activity
+            android:name=".Avazovski"
+            android:exported="false" />
+        <activity
+            android:name=".Kuindgi"
+            android:exported="false" />
+        <activity
+            android:name=".PoleSMakami"
+            android:exported="false" />
+        <activity
+            android:name=".JapanBridge"
+            android:exported="false" />
+        <activity
+            android:name=".Bridge"
+            android:exported="false" />
+        <activity
+            android:name=".Vokzal"
+            android:exported="false" />
+        <activity
+            android:name=".Progulka"
+            android:exported="false" />
+        <activity
+            android:name=".Vpechatlenie"
+            android:exported="false" />
+        <activity
+            android:name=".PapashaPoli"
+            android:exported="false" />
+        <activity
+            android:name=".StogaSena"
+            android:exported="false" />
+        <activity
+            android:name=".RuanskiSobor"
+            android:exported="false" />
+        <activity
+            android:name=".RuanskiSOBOR"
+            android:exported="false" />
+        <activity
+            android:name=".Parlament"
+            android:exported="false" />
+        <activity
+            android:name=".Kuvshinki"
+            android:exported="false" />
+        <activity
+            android:name=".BigNaberegnaya"
+            android:exported="false" />
+        <activity
+            android:name=".Spring"
+            android:exported="false" />
+        <activity
+            android:name=".PolyaGolland"
+            android:exported="false" />
+        <activity
+            android:name=".GardenGiverniya"
+            android:exported="false" />
+        <activity
+            android:name=".MonetPaint"
+            android:exported="false" />
+        <activity
+            android:name=".GuliMane"
+            android:exported="false" />
+        <activity
+            android:name=".Flaytist"
+            android:exported="false" />
+        <activity
+            android:name=".WomanInPark"
+            android:exported="false" />
+        <activity
+            android:name=".InStolovaya"
+            android:exported="false" />
+        <activity
+            android:name=".InBathroom"
+            android:exported="false" />
+        <activity
+            android:name=".Cage"
+            android:exported="false" />
+        <activity
+            android:name=".SummerDay"
+            android:exported="false" />
+        <activity
+            android:name=".Psycho"
+            android:exported="false" />
+        <activity
+            android:name=".WomenTualet"
+            android:exported="false" />
+        <activity
+            android:name=".AgenMane"
+            android:exported="false" />
+        <activity
+            android:name=".InPark"
+            android:exported="false" />
+        <activity
+            android:name=".Chtenie"
+            android:exported="false" />
+        <activity
+            android:name=".Kolbeli"
+            android:exported="false" />
+        <activity
+            android:name=".Balkon"
+            android:exported="false" />
+        <activity
+            android:name=".MomAndSister"
+            android:exported="false" />
+        <activity
+            android:name=".Gavani"
+            android:exported="false" />
+        <activity
+            android:name=".SisterS"
+            android:exported="false" />
+        <activity
+            android:name=".Sister"
+            android:exported="false" />
+        <activity
+            android:name=".MorisotPaint"
+            android:exported="false" />
+        <activity
+            android:name=".WorldsSun"
+            android:exported="false" />
+        <activity
+            android:name=".Struna"
+            android:exported="false" />
+        <activity
+            android:name=".Tcennosti"
+            android:exported="false" />
+        <activity
+            android:name=".LightsImperiya"
+            android:exported="false" />
+        <activity
+            android:name=".VoiceBlood"
+            android:exported="false" />
+        <activity
+            android:name=".plenitca"
+            android:exported="false" />
+        <activity
+            android:name=".Fire"
+            android:exported="false" />
+        <activity
+            android:name=".RaneeMorning"
+            android:exported="false" />
+        <activity
+            android:name=".Princip"
+            android:exported="false" />
+        <activity
+            android:name=".Verolomstvo"
+            android:exported="false" />
+        <activity
+            android:name=".Answer"
+            android:exported="false" />
+        <activity
+            android:name=".Lovers"
+            android:exported="false" />
+        <activity
+            android:name=".MindProhogiy"
+            android:exported="false" />
+        <activity
+            android:name=".Window"
+            android:exported="false" />
+        <activity
+            android:name=".Gorgetta"
+            android:exported="false" />
+        <activity
+            android:name=".SelfP"
+            android:exported="false" />
+        <activity
+            android:name=".PierB"
+            android:exported="false" />
+        <activity
+            android:name=".Cat"
+            android:exported="false" />
+        <activity
+            android:name=".BertheMorisot"
+            android:exported="false" />
+        <activity
+            android:name=".ClaudeMonet"
+            android:exported="false" />
+        <activity
+            android:name=".Mlva"
+            android:exported="false" />
+        <activity
+            android:name=".Margaritki"
+            android:exported="false" />
+        <activity
+            android:name=".Pole"
+            android:exported="false" />
+        <activity
+            android:name=".Vinogradniki"
+            android:exported="false" />
+        <activity
+            android:name=".Adelina"
+            android:exported="false" />
+        <activity
+            android:name=".PinkR"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorGashe"
+            android:exported="false" />
+        <activity
+            android:name=".Green"
+            android:exported="false" />
+        <activity
+            android:name=".PinkRoses"
+            android:exported="false" />
+        <activity
+            android:name=".Irises"
+            android:exported="false" />
+        <activity
+            android:name=".Butterflies"
+            android:exported="false" />
+        <activity
+            android:name=".Guk"
+            android:exported="false" />
+        <activity
+            android:name=".Mindal"
+            android:exported="false" />
+        <activity
+            android:name=".PoleMaki"
+            android:exported="false" />
+        <activity
+            android:name=".Kiparis"
+            android:exported="false" />
+        <activity
+            android:name=".StarNight"
+            android:exported="false" />
+        <activity
+            android:name=".PinkKust"
+            android:exported="false" />
+        <activity
+            android:name=".Djozef"
+            android:exported="false" />
+        <activity
+            android:name=".Sunflouwers"
+            android:exported="false" />
+        <activity
+            android:name=".SpalnaArl"
+            android:exported="false" />
+        <activity
+            android:name=".NightRona"
+            android:exported="false" />
+        <activity
+            android:name=".Terrasa"
+            android:exported="false" />
+        <activity
+            android:name=".Sirene"
+            android:exported="false" />
+        <activity
+            android:name=".SelfPortrait"
+            android:exported="false" />
+        <activity
+            android:name=".Para"
+            android:exported="false" />
+        <activity
+            android:name=".SelfPortraitTr"
+            android:exported="false" />
+        <activity
+            android:name=".Chasha"
+            android:exported="false" />
+        <activity
+            android:name=".VidParis"
+            android:exported="false" />
+        <activity
+            android:name=".WomenBlue"
+            android:exported="false" />
+        <activity
+            android:name=".Cherep"
+            android:exported="false" />
+        <activity
+            android:name=".Bibliya"
+            android:exported="false" />
+        <activity
+            android:name=".PortraitWoman"
+            android:exported="false" />
+        <activity
+            android:name=".Edoki"
+            android:exported="false" />
+        <activity
+            android:name=".PortretKrestianina"
+            android:exported="false" />
+        <activity
+            android:name=".Lunnik"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".magritt_paint"
+            android:exported="false" />
+        <activity
+            android:name=".VanGoghPaint"
+            android:exported="false" />
+        <activity
+            android:name=".van_gogh"
+            android:exported="false" />
+        <activity
+            android:name=".magritt"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.ArtGallerykursovaya.NoActionBar" />
+        <activity
+            android:name=".AlbumWindow"
+            android:exported="false"
+            android:label="@string/title_activity_album_window"
+            android:theme="@style/Theme.ArtGallerykursovaya.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

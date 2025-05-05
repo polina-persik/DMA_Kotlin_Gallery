@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Spring">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView87"
+                android:layout_width="match_parent"
+                android:layout_height="302dp"
+                app:srcCompat="@drawable/spring_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Весна» (фр. Printemps), также известная как «Читательница» (фр. La Liseuse), — картина французского художника-импрессиониста Клода Моне, написанная в 1872 году. На ней изображена его первая жена Камилла Донсье, сидящая и читающая под тенью сирени. Ныне картина хранится в Художественном музее Уолтерса, в Балтиморе (США)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView576"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Натурщицей для этой картины Клода Моне выступила его первая жена Камилла Донсье. Они поженились в 1870 году, а до того она была его любовницей и служила моделью для его фигуративных картин 1860-х и 1870-х годов. Камилла славилась необычным талантом к позированию, и её часто изображали, в том числе Огюст Ренуар и Эдуард Мане."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView577"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В конце 1871 года Моне с семьёй поселился в Аржантёе, местечке к северо-западу от Парижа. Оно пользовалось популярностью среди городских жителей, желавших отдохнуть. Коллеги Моне часто навещали его, и Аржантёй стал ассоциироваться с импрессионизмом. Весной 1872 года Моне создал несколько полотен в своём саду, на большой части которых изобразил Камиллу и Аделаиду-Эжени Лескуэзек, компаньонку Альфреда Сислея."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView578"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="С 30 марта по 30 апреля 1876 года «Весна» демонстрировалась на выставке, организованной импрессионистами в парижской галерее Дюрана-Рюэля. Моне представил на ней 18 работ, к шести из которых позировала Камилла. Во время этой выставки «Весне» было присвоено более общее название «Читательница».  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView579"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Алиса Ошеде, вторая жена Моне, распорядилась уничтожить все изображения и предметы, связанные с отношениями Камиллы и Моне. Поэтому образ Камиллы сохранился почти исключительно за счёт картин Моне."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView580"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 50 см × 65,5 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

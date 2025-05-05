@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".DaryalskoeUschelie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView129"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                app:srcCompat="@drawable/darlyayskoe_uschelie" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView817"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Дарьяльское ущелье» — картина русского художника Архипа Куинджи, написанная в 1890—1895 годах. Картина является частью собрания Третьяковской галереи.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView833"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На картине изображено Дарьяльское ущелье в ночное время. Оно расположено на реке Терек в месте пересечения Бокового хребта Большого Кавказа, к востоку от горы Казбек. По дну ущелья бежит Терек, вдоль него вьётся Военно-Грузинская дорога. Отвесные скалы уходят в высоту не меньше чем на километр.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView834"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Облик природы в произведениях Куинджи лишён обыденности, в нём есть нечто торжественное, несколько театральное, даже когда мотив пейзажа вполне классический («Ладожское озеро», «Радуга»). Большинство горных пейзажей выполнены художником по памяти, но обладают редкой достоверностью, создаваемой чисто условными средствами — преувеличенными контрастами света и цвета, обобщением форм и силуэтов («Лунная ночь на Днепре» — один из самых ярких примеров).  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView835"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина, несмотря на миниатюрные размеры, не отличается точностью, что также говорит о манере Куинджи: яркие, контрастные, чувствительные мазки создают объём из света и тени, без применения полутонов и градаций. Такой яркий контраст позволил не только передать прозрачность и прохладу ночного воздуха, но и создать атмосферу умиротворения. В картине присутствуют два ярких градационных пятна — луна и «лунная дорожка» в отражении тихой речной воды. Благодаря этому эффекту контрастности материалов и мягкости освещения и создается объём в картине. Неяркий жёлтый огонёк придаёт ещё больше спокойствия, не только уравновешивая световой контраст двух частей изображения, но и лишая зрителя чувства одиночества. Основываясь на расположении скал вокруг этого источника света, можно утверждать, что при написании картины его не должно было быть видно, потому что именно этот участок берега окружали скалы. Впрочем, благодаря этому фонарику в картине появилась и гармония цвета — тихий свет свечи не только добавляет на картину жёлтый цвет, контрастный голубому, но и передаёт силу лунного света, если заметить, насколько она перекрывает его отражение своим. Облака над луной ярко освещены снизу и практически непрозрачны. Использовать в картине подобный элемент для Куинджи было крайне рискованно — отход от реализма через дополнение реальности был крайне сложным и даже не изученным настолько, что его можно было бы применять. Данный элемент не только может уравновесить картину, но и придаёт ещё большую силу лунному сиянию, и без того подчеркиваемую в каждом элементе картины. Следует также заметить и то, что в первую очередь художник запечатлел горы (а не задний план, как это принято) вследствие чего при написании неба у него возникло множество проблем с передачей дымки на горах и тёмного неба. То, как художник хитро обошёл эффект «выдвигания неба к зрителю» заставляет удивляться — вопреки учениям о том, что он должен был изобразить горы вторым слоем краски, Куинджи просто добавил больше однотонных контрастных пятен. На основе этой картины Куинджи, будучи профессором-руководителем высшего художественного училища при Академии Художеств, преподавал ученикам технику композиции — сочетание основ реалистичности и декоративности изображения, предпочтение игры света игре объёма внесло множество поправок в русскую живопись.   "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

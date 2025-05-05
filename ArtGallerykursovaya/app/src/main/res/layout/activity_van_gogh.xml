@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".van_gogh">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                app:srcCompat="@drawable/van_gogh_dr1_" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Эпитафия"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="425dp"
+                android:layout_height="205dp"
+                android:layout_marginLeft="10sp"
+                app:srcCompat="@drawable/apitafiya" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Биография"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="2sp"
+                android:text="Нидерландский постимпрессионистский художник, одна из самых известных и влиятельных фигур в истории западного искусства. Всего за десять с небольшим лет он создал около 2100 произведений искусства, в том числе около 860 картин маслом, большинство из которых были написаны в последние два года его жизни. Его творчество включает пейзажи, натюрморты, портреты и автопортреты, большинство из которых отличаются смелыми цветами и драматичной манерностью, что способствовало развитию экспрессионизма в современном искусстве. Работы Ван Гога только начинали привлекать внимание критиков, когда он умер от огнестрельного ранения, которое нанёс себе сам, в возрасте 37 лет. При жизни Ван Гога была продана только одна его картина — «Красный виноградник»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:typeface="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ван Гог родился в семье, принадлежавшей к высшему среднему классу. В детстве он рисовал, был серьёзным, тихим и задумчивым, но проявлял признаки психической нестабильности. В молодости он работал арт-дилером, часто путешествовал, но впал в депрессию после перевода в Лондон. Он обратился к религии и некоторое время был миссионером на юге Бельгии. Позже он впал в немилость и уединился. Он был хорошо осведомлён о модернистских тенденциях в искусстве и, вернувшись к родителям, в 1881 году занялся живописью. Его младший брат Тео поддерживал его финансово, и они вели долгую переписку."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ранние работы Ван Гога в основном представляют собой натюрморты и изображения крестьянских работ. В 1886 году он переехал в Париж, где познакомился с представителями художественного авангарда, в том числе с Эмилем Бернаром и Полем Гогеном, которые искали новые пути, выходящие за рамки импрессионизма. Разочарованный Парижем и вдохновлённый растущим духом художественных перемен и сотрудничества, в феврале 1888 года Ван Гог переехал в Арль на юге Франции, чтобы основать творческую мастерскую и коммуну. Там его картины стали ярче, и он обратил внимание на мир природы, изображая местные оливковые рощи, пшеничные поля и подсолнухи. Ван Гог пригласил Гогена присоединиться к нему в Арле и с нетерпением ждал его приезда в конце 1888 года."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ван Гог страдал от приступов психоза и бреда. Он беспокоился о своей психической стабильности и часто пренебрегал своим физическим здоровьем, плохо питался и много пил. Его дружба с Гогеном закончилась после того, как он в ярости отрезал себе левое ухо. Ван Гог лечился в психиатрических больницах, в том числе в Сен-Реми. После того как он выписался из больницы и переехал в гостиницу «Раву» в Овер-сюр-Уаз под Парижем, он попал под наблюдение гомеопатического врача Поля Гаше. Его депрессия не проходила, и 29 июля 1890 года Ван Гог умер от полученных ранений, выстрелив себе в грудь из револьвера."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Работы Ван Гога начали привлекать внимание критиков в последний год его жизни. После его смерти его искусство и история жизни захватили воображение публики как символ непонятого гения, во многом благодаря усилиям его овдовевшей невестки Йоханны ван Гог-Бонгер. Его смелое использование цвета, выразительная линия и густая краска вдохновили авангардные художественные группы, такие как фовисты и немецкие экспрессионисты, в начале XX века. В последующие десятилетия работы Ван Гога получили широкое признание критиков и коммерческий успех, и он стал непреходящей иконой романтического идеала измученного художника. Сегодня работы Ван Гога входят в число самых дорогих картин в мире, когда-либо проданных. Его наследие представлено в Музее Ван Гога в Амстердаме, где хранится самая большая в мире коллекция его картин и рисунков."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Художественное развитие"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ван Гог рисовал и писал акварелью в школе, но сохранилось лишь несколько его работ, и авторство некоторых из них оспаривается. Когда он занялся искусством во взрослом возрасте, он начал с основ. В начале 1882 года его дядя Корнелис Маринус, владелец известной галереи современного искусства в Амстердаме, попросил его нарисовать Гаагу. Работы Ван Гога не оправдали ожиданий. Маринус предложил второй заказ, подробно описав предмет, но снова был разочарован результатом. Ван Гог не сдавался; он экспериментировал с освещением в своей студии, используя сменные жалюзи и различные материалы для рисования. Больше года он работал над одиночными рисунками – очень сложными черно-белыми этюдами, которые в то время вызывали у него только критику. Позже они были признаны ранними шедеврами."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В августе 1882 года Тео дал Винсенту денег на покупку материалов для работы на пленэре. Винсент писал, что теперь он может &quot;продолжать рисовать с новой энергией&quot;. С начала 1883 года он работал над многофигурными композициями. Он сфотографировал некоторые из них, но когда его брат заметил, что им не хватает живости и свежести, он уничтожил их и обратился к живописи маслом. Ван Гог обращался к известным художникам Гаагской школы, таким как Вайссенбрух и Бломмерс, и получал от них технические советы, а также от таких художников, как Де Бок и ван дер Вейл, представителей второго поколения Гаагской школы. После недолгого пребывания в Дренте он переехал в Нюэнен и начал работу над несколькими большими картинами, но уничтожил большинство из них. &quot;Едоки картофеля&quot; и сопутствующие им произведения - единственные, кто сохранился. После посещения Государственного музея Ван Гог написал о своем восхищении быстрой и экономичной работой кисти голландских мастеров, особенно Рембрандта и Франса Халса. Он осознавал, что многие его ошибки были вызваны недостатком опыта и технических знаний, поэтому в ноябре В 1885 году он отправился в Антверпен, а затем в Париж, чтобы учиться и развивать свои навыки."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Тео раскритиковал «Едоков картофеля» за тёмную палитру, которую, по его мнению, нельзя было использовать в современном стиле. Во время пребывания Ван Гога в Париже в 1886–1887 годах он пытался освоить новую, более светлую палитру. Его «Портрет отца Танги» (1887) демонстрирует его успех в работе с более яркой палитрой и свидетельствует о развитии его индивидуального стиля.  Трактат Шарля Блана о цвете очень заинтересовал его и побудил к работе с дополнительными цветами. Ван Гог пришёл к убеждению, что воздействие цвета выходит за рамки описания; он говорил, что «цвет выражает что-то сам по себе». По словам Хьюза, Ван Гог воспринимал цвет как имеющий «психологическую и нравственную значимость», что можно увидеть на примере ярких красных и зелёных оттенков в «Ночном кафе», работе, в которой он хотел «выразить ужасные страсти человечества».  Больше всего для него значил жёлтый цвет, потому что он символизировал эмоциональную правду. Он использовал жёлтый как символ солнечного света, жизни и Бога."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ван Гог стремился стать художником, изображающим сельскую жизнь и природу; во время своего первого лета в Арле он использовал свою новую палитру для рисования пейзажей и традиционной сельской жизни. Его вера в то, что за природой стоит сила, побуждала его пытаться передать ощущение этой силы или сущность природы в своём искусстве, иногда с помощью символов. Его изображения сеятеля, сначала скопированные у Жана-Франсуа Милле, отражают влияние идей Томаса Карлейля и Фридриха Ницше о героизме физического труда,  а также религиозные убеждения Ван Гога: сеятель — это Христос, сеющий жизнь под палящим солнцем. К этим темам и мотивам он часто возвращался, чтобы переработать и развить их.  Его картины с изображением цветов наполнены символизмом, но вместо того, чтобы использовать традиционную христианскую иконографию, он создал свою собственную, где жизнь протекает под солнцем, а работа является аллегорией жизни. В Арле, обретя уверенность после того, как он написал весенние цветы и научился передавать яркий солнечный свет, он был готов написать «Сеятеля»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ван Гог придерживался того, что он называл «обличьем реальности» и критиковал чрезмерно стилизованные работы. Впоследствии он писал, что абстракция «Звёздной ночи» зашла слишком далеко и что реальность «отошла слишком далеко на второй план». Хьюз описывает это как момент крайнего экстатического видения: звёзды кружатся в огромном вихре, напоминающем «Великую волну» Хокусая, движение небес отражается в движении кипариса на земле, а видение художника «превращается в густую, выразительную плазму красок»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В период с 1885 года до своей смерти в 1890 году Ван Гог, по-видимому, создавал оперу, коллекцию, которая отражала его личное видение и могла быть коммерчески успешной. На него повлияло определение стиля, данное Бланом, согласно которому истинная живопись требует оптимального использования цвета, перспективы и мазков. Ван Гог применял слово «целенаправленный» к картинам, которые, по его мнению, он освоил, в отличие от тех, которые он считал этюдами. Он написал множество серий этюдов; большинство из них были натюрмортами, многие из которых были выполнены в качестве цветовых экспериментов или в качестве подарков друзьям. Работа в Арле внесла значительный вклад в его творчество: наиболее важными работами того времени, по его мнению, были «Сеятель», «Ночное кафе», «Воспоминания о саде в Этене» и «Звёздная ночь». Эти картины с их широкими мазками, изобретательными перспективами, цветами, контурами и узорами представляют собой стиль, к которому он стремился."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Роспись"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="190sp"
+                app:srcCompat="@drawable/rospisvan" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="112sp"
+                android:backgroundTint="#141414"
+                android:fontFamily="cursive"
+                android:text="Next ⇀"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

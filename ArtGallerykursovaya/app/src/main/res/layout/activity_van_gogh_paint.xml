@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    android:backgroundTint="#141414"
+    tools:context=".VanGoghPaint">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:text="Галерея"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="442dp"
+                android:layout_height="279dp"
+                android:layout_marginLeft="-12sp"
+                app:srcCompat="@drawable/museumvangogh" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Голландский период (1881 - 1885 год)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Голландский период творчестве Винсента пришелся на 1881–1885 годы. Художник только начинал свой путь и обучался у Антона Муаве в Гааге. В этот период Винсент хотел стать так называемым «крестьянским» художником, за основу брал философию Жана-Франсуа Милле, который находился в крестьянском обществе и придерживался мнения о том, что художник должен быть скромным."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Художник экспериментировал с разными материалами и техниками, но в основном использовал масло. Картины написаны в мрачных оттенках."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton27"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/portret_women__1_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/lunnik" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/edoki" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/naturmort" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton16"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/cherep" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton17"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/women_in_blue" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Парижский период (март 1886 - февраль 1888 года)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Парижский период 1886-1888. Винсент переезжает к брату в Париж. Учится у художника Фернана Кормона. Вдохновленный городской атмосферой начинает добавлять яркие краски в свои картины. Винсент вливается в художественные круги, открывает для себя импрессионизм. Знакомится с Полем Гогеном."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/vid" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton18"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/chasha" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton19"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/self_portrait_1_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton20"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/bashmaki_1___1_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton21"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/self_portrait_2_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton22"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/restoran" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Арльский период (февраль 1888 - май 1889 года)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Зависимый от употребления сигар и абсента, Винсент Ван Гог перебирается в прованский городок Арль. У художника начинает появляться самобытный стиль, который включает в себя особую яркость, насыщенность и экспрессивность.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В этот период происходит конфликтная ситуация между Ван Гогом и Гогеном, в порыве приступа гнева Винсент отрезает себе часть уха. Художника помещают в больницу с диагнозом «острая мания с общим бредом»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="После выписки психические расстройства не оставляют Винсента в покое: он страдает от галлюцинаций, бессонницы и мании преследования."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton23"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/night_terrasa" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton24"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/zvezdnaya_noch_nad_ronoy" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton25"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/spalnya_v_arle" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton26"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/podsolnuhi" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton38"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/portret_rylen" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton28"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/rozov_kust" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Период Сен-Реми (май 1889 - май 1890 года)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В связи со значительно ухудшимся состоянием Винсента, его переводят в лечебницу Сен-Реми. Увидев достаточное количество больных с абсолютно разными расстройствами, Винсент понимает, что-то, что происходит с ним — еще не самое страшное. Художник решает, что он просто обязан справиться со своим недугом, чтобы снова иметь возможность полноценно творить."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Винсенту постепенно становилось лучше, ему разрешили прогуливаться на территории монастыря. Художника вдохновляла природа. Ван Гог писал уже в своем узнаваемом стиле. Среди его работ было много деревьев, так как в тот период большое удовольствие ему приносили кипарисы."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Когда состояние улучшилось, Винсент решил вернуться к брату Тео в Париж. Тео настоял на продолжении лечения Винсента у доктора паше в небольшом городке Овер (пригород Парижа)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton29"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/star_night" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton30"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/kip" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton31"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/pole_s_makami" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton32"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/vetki_mindalya" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton33"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/roses_and_guki" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton34"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/buterflyses_and_maki" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton35"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/iris" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton36"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/pink_roses" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton39"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/polya_pshen" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Оверский период (май 1890 - июль 1890 года)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Оверский период является завершающим в истории Винсента Ван Гога. В это время состояние художника значительно ухудшается: прогрессирующее депрессивное расстройство и отчаяние видны и в его картинах. Винсент заканчивает жизнь самоубийством, выстрелив в себя из пистолета."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton40"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/doctor_gashe" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton41"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/pink_roses_2_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton42"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/adelina_ravu" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton43"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/vid_na_over" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton44"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/pole_s_makami_2_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton45"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/maki_and_margaritki" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton46"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/malva_in_vase" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

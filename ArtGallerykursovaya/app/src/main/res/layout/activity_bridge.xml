@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Bridge">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="match_parent"
+                android:layout_height="309dp"
+                app:srcCompat="@drawable/charing_cross" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView626"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Мост Чаринг-Кросс» — серия картин с видом лондонского моста Чаринг-Кросс (современное название — мост Ханджерфорд/Hungerford Bridge) работы французского художника-импрессиониста Клода Моне, входящая в общую группу картин Моне «Виды Лондона»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView629"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Почти все картины написаны с одного ракурса, но на них иногда варьируется широта и высота обзора. Основным изображённым на картинах объектом является железнодорожный мост Чаринг-Кросс. На большинстве картин на дальнем плане виден Вестминстерский дворец (здание Парламента). На некоторых полотнах сквозь туман проступают очертания Вестминстерского моста (номера по каталогу Вильденштейна: W1526, W1529, W 1531, W1532 и др.). На двух картинах угол обзора существенно смещён, и на них кроме самого моста и здания Парламента присутствует также и обелиск Клеопатры (W1543 и W1544). В основном картины имеют размер близкий к 65 × 90 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView630"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Данная картина из серии в декабре 1920 года выкуплена у Моне совместно Полем Дюран-Рюэлем и галереей «Бернхайм-Жён», с 1922 года выставлялась у Дюран-Рюэля. В 1928 году приобретена Е. С. Лайманом. В 1979 году подарена Генри Лайманом музею Фогга при Гарвардском художественном музее."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

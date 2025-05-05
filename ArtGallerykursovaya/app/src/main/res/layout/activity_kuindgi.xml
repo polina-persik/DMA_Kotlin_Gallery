@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Kuindgi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                app:srcCompat="@drawable/kuindzhi__1_" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Архи́п Ива́нович Куи́нджи (при рождении Куюмджи; 15 января 1842, по другой версии 1841 или 1843, местечко Карасу (Карасёвка), Мариупольский уезд, Екатеринославская губерния— 11 июля 1910, Санкт-Петербург) — русский живописец приазовско-греческого происхождения, один из самых знаменитых пейзажистов пореформенной эпохи, лидер круга так называемых «русских люминистов». Профессор (с 1892) и действительный член (с 1893; по новому уставу) Императорской Академии художеств, профессор-руководитель пейзажной мастерской Высшего художественного училища (в 1894—1897). Член Товарищества передвижников (в 1875—1879), инициатор учреждения (в 1909) Общества художников в Петербурге, впоследствии получившего его имя."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView641"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Биография"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView642"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Детские и юношеские годы"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView643"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Архип Куинджи (в переводе с урумского фамилия Куинджи означает «золотых дел мастер») родился в Мариуполе в квартале Карасу, в семье бедного сапожника-грека. В метрике он значился под фамилией Еменджи — «трудовой человек». Мальчик рано лишился родителей и воспитывался у тёти и дяди по отцовской линии. С помощью родственников Архип выучился у учителя-грека греческой грамматике, затем, после домашних занятий, некоторое время посещал городское училище. По воспоминаниям товарищей, учился он плохо, зато уже тогда увлекался живописью и рисовал на любом подходящем материале — на стенах, заборах и обрывках бумаги."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView644"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Мальчик жил в большой бедности, поэтому с раннего детства нанимался на работу — пас гусей, служил у подрядчика Чабаненко на постройке церкви, где ему было поручено вести учёт кирпича, затем служил у хлеботорговца Аморетти. Именно последний (по другой версии, это был его знакомый, хлеботорговец А. Л. Дуранте) однажды заметил рисунки Архипа и посоветовал ему поехать в Крым к знаменитому маринисту Ивану Айвазовскому."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView645"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Летом 1855 года Куинджи приехал в Феодосию, откуда отправился в усадьбу Айвазовского неподалёку от деревни Шейх-Мамай, чтобы поступить в ученики к художнику. Хозяин был в отъезде, и в ожидании его юный Архип попросился помогать в усадьбе. В числе прочего ему было поручено толочь краски и красить забор. Заметив его старания, небольшую помощь в живописи оказал Архипу Ивановичу молодой родственник Айвазовского, копировавший картины мастера и гостивший тогда у него. Вернувшийся Айвазовский сказал, что не имеет возможности обучать его лично, и посоветовал ехать учиться в Одессу или в Петербург, в Академию художеств."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView646"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="После двух месяцев проживания в Феодосии Архип вернулся в Мариуполь, где стал работать ретушёром у местного фотографа, но через несколько месяцев уехал в Одессу, где снова занялся ретушированием. Через три года, в 1860 году, юноша уехал в Таганрог, где до 1865 года работал ретушёром в фотостудии С. С. Исаковича (Петровская улица, 82). Всё это время Куинджи продолжал рисовать. Он вспоминал: «Когда я служил ретушёром в фотографии, то работал от десяти до шести. А вот всё утро — от четырёх до десяти было в моём распоряжении». В это же время он пытался открыть собственную фотостудию, но безуспешно."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView647"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Учёба в Академии художеств. Знакомство с передвижниками"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView648"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1865 году Куинджи решил поступить в Академию художеств и уехал в Санкт-Петербург, однако первые две попытки оказались неудачными. Наконец в 1868 году он создал не дошедшую до наших дней картину «Татарская сакля в Крыму», написанную под очевидным влиянием Айвазовского, которую выставил на академической выставке. В результате 15 сентября Совет Академии художеств удостоил Куинджи звания свободного художника. Однако только после подачи прошения в Академический совет ему было разрешено сдавать экзамены по главным и специальным предметам для получения диплома. В 1870 году Куинджи получил звание неклассного художника и с третьей попытки стал вольнослушателем Императорской Академии художеств. В это время он познакомился с художниками-передвижниками, в числе которых были И. Н. Крамской и И. Е. Репин. Это знакомство оказало большое влияние на творчество Куинджи, положив начало реалистическому восприятию им действительности."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView649"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Увлечение идеями передвижников привело Куинджи к созданию таких работ, как «Осенняя распутица» (1872, Русский музей, Санкт-Петербург), за которую он получил звание классного художника, «Забытая деревня» (1874, Государственная Третьяковская галерея, Москва), «Чумацкий тракт в Мариуполе» (1875, Третьяковская галерея, Москва). В этих картинах преобладала социальная идея, стремление выразить свои гражданские чувства, поэтому они были написаны в тёмных мрачных цветах. Правда, последняя картина выделялась среди них и прочих передвижнических пейзажей более разнообразной красочной гаммой и усложнёнными колористическими решениями, что несколько снимало ощущение тяжести и унылости и привносило в работу оттенок сочувствия к изображённым героям. Все эти работы были выставлены в рамках выставок Товарищества передвижников и имели большой успех. О Куинджи и его работах заговорили, и он, поверив в свои силы, перестал посещать занятия в Академии."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView650"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Расцвет творчества (1870-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView651"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Однако Куинджи вовсе не был бездумным воспроизводителем идей передвижников. С 1870 года художник неоднократно бывал на острове Валаам, любимом месте петербургских пейзажистов, и в 1873 году создал два замечательных пейзажа «На острове Валааме» (Государственная Третьяковская галерея, Москва) и «Ладожское озеро» (Государственный Русский музей, Санкт-Петербург), которые стали своеобразным прорывом в передвижническом пейзаже и в какой-то мере отходом от него. Картина «На острове Валааме» выделялась реалистической передачей природы и использованием романтических элементов — тревожной светотени, условного грозового неба и таинственного мерцания сумрака. Полотно экспонировалось на академической выставке, затем — в Вене и, в конце концов, стало первой картиной Куинджи, которую купил для своей коллекции П. М. Третьяков."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView652"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина «Ладожское озеро» привлекала к себе внимание, помимо изящного, лёгкого и тонко написанного пейзажа, эффектом каменистого дна, просвечивающего сквозь прозрачную воду. С ней был связан громкий скандал, разразившийся спустя десять лет: в 1883 году появилась картина Р. Г. Судковского «Мёртвый штиль», в которой был применён такой же приём. Куинджи обвинил Судковского в плагиате, поссорился с ним, хотя до этого случая художники дружили, и потребовал, чтобы в прессе, ставившей «Мёртвый штиль» в один ряд с его лучшими произведениями, уточнили момент об авторском праве, принадлежавшем ему. В скандал были втянуты и другие петербургские художники, одни из которых выступили на стороне Судковского, другие — на стороне Куинджи. Крамской и Репин открыто называли «Мёртвый штиль» «прямым заимствованием». В конце концов победа осталась за Куинджи."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView653"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Кроме успеха этих работ, 1873 год ознаменовался выставкой в Обществе поощрения художеств картины «Снег», за которую в 1874 году на международной выставке в Лондоне художник получил бронзовую медаль."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView654"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1875 году Куинджи побывал во Франции, где заказал свадебный фрак с цилиндром. Из Франции художник отправился в Мариуполь, где обвенчался с дочерью богатого мариупольского купца Верой Леонтьевной Кечеджи-Шаповаловой, которую полюбил ещё юношей. После свадьбы молодожёны отправились на Валаам. В том же году на выставке Товарищества передвижников Куинджи выставил картину «Степи», а в 1876 году — «Украинскую ночь» (Государственная Третьяковская галерея, Москва), вызвавшую всеобщее восхищение у публики необычно, почти декоративно изображённым пейзажем. Этой работой начался так называемый «романтический период» в творчестве художника, который ознаменовался активными творческими поисками. Главным выразительным средством стала глубинность пространства за счёт уплощения предметов, а поиск новых изобразительных средств со временем привёл к созданию оригинальной декоративной системы. Кроме того, художник разработал яркий цвет, основанный на системе дополнительных цветов. Для русского искусства это стало новаторством — ранее подобное средство не применялось."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView655"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1875 году Куинджи приняли в члены Товарищества передвижников, однако уже со следующего года живописец отказался от идей передвижничества в своих картинах. Главным для него стало стремление не истолковывать жизнь, подобно передвижникам, а наслаждаться ею, её красотами, а также в какой-то степени «перетолковывание жизни согласно своим представлениям о прекрасном». Зачастую это приводило к тому, что современникам, при всём восхищении талантом художника, было сложно дать правильную оценку его работам."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView656"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1878 году на Всемирной выставке в Париже в присутствии четы Куинджи были представлены произведения художника, вызвавшие всеобщее восхищение как публики, так и критики. Все отмечали в его работах отсутствие иностранного влияния. Известный критик и защитник импрессионизма Эмиль Дюранти называл Куинджи «самым интересным между молодыми русскими живописцами, у которого более, чем у других, чувствуется оригинальная национальность». В этом же году художник начал работать над картиной «Вечер на Украине», над которой трудился 23 года."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView657"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1879 году Куинджи представил публике своеобразную трилогию пейзажей «Север», «Берёзовая роща» и «После дождя» (все — Третьяковская галерея, Москва). Пейзажи продемонстрировали глубокое изучение художником импрессионизма. И хотя он не применял в своём творчестве классических импрессионистических приёмов, увлечение передачей световоздушной среды различными способами (разделение цветных динамичных и прерывистых мазков, прерывистость и лёгкость в изображении неба, тонкое сочетание различных цветов) было налицо."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView658"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="21 марта 1879 года Куинджи и барон М. К. Клодт были избраны в ревизионную комиссию Товарищества передвижников, но уже к концу года Куинджи окончательно порвал с передвижниками. Поводом к разрыву послужила анонимная статья в одной из газет, где критик резко отзывался о творчестве Куинджи и в целом о Товариществе передвижников. В частности, Куинджи обвинялся в однообразии, злоупотреблении особым освещением при подаче картин и стремлении к чрезмерной эффектности. Спустя некоторое время стало известно имя критика — им оказался Клодт. Куинджи потребовал исключения Клодта из Товарищества передвижников, однако поняв, что того не исключат (Клодт был профессором Академии художеств), сам объявил о выходе из состава Товарищества, несмотря на то, что его уговаривали остаться. Многие исследователи (в частности, В. С. Манин), опираясь на воспоминания И. Н. Крамского об этом случае, предполагают, что история с Клодтом стала для Куинджи только поводом для выхода из Товарищества. Сам разрыв назревал уже давно: Куинджи не только уверенно шёл своим путём, но и в полной мере осознавал и степень своей популярности, и своё место в русской и европейской живописи. Товарищество передвижников было для него во многом сдерживающим, ограничивающим его талант строгими рамками, поэтому разрыв с ним был делом времени. Однако до конца жизни художник поддерживал дружеские отношения со многими передвижниками, часто присутствовал на их заседаниях, а в 1882 году на похоронах В. Г. Перова произнёс от их имени небольшую, но яркую, сильную и искреннюю речь, которую присутствовавшие, по свидетельству М. В. Нестерова, слушали благоговейно."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView659"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Одним из последствий выхода Куинджи из Товарищества стала устроенная им в октябре-ноябре 1880 года в Обществе поощрения художеств выставка одной картины «Лунная ночь на Днепре» (1880, Государственный Русский музей, Санкт-Петербург). Художник очень тщательно подошёл к организации выставки: задрапировал в зале окна и осветил картину лучом электрического света. Произведение имело небывалый успех и вызвало настоящий ажиотаж среди публики: оно поражало новыми, эффектными цветосочетаниями, для достижения которых художник проводил эксперименты с красочными пигментами и интенсивно применял битум. Впоследствии оказалось, что асфальтовые краски непрочны и под воздействием света и воздуха разлагаются и темнеют. Эта особенность сыграла свою роль в судьбе картины. Её мечтали приобрести многие коллекционеры, но Куинджи продал её Великому князю Константину Константиновичу, который взял произведение с собой в кругосветное путешествие. Многие отговаривали Великого князя от такого решения, но он остался непреклонен, и в результате под действием морского воздуха состав красок изменился, что привело к потемнению пейзажа. Однако красота, глубина и мощь картины до сих пор ощущается зрителем. В этой картине уже отчётливо проявляются элементы философского пейзажа, что знаменовало переход творчества Куинджи на принципиально другой уровень, где основным стремлением стало не воплощение реальности на холсте, а размышления о ней и тем самым «постижение конечного значения вещей»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView660"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Годы затворничества"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView661"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1881 году Куинджи устроил моновыставку ещё одной картины — «Берёзовая роща» (1879, Государственная Третьяковская галерея, Москва), имевшую такой же успех, а в 1882 году представил публике новую картину «Днепр утром» (1881, Государственная Третьяковская галерея, Москва). Однако это произведение было принято публикой на удивление скептически и даже с некоторой прохладцей. В июне того же года в Солодовниковском пассаже на Кузнецком Мосту Куинджи устроил выставку двух картин — «Берёзовая роща» и «Лунная ночь на Днепре»[8], после которой «замолчал» на двадцать лет, уединившись в своей мастерской и никому не показывая свои произведения. До сих пор до конца не известны причины, по которым художник, будучи на пике славы, решился на подобное затворничество, но, по всей видимости, он просто устал от шумихи, сопровождавшей каждую его выставку: ведь наряду с восторженными оценками и мнениями ему приходилось слышать и различные обвинения в свой адрес — вплоть до стремления к дешёвым эффектам и использования скрытой подсветки картин для придания им таинственного вида. Публика и критики считали, что Куинджи исчерпал себя, но это было не так: живописец продолжал неустанно работать в разных стилях, одновременно ища новые пигменты и грунтовые основы для красок, чтобы они были устойчивы к влиянию воздушной среды и сохраняли бы свою первоначальную яркость. В эти годы им было создано около пятисот эскизов и полноценных живописных произведений, многие из которых, по примеру импрессионистов, объединялись в тематические серии, и около трёхсот графических работ."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView662"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1886 году художник купил за 30 тысяч рублей участок в Крыму площадью 245 десятин возле посёлка Кикенеиз и первое время жил там с женой уединённо в шалаше. Со временем на этом участке возникло небольшое имение Сара Кикенеиз, куда Куинджи часто приезжал со своими учениками для проведения летней практики на пленэре."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView663"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1888 году Куинджи по приглашению художника-передвижника Н. А. Ярошенко побывал на Кавказе, где они стали свидетелями редчайшего горного явления — Брокенского призрака (отражения своих увеличенных фигур на радужно окрашенном облаке). По возвращении в Санкт-Петербург необычайно впечатлённый поездкой живописец создал ряд прекрасных горных пейзажей, в которых романтизм окончательно слился с философским пейзажем. Главной особенностью картин было представление о Кавказе как о символе некоей идеальной и недостижимой страны. Некоторые исследователи полагают, что эти полотна и образ Кавказа вдохновили Н. К. Рериха на создание гималайских пейзажей."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView664"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1901 году Куинджи нарушил затворничество и показал своим ученикам, а затем и некоторым друзьям четыре картины — законченный «Вечер на Украине» (Государственный Русский музей, Санкт-Петербург), «Христос в Гефсиманском саду» (1901, Воронцовский дворец-музей, Алупка), третий вариант «Берёзовой рощи» (1901, Национальный художественный музей Республики Беларусь, Минск) и уже известную «Днепр утром». Как и ранее, полотна привели зрителей в восторг, и о художнике снова заговорили. В ноябре того же года была устроена последняя публичная выставка работ живописца, после которой никто уже не видел его новых картин до самой его смерти. На сей раз очевидцы выставки попытались объяснить такой поступок испугом художника перед скептическим отношением некоторых посетителей к выставленным произведениям, однако это объяснение мало кого удовлетворило."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView665"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Последние годы жизни. Смерть"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView666"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Последнее десятилетие жизни ознаменовалось для Куинджи созданием таких шедевров, как «Радуга» (1900—1905, Государственный Русский музей, Санкт-Петербург), эскизы и этюды к которой он начал писать ещё в конце XIX века, «Красный закат» (1905—1908, Метрополитен-музей, Нью-Йорк) и «Ночное» (1905—1908, Государственный Русский музей, Санкт-Петербург). В последней картине соединились воспоминания о детстве и пристрастие к созерцанию неба, а манерой исполнения полотно заставляло вспомнить лучшие ранние работы Куинджи."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView667"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="С 1894 по 1897 год Куинджи был профессором-руководителем пейзажной мастерской Высшего художественного училища при Академии художеств."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView668"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Летом 1910 года, находясь в Крыму, Куинджи заболел воспалением лёгких. С разрешения врачей жена перевезла художника в Санкт-Петербург, но, вопреки надеждам на выздоровление, болезнь прогрессировала — сказалось больное сердце. Умер Архип Иванович Куинджи 11 (24) июля 1910 года в Санкт-Петербурге и был похоронен на Смоленском православном кладбище, к востоку от Смоленской церкви. На могиле установили бронзовый бюст и надгробие — гранитный портал с мозаичным панно, изображающим мифическое Древо жизни, на ветвях которого вьёт гнездо змея. Края панно были обрамлены резьбой в стиле древних викингов. В создании надгробия участвовали А. В. Щусев (проект), В. А. Беклемишев (бюст) и Н. К. Рерих (эскиз панно), сама же мозаика была набрана в мастерской В. А. Фролова. В 1952 году прах и надгробие были перенесены в Александро-Невскую лавру на Тихвинское кладбище — Некрополь мастеров искусств."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView669"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Весь свой капитал художник завещал Обществу имени Куинджи, основанному по его инициативе вместе с К. Я. Крыжицким в ноябре 1908 года для поддержки художников. Жене назначалась ежегодная пенсия в размере 2500 рублей. В завещании также были упомянуты все живые на тот момент родственники художника, часть денег была пожертвована церкви, в которой его крестили, для основания школы его имени."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton100"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="112sp"
+                android:backgroundTint="#141414"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/group_18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

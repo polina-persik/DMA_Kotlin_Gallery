@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".GnevSeas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView117"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                app:srcCompat="@drawable/gnev_seas_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView755"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Гнев море́й» — картина русского художника Ивана Айвазовского, написанная в 1886 году. Холст, масло. Размер: 70,1 × 110 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView764"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Изображено штормовое море вблизи скал, очертания которых теряются во мраке. Бушующее море сливается с грозовым небом. Из-за тёмных туч сверкают молнии. Волны бьются о высокий берег и стекают по скалам. Атмосфера бури, гнева моря, передана так мощно, что зритель будто слышит грохот волн и раскаты грома."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView765"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На переднем плане слева изображена лодка с людьми, спасающимися после кораблекрушения. Один из них показывает рукой в сторону берега, другие гребут и эта воля к жизни даёт надежду на спасение людей, не покорившихся стихии.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView766"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Палитра картины сосредоточена на темном цвете, но эффектный контраст между непроглядными, мрачными тучами и светлыми кромками облаков, сквозь которые пробивается лунный свет, раскрывает богатый колорит произведения. Он построен на сочетании холодных и тёплых серых, темно-синих и желтовато-охристых тонов.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView767"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="При создании картины художник использовал сложную технику живописи, включая подготовительный рисунок графитным карандашом по грунту, несколько красочных слоёв различной фактуры и направленности, лессировки и рефлексы, мазки разной формы, плотности и длины, разнообразные фактурные уплотнения.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView768"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Изображение написано в несколько этапов. Основная прописка создана крупными мазками средней плотности. Затем по немного провянувшему слою прописаны более мелкие детали. Освещённые края облаков написаны короткими мазками щетинистых кистей, очень хорошо передающими их округлые формы. Завершающие прописки (участки сетки пены, растворяющейся в волнах, потоки стекающей со скал воды и др.) написаны полупрозрачными белильными лессировками. Пена волн передана тонкими текучими зигзагами, местами (на освещённых плоскостях) уплотняющимися в виде разнообразных сгустков. Фигуры людей, написанные голубыми, изумрудными, красными, охристыми змеящимися мазками, переданы обобщенно, выражая единый порыв к спасению."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView769"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина из известной княжеской коллекции в Германии. В 2007 году владельцем, который приобрёл её в 1940-х годах из вышеуказанной частной коллекции, была выставлена на торги аукционного дома «Сотбис» в Лондоне."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView770"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Экспонировалась на открывшейся 8 ноября 2007 года выставке шедевров русского изобразительного искусства в Государственном историческом музее России."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView771"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Эксперты выделяли картину как выдающееся произведение, одно из лучших на аукционе. В частности глава отдела русского искусства аукционного дома Джоанна Викери отметила: «Особого внимания заслуживает картина „Гнев морей“, на которой художнику удалось так эмоционально и выразительно передать буйство природы»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView772"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="26 ноября 2007 года на первых в истории вечерних торгах русского искусства Лондонского подразделения аукционного дома «Сотбис» картина «Гнев морей» (лот N 12) была продана за 513,3 тысячи фунтов или больше, чем за миллион долларов (без аукционного и других сборов)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView773"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="7 декабря 2022 года по итогам посвящённых искусству старых мастеров торгов Sotheby’s продана за £1,7 млн."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView774"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В настоящее время хранится в частном собрании."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

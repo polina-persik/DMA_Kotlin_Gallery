@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Parlament">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView90"
+                android:layout_width="match_parent"
+                android:layout_height="636dp"
+                app:srcCompat="@drawable/sobor_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView588"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В феврале 1892 года Моне приехал в Руан в гости к брату и решил немного поработать. Его внимание привлек готический Руанский собор. Оскар Рейтерсверд в книге о Клоде Моне писал: «Ему казалось, что он смотрит в огромный калейдоскоп, где узор сменяет узор, следуя в непрерывной последовательности и с неиссякаемым разнообразием». Художник снял комнату напротив собора и погрузился в работу, результатом которой стала серия из 35 картин: 28 видов собора, 4 общих плана города и 3 вида примыкающих к собору двора и улицы.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView592"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне был так увлечен, что собор преследовал его даже во сне, вдобавок работе мешали бесконечные туманы и дожди. В письме к жене есть такие строки: «Все, я больше так не могу, я совершенно сломлен. Всю ночь сегодня снились кошмары — на меня падал собор, а я все никак не мог понять, какого он цвета — голубой, розовый или желтый...». И все-таки художник смог ухватить все многообразие фасадов собора: гармонию в коричневом, солнце, конец дня, утренний эффект и туман. Заканчивал картины Моне уже дома, в Живерни.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

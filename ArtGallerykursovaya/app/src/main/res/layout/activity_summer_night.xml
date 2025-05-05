@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".SummerNight">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView138"
+                android:layout_width="match_parent"
+                android:layout_height="311dp"
+                app:srcCompat="@drawable/summer_night_inger" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView888"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Летняя ночь. Ингер на берегу» (норв. «Inger på stranden, Sommernatt») — картина норвежского художника-экспрессиониста Эдварда Мунка (1863—1944), написанная им в 1889 году. Произведение относится к «европейскому периоду» (1885—1909) в творчестве автора. Изображённая на картине женщина — младшая сестра художника, Ингер Мунк."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView898"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Полотно представляет собой масляную живопись на холсте размером 126 × 161 см. В настоящее время картина является частью личного собрания Расмуса Мейера и экспонируется в Музее изобразительных искусств в городе Берген."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView899"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Летом 1889 года Мунк арендовал небольшой дом в Осгордстранд — городке на побережье залива Осло-фьорд. Во время курортного сезона Осгордстранд был местом отдыха жителей находившейся рядом Христиании, среди которых было много художников, включая друзей Мунка — Крога и Таулова."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Городок приобрёл важное значение в биографии художника. Мунк прожил в нём несколько курортных сезонов. В 1897 году он купил здесь дом. Осгордстранд стал местом создания многих важных работ художника из цикла «Фриз жизни». В своё первое лето в городке в 1889 году он написал картину «Летняя ночь. Ингер на берегу». Моделью для Мунка стала его младшая сестра Ингер, которая неоднократно позировала для брата. Созданию полотна предшествовал ряд исследований художника: в вечерние часы с 9 до 11 он изучал условия освещения местной летней ночи."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView901"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Впервые картина под названием «Вечер» (норв. Aften) была выставлена на осенней выставке 1889 года в Христиании, в то время, как сам автор находился в Париже, куда он приехал, чтобы ознакомиться с последними тенденциями в искусстве; следствием этой поездки стал переход Мунка в творчестве от символизма к экспрессионизму. Произведение было отрицательно принято критикой. Чтобы поддержать молодого коллегу, картину прямо с выставки купил художник Вереншёлль. В 1909 году полотно приобрёл коллекционер Расмус Мейер. С 1924 года картина экспонируется в Музее изобразительных искусств в городе Берген."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView902"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На правом переднем плане картины изображена молодая женщина. Она сидит на гранитной скале среди больших прибрежных валунов. Руки её аккуратно сложены на коленях. Голова повёрнута в профиль. В руках она держит соломенную шляпку. Ярко-белое платье девушки контрастирует с зелёными замшелыми камнями и сине-красной поверхностью слегка волнующегося моря, цвет которого указывает на белые ночи — явление, наблюдающееся на европейском севере в летнее время года. На заднем плане картины за фигурой девушки в море заметен ряд садков и лодка с фигурками рыбаков."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView903"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Искусствовед Ульрих Бишофф говорит о том, что в отличие от ранней работы Мунка «Ингер в чёрном» — портрета 1884 года, на котором четырнадцатилетняя младшая сестра автора изображена в чёрном платье для конфирмации в соответствии с традициями портретной живописи XIX века, в картине «Летняя ночь. Ингер на берегу» заметна будущая оригинальность художника. Мунк демонстрирует в этом произведении индивидуальный набор художественных приёмов для выражения одиночества, меланхолии и тоски и предвещает композиционный пробой в горизонтальных и вертикальных осях поздних работ из цикла «Фриз жизни»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView904"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="По мнению Рейнгольда Хеллера, полотно в меньшей степени повествует о времени суток, но передаёт настроение, созданное контурами и пространственным изображением фигуры и камней, несуществующего горизонта между небом и морем и почти монохромным синим цветом. Искусствовед Анни Карлссон определяет произведение как «персональный ландшафт», в котором берег, море и фигура включены в настроение и стирают границы пространства. Она сравнивает с живыми существами, гоблинами и водяными прибрежные валуны в картине Мунка: «В свете ночи, форма которых приобретает сказочные тона». Искусствовед Николас Стэнг в «упрощении формы и цвета, представляющих собой противостояние одной окрашенной формы другой» видит сходство с манерой Поля Гогена — художника, чьё творчество было знакомо Мунку до 1889 года."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView905"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="По мнению Тона Шедсмо, картина «Летняя ночь. Ингер на берегу» написана автором под влиянием работ художников-натуралистов из «Флексумской колонии», в частности Скредсвига, Петерссена, Вереншёлля, Мюнте, Хьелланн и Баккер, которые приобрели известность, изображая тихие летние ночи. Если композиция фигуры в пейзаже и элегический настрой характерны для произведений норвежских коллег Мунка, то использованное им упрощение форм для обозначения настроения являются элементами модерна. Возможно, невыразительные черты бледного лица молодой женщины, её пустой взгляд Мунк изобразил под влиянием работ Пюви де Шавана и Бастьен-Лепажа, с творчеством которых он познакомился на Всемирной выставке в Антверпене в 1885 году."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

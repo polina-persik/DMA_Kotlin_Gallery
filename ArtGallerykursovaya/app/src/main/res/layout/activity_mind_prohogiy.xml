@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".MindProhogiy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="match_parent"
+                android:layout_height="545dp"
+                app:srcCompat="@drawable/mind" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView317"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В начале 1920-х годов в жизни Рене Магритта состоялись две знаковых встречи с произведениями, перевернувшими его жизнь. Первым из них была «Песнь любви» Джорджа де Кирико, знакомство с репродукцией которой побудило Магритта изменить свой стиль и примкнуть к сюрреалистам, а следующими стали коллажи Макса Эрнста, созданные немногим ранее и обозначившие разрыв со всеми традиционными средствами живописи. Работы Эрнста так восхитили молодого художника, что он и сам приступил к творческим экспериментам: первые папье-колле были созданы им в 1925 году, а в течение следующих двух лет серия пополнилась еще 29 экземплярами."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView321"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Название коллажа «Размышления одинокого прохожего» появилось благодаря другу и покровителю Магритта Э.Л.Т. Мезенсу, который указал его во время описи своей коллекции, в которой находилась работа. Оно было позаимствовано у другого произведения художника из-за схожести изображенных на них темных силуэтов мужчины в пальто и шляпе-котелке, но нам неизвестно, причастен ли к наименованию папье-колле сам живописец."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Персонаж, изображенный как на полотне, так и на коллаже Магритта «Размышления одинокого прохожего», является иконографическим для художника: он встречается в его произведениях более 50 раз, причем, чаще всего, лицо его скрыто. Стоит отметить, что в начале 20-го века почти все мужчины среднего класса носили такой головной убор, а значит, используя образ человека в шляпе, Магритт играет с нашим восприятием. Мы думаем, что этот герой — среднестатистический буржуа, но что мы на самом деле знаем о нем? Кроме того, котелок был излюбленным головным убором и самого Рене — а значит, персонаж в нем может рассматриваться как особый тип автопортрета."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Помимо силуэта мужчины на коллаже мы видим причудливую фигуру, вырезанную из нотной бумаги, и повозку с лошадьми. В своем творчестве Рене Магритт нередко обращается к теме перемещения в пространстве: он изображает летательные аппараты, жокеев и всадников на лошадях, а еще — коней, запряженных, как на данной работе, в коляску. Абстрактные образы, вырезанные из нот, присутствует практически на всех ранних коллажах Магритта. Здесь такая фигура напоминает одновременно завиток и эфы скрипки или скрипичный ключ, она отбрасывает тень и уравновешивает стоящий рядом силуэт человека. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView324"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Также в этом папье-колле нашел выражение специфический жизненный опыт Рене Магритта: в 1921-1924 годах он был дизайнером на фабрике обоев, а немного позже — как раз в период работы над коллажами — занимался созданием рекламных плакатов и театральных декораций. В связи с этим можно утверждать, что плоскостность и аккуратность вырезанных фигур папье-колле перешла в творчество художника из плакатного дизайна; простая композиция переднего плана и неба напоминает театральную сцену; а пейзажный формат позаимствован Магриттом у восхищавших его Макса Эрнста и Джорджо де Кирико. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView382"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 59.4×44.5 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

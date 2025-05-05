@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".BigNaberegnaya">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                app:srcCompat="@drawable/big_naberegnaya_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView581"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Большая набережная в Гавре» — картина французского художника-импрессиониста Клода Моне из собрания Государственного Эрмитажа."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView582"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина написана в 1874 году и изображает здание пароходной конторы «Бюро Большой набережной» с вывеской пассажирской линии «Гавр—Кан». Возле здания стоит кучка людей, к набережной пришвартован большой пароход, несколько ближе его, в правом нижнем углу из-за постройки виднеется труба и мачта ещё одного парохода, на берегу условно обозначены штабели каких-то ящиков и бочек. На заднем плане обозначены корпуса других судов и множество корабельных мачт. Слева внизу помещена подпись художника: Claude Monet. Картина написана масляными красками на холсте и имеет размеры 61 × 81 см. По неизвестной причине картина осталась незаконченной.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView583"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1877 году Моне послал картину на третью выставку импрессионистов, однако там она оказалась в тени серии картин Моне «Вокзал Сен-Лазар» и панно «Индюшки», вызвавших большой скандал. Однако и морским пейзажам импрессионистов, включая и эту картину, досталась своя порция ругани, например критик Барбуйотт писал:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView584"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Нельзя останавливаться больше чем на десять минут перед некоторыми из главных произведений выставки, не почувствовав приближения приступа морской болезни. Невольно на ум приходит завтрак, съеденный прекрасным весенним утром перед тем, как ты отправился в путешествие на пароходе, завтрак из вишен со сливками, который не выдержал легкого покачивания судна»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView585"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина является одним из четырёх видов Гаврского порта, написанных Моне в 1872—1874 годах и имеющих единое композиционное решение. Эта серия была открыта одной из самых знаменитых картин в мировой живописи, положившей начало импрессионизму «Впечатление. Восходящее солнце», хранящейся во Франции в музее Мармоттан-Моне. Две других картины находятся в США, одна в Лос-Анджелесе, другая в Филадельфии."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView586"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В январе 1875 года картина была куплена непосредственно у Моне неким Фроменталем и находилась в его собственности до начала 1930-х годов, когда была приобретена известным немецким коллекционером Отто Кребсом из Хольцдорфа. Во время Второй мировой войны картина была захвачена советскими войсками и отправлена в СССР в счет репараций; долгое время хранилась в запасниках Государственного Эрмитажа и в описях числилась под ошибочным названием «Гавань в Каннах». Картина была показана публике лишь в 1995 году на Эрмитажной выставке трофейного искусства; с 2001 года числится в постоянной экспозиции Эрмитажа и с конца 2014 года выставляется в Галерее памяти Сергея Щукина и братьев Морозовых в здании Главного Штаба (зал 403)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

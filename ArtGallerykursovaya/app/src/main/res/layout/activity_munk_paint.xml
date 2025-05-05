@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".MunkPaint">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView876"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:text="Галерея"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView134"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                app:srcCompat="@drawable/gallery_munk" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView877"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Ранний период (1880-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView881"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В это время Мунк начал развивать свой стиль, вдохновляясь символизмом и реализмом. Он работал над картинами, отражающими темы любви, смерти и экзистенциального страха."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton130"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/maredalen_bliz_oslo" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton131"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/sik_girl__1_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton132"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/pozdnim_vecherom" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton133"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/summer_night" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView878"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Период символизма (1890-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView882"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В это время Мунк создал свои самые известные работы, такие как &quot;Крик&quot; (1893) и &quot;Мадонна&quot; (1894-1895). Эти картины отражают глубокие эмоциональные переживания и внутренние конфликты."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton134"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/melanholiya" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton135"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/sickret_summer_night" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton136"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/skrim" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton137"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/trevoga" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView879"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Экспрессионистский период (1900-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView883"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Мунк продолжал развивать свои идеи, но в более свободной и экспериментальной манере. Его работы стали более абстрактными и выразительными."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton138"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/eyes_in_eyes" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton139"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/womans_on_brige" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton140"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/selfportrait_with_hands_in_karmanah" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView880"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Поздний период (1910-е - 1940-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView884"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В этот период Мунк возвращается к более спокойным и гармоничным темам, хотя его работы все еще сохраняют эмоциональную глубину. Он продолжает экспериментировать с цветом и формой."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton141"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/drovosek" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton142"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/selfportrait_in_bergen" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

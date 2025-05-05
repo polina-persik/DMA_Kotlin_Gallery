@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".AivazovskiPaint">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView715"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:text="Галерея"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView107"
+                android:layout_width="match_parent"
+                android:layout_height="309dp"
+                app:srcCompat="@drawable/galary_aiv" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView717"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Ранний период (1830-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В это время Айвазовский учится в Академии художеств и начинает экспериментировать с изображением моря. Его первые работы, такие как «Вид на море» и «Кораблекрушение», уже демонстрируют его мастерство."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton103"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/bereg_sea" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton115"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/kerch" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView723"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Зрелый период (1840-е — 1850-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView724"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Этот период характеризуется большим количеством работ, посвященных морской тематике. Айвазовский начинает получать признание как художник, его картины выставляются на различных выставках. В это время он создает такие известные работы, как «Девятый вал» и «Шторм»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton116"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/chesmenskoe_sragenie" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton118"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/devyat_val" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton119"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/synopskoe_sragenie" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton120"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/winter_oboz_v_puti" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView725"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Поздний период (1860-е — 1890-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView726"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Айвазовский продолжает активно работать и экспериментировать с новыми техниками. В этот период он создает множество картин, которые становятся классикой маринизма. Его работы становятся все более эмоциональными и драматичными, часто отражая философские и символические идеи."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton121"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/rainbow" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton122"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/night_on_black_sea" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton123"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/black_sea" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton124"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/gnev_seas" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView727"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Заключительный период (1890-е годы)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView728"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В последние годы жизни Айвазовский продолжает творить, хотя его стиль становится более традиционным. Он активно участвует в выставках и получает множество наград за свои достижения в искусстве."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton125"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/flot_in_feodosea" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton126"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/moons_night" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton127"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/otboynaya_volna" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton128"
+                        android:layout_width="243sp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/sredi_voln" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView729"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Айвазовский оставил значительное наследие, и его работы по-прежнему вызывают интерес и восхищение у зрителей по всему миру."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

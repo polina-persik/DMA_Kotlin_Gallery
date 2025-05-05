@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".MomAndSister">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="match_parent"
+                android:layout_height="480dp"
+                app:srcCompat="@drawable/mom_and_sister_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView442"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Произведение «Мать и Сестра Художницы» было написано кистью Берты Моризо (годы жизни 1841-1895) в период с 1869 по 1870 годы. Оно так и остаётся одним из самых личных её творений в карьере."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView463"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Берта Моризо умело использовала близких друзей и членов семьи в ряде личных и интимных портретов, примерно то же самое мы видим и в этом конкретном произведении под названием «Мать и Сестра Художницы». Эдма (годы жизни 1839-1921) – её родная старшая сестра – одета в белое, она навещает свою родную семью и готовится к родам первого ребёнка. Несколько позднее Берта создаст картину под названием «Колыбель» (1872 год), в которой снова запечатлеет свою сестру, но на этот раз уже вместе с новорождённым ребёнком."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView464"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В этот период времени было совершенно нормальным, когда женщина приезжала в свой родительский дом и снова становилась частью большой семьи, таким образом, заботясь как о матери, так и о своём ребёнке в первые месяцы его жизни. Тогда мужья довольно часто уезжали то по работе, то на войну, и считалось в корне неправильным оставлять родную мать на произвол судьбы."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView465"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Менее именитый аспект роли Моризо в движении импрессионистов заключается в том, что она время от времени оказывала финансовую поддержку для того, чтобы всей творческой группе в целом и далее позволять продолжать выставлять свои работы на всеобщее обозрение. Хотя в наши дни имя каждого из этих творцов уже давно стало нарицательным, тогда это был ранний этап их развития и продвижения, а с финансами было относительно туго."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView466"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Гюстав Кайботт (годы жизни 1848-1894) также уделил немало времени и усилий продвижению их общего дела и поначалу был более известен именно этим, нежели своими работами, которые, несмотря ни на что, он тоже продолжал выставлять. Картина Моризо «Мать и Сестра Художницы» была выставлена на публику в 1874 году и, если оглянуться назад, она стала частью поистине знаменательного события в мире художественного искусства, ведь именно тогда и прошла самая первая выставка импрессионистов. А незадолго до этого, в 1870, работа также попала и на выставку Парижского Салона."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView467"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Самый интригующий факт об этой картине связан с перепиской Берты с несколькими её друзьями и членами семьи. Поначалу она сильно нервничала по поводу подачи работы на выставку, девушке помог её близкий друг – художник Эдуард Мане (годы жизни 1832-1883). Живописец посетил Моризо ещё до подачи картины и внёс существенные изменения в композицию справа. Те, кто хорошо знаком со стилями обоих творцов, должны быть в состоянии заметить контрасты в этой уже полностью законченной картине; но остальным из нас, особенно глядя лишь на фотографию произведения, трудно различить разные стили, использованные на одном холсте."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView468"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 101 х 81 сантиметр."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView469"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Национальная Галерея Искусства (Вашингтон, округ Колумбия, США)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

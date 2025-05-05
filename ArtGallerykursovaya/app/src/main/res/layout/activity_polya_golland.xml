@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".PolyaGolland">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView86"
+                android:layout_width="match_parent"
+                android:layout_height="317dp"
+                app:srcCompat="@drawable/golland" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView570"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Поля тюльпанов в Голландии» (фр. Champs de tulipes en Hollande) — картина французского художника Клода Моне, написанная им в 1886 году. Выполнена в нескольких вариантах во время поездки на плантации тюльпанов в Нидерландах. Находится в коллекции музея Орсе в Париже."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView571"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Клод Моне, известный художник и отец импрессионизма, в 1883 году арендовал дом с большим садом в Живерни, поселившись там с двумя сыновьями, второй женой, а также её шестью дочерьми от первого брака. Увлёкшись садоводством, долгие годы он обустраивал это место — рыл пруды, строил мосты, растил кувшинки, сажал цветы, в том числе розы, ирисы, георгины, глицинии, тюльпаны, а также отправлялся на поиски новых растений и попутно зарисовывал их. Во второй половине 1880-х годов Моне несколько раз удалялся от комфортной жизни в Живерни и отправлялся в творческие поездки в более или менее отдаленные места — плодом этого становились новые картины, дорабатываемые художником в своей мастерской в Живерни. Так, в период с 27 апреля по 6 мая 1886 года он побывал в Голландии. Соответствующее приглашение поступило от барона Эстурнеля де Констана, секретаря французского посольства в Гааге и будущего лауреата Нобелевской премии мира. Барону нравились работы Моне, а кроме того он дружил с коллекционером его полотен — Шарлем Дедоном. В письме критику Теодору Дюрэ Моне писал: «Я приехал сюда по приглашению джентльмена, которого я не знал, друга Дедона, поклонника моих полотен, который хотел показать мне урожай, огромные поля в полном расцвете; это замечательно, но сводит с ума бедного художника; это всё слишком для наших плохих красок»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView572"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Впервые Моне приехал в Голландию ещё в 1871 году и написал около двух десятков картин на темы водных каналов, остроконечных домов и мельниц вокруг Зандама, а в 1874 году сосредоточился главным образом на Амстердаме, городском образе, атмосферных эффектах штормового и серого неба. В этот раз Моне испытал восхищение полями тюльпанов близ Гааги, Лейдена, Харлема и Сассенхейма. Луковицы росли повторяющимися рядами на огромных полях, зацветали они беспорядочными пятнами, что не очень привлекало художников, в отличие, например, от Винсента Ван Гога, создавшего работу на эту тему в 1883 году: данная картина известна как «Цветники в Голландии» (48,9 × 66 см; Национальная галерея искусства). Во время десятидневного пребывания в Голландии Моне написал пять работ, построенных по одной и той же композиционной схеме и вдохновлённых своими собственными «Полями маков» 1870-х годов. В их числе: «Поля тюльпанов в Сассенхейме» (59,7 × 73 см; Институт искусств Стерлинга и Франсин Кларк), «Поля тюльпанов в Сассенхейме» (60 × 73 см; коллекция Генри Форда II), «Поля тюльпанов близ Гааги» (66 × 81,5 см; Музей Винсента Ван Гога), «Поля тюльпанов в Голландии» (54 × 81 см; Музей Мармоттан-Моне), и, наконец, «Поля тюльпанов в Голландии» (65,5 × 81,5 см; Музей Орсе)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView573"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картины, написанные Моне в Голландии, экспонировались на международной выставке, организованной галеристом Жоржем Пети в Париже в 1886 году. «Поля тюльпанов в Голландии» были среди первых работ Моне, которые увидел Ван Гог по прибытии в том же году в Париж, оставшись, вероятно, под впечатлением от гладких мазков и ярких цветов этого видного художника-импрессиониста. Тогда же прямо с выставки картину за две с половиной тысячи франков купила у Моне лично Виннаретта Зингер, будущая принцесса и супруга Эдмона де Полиньяка. Полотно находилось у неё до 1944 года, а затем как наследство принцессы принято государством в дар, отправлено в Лувр и с 1947 года выставлялось в галерее Же-де-Пом. В 1986 году работа была передана в музей Орсе, где и находится в настоящее время."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView574"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 65,5 × 81,5 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

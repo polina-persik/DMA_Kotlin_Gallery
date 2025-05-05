@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Edoki">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                app:srcCompat="@drawable/resource__" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="«Едоки́ карто́феля» (нидерл. De Aardappeleters) — картина нидерландского художника Винсента Ван Гога, которую он написал в апреле 1885 года в нидерландском селении Нюэнен. Сейчас она размещена в Музее Ван Гога в Амстердаме. В своём письме брату Тео художник писал об этой картине следующее:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="«В ней я старался подчеркнуть, что эти люди, поедающие свой картофель при свете лампы, теми же руками, которые они протягивают к блюду, копали землю; таким образом, полотно говорит о тяжёлом труде и о том, что персонажи честно заработали свою еду»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Сюжет: женщина в правом углу разливает чай, мужчина рядом с ней его пьёт. Остальные трое участников сцены едят печёный картофель. Обстановка дома — скромная, стол освещает тусклая лампа, а остальные предметы уходят в полумрак. Лица семейства выражают усталость. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Колорит: тёмно-коричневый, серо-зелёный цвета и оха. Жёстким, почти чёрным цветом Ван Гог подчёркивает жилистые руки и морщинистые лица."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Смысл: художник хотел показать атмосферу тяжёлого крестьянского быта. Лица крестьян выглядят простыми и открытыми, наивными. Их мысли не омрачены какими-либо страстями. Труд и простая пища — их удел, и свою долю крестьяне принимают с достоинством. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7sp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В романе Дмитрия Бавильского этюд к картине стал иллюстрацией переживаний и стремлений главных героев: «Особой репутацией пользовался зал без привычной уже, казалось бы, цифры. И хотя называли его „вангоговским кабинетом“, висела там только одна маленькая картиночка известного художника — подготовительный этюд к картине „Едоки картофеля“: тёмная, мутная клякса, жирные линии, закрученные углём в осыпающуюся спираль, подобия лиц, глаз и носов, ничего толком не разберёшь … Разочарованные посетители недоумённо пожимали плечами: угольная клякса, издали напоминающая трещину в небе, почерневшую, обуглившуюся молнию (и только позже, если приглядеться, из мрака начинали проступать осторожные фигуры людей, их перекрученные бедностью бледностью лица), не пробуждала воспоминаний, не требовала отождествлений, не искала человеческого сочувствия»"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 82 × 114 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Музей Ван Гога в Амстердаме."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

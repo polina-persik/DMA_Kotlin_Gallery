@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".AgenMane">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                app:srcCompat="@drawable/agen_mane_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView493"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Семьи Берты Моризо (годы жизни 1841-1895) и Эжена Мане (годы жизни 1833-1892) сблизились благодаря своему художественному объединению, возникшему при помощи Музея Лувр в Париже – столице Франции, а также благодаря более широкому интересу к стилям, тесно связанным с движением художников-импрессионистов.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView497"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Берта особенно сильно подружилась с родными братьями одного из самых известных художников-импрессионистов на территории Франции – Эдуарда Мане (годы жизни 1832-1883). Гюстав (годы жизни 1835-1884) и Эжен, последний из которых и изображается на этой картине, имели множество общих интересов с Моризо, а также относились к ней с должным величайшим уважением, что далеко не всегда было применительно к женщинам во французском обществе того периода.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView498"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Позднее, в декабре месяце 1874 года, Берта и Эжен поженились, что придало данному конкретному произведению ещё большее значение в их общей профессиональной карьере. На самом деле сцена взята из их медового месяца, который они проводили вместе ровно через год после свадьбы. У пары был длительный отпуск в Каусе – городе, находящемся на самом севере небольшого английского острова Уайт, расположенного к югу от материка.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView499"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Её муж выглядит расслабленным, наслаждаясь живописным видом, предположительно из окна гостиничного номера. Детальные мазки кисти ограничены, они оставляют собой слегка абстрактную отделку, такую типичную для большинства картин Моризо. Эта художественная техника была относительно новой в ту пору, но в наши дни она гораздо более принята в нормах мирового художественного искусства.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Две элегантно одетые женщины проходят мимо окна, Эжен Мане смотрит прямо на них. Несколько небольших лодок стоят вдоль береговой линии, а занавеска в номере пары свободно парит, вполне возможно, подхваченная лёгким прибрежным бризом. На подоконнике стоят три простых цветочных горшка, таким образом, художница всячески стремится придать уют этой гостиничной комнате, намекая нам на счастье их недавнего бракосочетания, и радость быть в компании друг друга этим продолжительным летом.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В те времена остров Уайт по праву считался одним из любимейших мест на территории Великобритании для людей с высоким положением в обществе. Семьи не отправлялись так далеко за границу, как в нашу эпоху, именно поэтому все подобные поездки и считались особенно роскошными, ведь ни для кого не секрет, что большинство людей той поры вообще не могли себе позволить какой-либо отдых, так как он им был явно не по карману.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView502"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 38 х 46 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Музей Мармоттан-Моне (Париж, Франция)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

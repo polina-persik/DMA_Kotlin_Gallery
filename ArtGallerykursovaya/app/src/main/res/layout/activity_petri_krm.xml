@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".PetriKrm">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView127"
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                app:srcCompat="@drawable/petri_krm" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView815"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Ай-Петри. Крым» — картина русского художника Архипа Куинджи (1841/1842—1910), написанная в 1890-х годах (точная дата не установлена, ранее время её создания относили к 1898—1908 годам). Является частью собрания Государственного Русского музея (инв. Ж-1532). Размер — 39 × 53 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В январе 2019-го была похищена с временной выставки художника в Государственной Третьяковской галерее. После оперативных действий полиции была найдена и возвращена на выставку.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView819"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Куинджи не раз бывал в Крыму, а в 1886 году приобрёл часть бывшего имения генерала Феодосия Ревелиоти. Также у него было имение в Алупке и дача в балке Тартир. В Крыму Куинджи много работал на натуре, рисуя пейзажи полуострова. В период с 1874 по 1898 года он создал несколько десятков работ, среди которых: «Лов рыбы на Черном море», «Морской берег. Вид на гору Демерджи», «Крым. Ялта», «Подсолнухи», «Прозрачная вода», «В Крыму» и многие другие, в том числе и «Ай-Петри». Точное время создания этой картины неизвестно: согласно современным каталогам, её относят к 1890-м годам. Ай-Петри — одна из гор массива, расположенного вблизи Ялты, её силуэт — один из символов Крыма.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView823"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В этой работе Куинджи использовал оттенки синего цвета, создавая эффект «цветовой растяжки» — плавного перехода от сине-чёрных волн у подножия горы до светлых полупрозрачных небес. К этому же периоду относится и другая картина, выполненная в схожей цветовой гамме — «Сумерки на море. Крым»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView824"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1914 году московское Общество художников имени Куинджи планировало передать картину Мариупольскому художественному музею, однако из-за Первой мировой и гражданской войны передача работы не состоялась. В настоящее время полотно является частью собрания Государственного Русского музея.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView825"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="С осени 2018 года картина находилась на временной выставке в Государственной Третьяковской галерее в Москве. 27 января 2019 года, в день рождения Архипа Куинджи, её похитили из выставочного зала. На глазах у посетителей злоумышленник снял со стены картину, отнёс за колонну, там вынул её из рамы, а после не спеша проследовал с картиной к выходу и уехал с ней на автомобиле. Такая бесцеремонная кража из государственного музея вызвала широкий общественный резонанс. Происшествие сравнивали с сюжетом фильма «Старики-разбойники», герои которого легко смогли вынести из музея картину Рембрандта, возникли конспирологические теории и множество шуток. Выставка Куинджи, и до этого очень популярная, пережила всплеск посещаемости."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView826"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Правоохранительным органам потребовалось несколько часов, чтобы обнаружить и вернуть картину. Похититель — 32-летний Денис Чуприков — был задержан утром следующего дня в съёмной квартире в посёлке Заречье Одинцовского района Московской области[10]. Картина была найдена в том же посёлке, в подвале строящегося коттеджа, где похититель отвечал за подведение инженерных коммуникаций. Преступник был задержан благодаря отпечаткам пальцев, которые он оставил на раме картины. Отпечатки оказались в картотеке МВД, поскольку в декабре 2018 года Чуприков задерживался за хранение наркотиков (ст. 228 Уголовного кодекса РФ) и на момент кражи находился под подпиской о невыезде. Кроме того, за два месяца до этого он был привлечён мировым судом к административной ответственности (штраф 1000 рублей) за неповиновение полицейским, которые пытались его доставить в отделение из-за агрессии по поводу эвакуации его автомобиля. Уроженец крымского города Феодосии Чуприков — по профессии сварщик и слесарь. Кражу, по его словам, совершил спонтанно, чтобы расплатиться с долгами."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView827"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Искусствоведы оценивают картину в 200 тысяч долларов США, по менее достоверным оценкам, её стоимость может доходить до 1 млн долларов США. Страховая стоимость полотна на время транспортировки и монтажа составляла 12 млн рублей (примерно 183 тыс. долларов)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

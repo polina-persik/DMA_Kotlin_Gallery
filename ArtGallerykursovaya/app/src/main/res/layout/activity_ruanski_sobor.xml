@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".RuanskiSobor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/bridge" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView589"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1890–1901 года Моне по несколько недель проводил в Лондоне, останавливаясь в отеле «Савой» на набережной Виктории. Оттуда открывался прекрасный вид на Темзу и мост Ватерлоо. Художник написал серию из 41 картины, подавляющее большинство из которых он заканчивал у себя в Живерни. Знаменитые лондонские туманы привлекали Моне эффектами зыбкой световоздушной среды и сложнейшими цветовыми нюансами, мерцающими в переливах света. Стихия тумана, за которой лишь смутно угадываются очертания старого моста, чадящих фабричных труб и плывущих по реке лодок, полностью захватывает Моне игрой света и тени. В картинах этой серии уже сказывается меньшая связь с натурой: материальное, осязаемое становится менее важно в сравнении с многоцветным маревом тумана.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".InStolovaya">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView80"
+                android:layout_width="match_parent"
+                android:layout_height="480dp"
+                app:srcCompat="@drawable/in_stolovaya_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина «В Столовой» датируется 1886 годом и включает в себя два самых известных атрибута художницы Берты Моризо (годы жизни 1841-1895): её свободные мазки, а также тему домашней жизни простых женщин.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView523"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="И только тогда, когда к движению импрессионистов присоединились женщины, мы начали видеть намного больше примеров женской домашней жизни того периода. Например, сцены материнства могли точно передать только лишь те, кто чётко понимал женский разум. Такие художники, как Эдгар Дега (годы жизни 1834-1917), часто изображали женщин нагими – купающихся или же одевающихся – но связь женщины и ребёнка лучше всего видна в некоторых картинах Моризо, таких как «Колыбель» (1872 год), на которой изображены её родные – сестра и племянница.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView524"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В то время общество также считало женщин подчинёнными мужчинам, и, что ещё хуже, раньше зачастую их можно было встретить на картинах исключительно в бытовых домашних сценах, где они были заняты своими прямыми по хозяйству обязанностями. Художественное искусство стало способом изменить представление о роли женщин: Моризо также включала в свои сцены близких ей подруг, с которыми они вместе проводили свободное время.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView525"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Общая атмосфера произведения «В Столовой» относительно позитивная. К женщине, запечатлённой здесь, присоединяется её игривая домашняя собака, которая составляет ей компанию, пока та выполняет свои повседневные дела. Берта изображает её высокой, сильной и отлично владеющей собой женщиной. Она хорошо одета, даже несмотря на то, что занята работой, и ощущение этой работы даёт более счастливый взгляд на домашнюю жизнь женщин той поры.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView526"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Естественный свет льётся из задней части сцены, помогая создать позитивную атмосферу, и её дом выглядит относительно опрятным и богатым. Творение не является символом женского отчаяния, который могли бы создать другие художники-мужчины; оно является воодушевляющей сценой, изображающей на себе сильную и уверенную в себе женщину. Картина является частью коллекции американского банкира по имени Честер Дейл (годы жизни 1883-1962) и в настоящее время хранится в Национальной Галерее Искусства в Вашингтоне, округ Колумбия, США.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView527"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Берта Моризо помогла привнести женский оттенок в импрессионистское художественное движение, в котором преимущественно трудились художники-мужчины. Она представила трогательные сцены матери и ребёнка, а также предложила уникальный взгляд на роль женщины во французском обществе. Она и сама обладала очень сильным характером и хотела изображать других женщин такими же сильными и равными ей, хотя в то время на этом уровне они всё ещё не были. Более позитивное изображение женщин было важным способом хотя бы попытаться изменить взгляды, показав другой обзор на то, каким могло бы быть общество по отношению к женскому полу.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView528"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 61,3 х 50 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView529"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Национальная Галерея Искусства (Вашингтон, округ Колумбия, США)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

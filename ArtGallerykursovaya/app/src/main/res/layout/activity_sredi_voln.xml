@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".SrediVoln">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView121"
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                app:srcCompat="@drawable/sredi_voln_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView778"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Среди волн» — картина русского художника Ивана Константиновича Айвазовского (1817—1900), написанная в 1898 году. Размер полотна — 285 × 429 см. Работа написана маслом на холсте. Хранится в Феодосийской картинной галерее имени И. К. Айвазовского в Феодосии.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView789"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина сюжетно является продолжением произведения «Чёрное море (На Чёрном море начинает разыгрываться буря)». На полотне «Среди волн» изображена буря, которая успела разыграться вовсю. Автор с детальной точностью выписал бушующее море. Волны кипят и пенятся в мощном водовороте. Чёрные грозовые тучи нависли над морем. Их разрывает ураганный ветер, и солнечный луч падает на волны, озаряя изображение сиянием."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView790"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На переднем плане автор выписал прозрачное и светлое море, сгустившееся и ставшее почти чёрным в глубине картины. Сюжет произведения составляют штормовые волны — почти прозрачные, с небольшими акцентами в цветовом диапазоне от серебристо-голубого до серо-зелёного. Цвет волн меняется в зависимости от того, как на бушующее море падает солнечный луч."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView791"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В процессе создания картины автор использовал широкую цветовую палитру — от переливчатых и нежных тонов до глубоких и насыщенных тёмных, почти чёрных, оттенков. Цвета подобраны художником настолько мастерски и точно, что волны кажутся по-настоящему прозрачными, подвижными и живыми.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView792"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="По мнению искусствоведов, «Среди волн» является одним из наиболее реалистичных и точных живописных изображений морской стихии во время шторма."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView793"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Константин Арцеулов, внук Ивана Константиновича Айвазовского, рассказывал, что в первоначальном варианте в картине присутствовала лодка, на которой пытались спастись моряки, потерпевшие кораблекрушение. Однако на фоне заполнившей весь холст разъярённой морской стихии лодка казалась игрушечной и неуместной.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView794"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Обратившись к моему отцу, корабельному инженеру, «поэту корабельных форм», как его иногда называли, Иван Константинович спросил его мнение. Выразив своё восхищение морем, отец добавил: не понятно только, почему эта скорлупа с людьми держится на поверхности? - делился воспоминаниями Арцеулов»."
+                android:textAlignment="textStart"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView795"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Внук художника рассказывал, что, услышав такие слова, его знаменитый дед рассердился и молча вышел из комнаты. На следующий день домочадцы увидели, что изображение лодки исчезло.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView796"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Несмотря на то, что после написания картины Иваном Айвазовским, его персональные выставки проходили в Москве, Петербурге, Лондоне, полотно «Среди волн» художник никогда не вывозил из Феодосии."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView797"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Айвазовскому было восемьдесят лет, когда он начал писать картину «Среди волн». Над произведением он работал десять дней. Специалисты отмечают, что это масштабное полотно можно назвать итогом всей живописной деятельности мариниста, настоящей вершиной его мастерства и творчества."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView798"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина «Среди волн», так же как и полотна «Чёрное море (На Чёрном море начинает разыгрываться буря)» «Буря на море» «Буря», «Буря на море ночью», «Сотворение мира. Хаос», «Девятый вал», «Сигнал бури» и другие, по мнению искусствоведов, является произведением, которое подтверждает, что Иван Айвазовский обладал уникальным умением изображать на холсте красоту бушующей морской стихии."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView799"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Мастер предстаёт не художником, изображающим море, а сыном и отцом этой стихии. Художник создаёт ситуацию конфликта, когда зритель чувствует себя одновременно и перед картиной, и внутри неё. И в этих ситуациях (буря, неспокойное море и т. д.) энергетический потенциал художника мощнейший. Он как будто бросает в это морское пространство сильнейший импульс постижения бытия, таково его творческое и человеческое «Я». Он помогает не только здесь — на твёрдой земле, нуждающимся людям, но и тем морякам, которых он изображает, — писал известный армянский писатель, философ, культуролог Рубен Ангаладян»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

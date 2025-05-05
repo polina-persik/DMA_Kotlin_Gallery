@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Verolomstvo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                app:srcCompat="@drawable/verolomstvo_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картины известнейшего представителя сюрреализма Рене Магритта вызывают у зрителей всех возрастов восхищение — не только точностью линий и гармонично подобранными оттенками, но и замысловатостью, которая порой граничит с загадочностью. «Вероломство образов» — полотно, которое Рене Магритт создал в 1929 году, увлекшись исследованием связи в искусстве между словами и образами."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView341"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На картине зритель видит крупное изображение курительной трубки, выписанное со всей тщательностью. Блики света уютно расположились на гладких боках трубки, подчеркивая изящество плавных линий и золотое сияние пояска, который соединяет детали. Предмет словно парит в воздухе, занимая практически все пространство холста размером 65х59 см. Вдоль нижней кромки полотна идет надпись, сделанная крупным каллиграфическим почерком: «Это не трубка». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Зритель, впервые увидевший картину Рене Магритта «Вероломство образов», поначалу не может уловить скрытое послание автора, ведь он видит перед собой именно трубку — как же можно утверждать, что это не она? Парадокс заключается в том, что, по сути, автор прав: ведь мы видим не сам предмет, а его образ, перенесенный на холст — перед нами картина с изображением трубки, но не сама трубка, которую можно набить табаком и раскурить, выпуская ароматный дым."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В этом весь Рене Магритт — «Вероломство образов», по его замыслу, демонстрирует нам относительность образов и слов, доказывая, что это не одно и то же. Слова связаны с образами и наоборот, но они не заменяют друг друга. Многие картины художника написаны именно в этой игровой манере визуального жонглирования смыслами. Создавая «Вероломство образов», Рене Магритт лишь подтверждал свой тезис, гласящий: «Видимое таковым не является». Причудливый мир, нашедший отражение на полотнах художника, заставляет зрителя по-новому взглянуть на привычные вещи и явления и переосмыслить их. По свидетельству самого живописца, эта картина вызывала у людей самые противоречивые чувства. Находились зрители, которые возмущались, будучи не в силах постичь смысл шарады. Художник же отвечал им, что если бы он написал на холсте, что это трубка, то солгал бы, поскольку нарисованный образ не является самостоятельным предметом со всеми присущими ему характеристиками. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Прием, сделавший «Вероломство образов» знаменитым, понравился рекламистам: они, как и Рене Магритт, стали использовать это противоречие в своих работах, дополняя крупную надпись-отрицание другой надписью мелким шрифтом. Она располагалась чуть ниже и поясняла в шуточном тоне что, по мнению авторов рекламного плаката, видит зритель."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 59×65 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView346"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина выставлена в Музее искусств округа Лос-Анджелес. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

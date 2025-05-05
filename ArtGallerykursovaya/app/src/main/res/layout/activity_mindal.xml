@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Mindal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="309dp"
+                app:srcCompat="@drawable/mindal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Цветущие ветки миндаля» (нидерл. Amandelbloesem) — картина нидерландского живописца Винсента ван Гога, написанная им в Сен-Реми-де-Прованс в 1890 году. Является одной из нескольких картин, написанных Ван Гогом в 1888 и 1890 годах в Арле и Сен-Реми, на юге Франции, с изображением цветущих миндальных деревьев. Цветущие деревья были особенными для Ван Гога. Они олицетворяли пробуждение и надежду. Он наслаждался ими с эстетической точки зрения и находил радость в рисовании цветущих деревьев. В работах отразилось влияние импрессионизма, дивизионизма и японской ксилографии. Картина «Цветущие ветки миндаля» была написана в честь рождения его племянника и тезки, сына его брата Тео и невестки Йоханны."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="31 января 1890 года Тео ван Гог написал Винсенту о рождении сына, которого назвали Винсент Виллем в честь дяди. Винсент ван Гог сразу же принялся за работу над картиной, которую намеревался подарить своему младшему брату. По замыслу Винсента полотно должно было висеть над постелью супругов и символизировать начало новой жизни. Этим обоснован выбор сюжета полотна — ветки миндаля начинают цвести очень рано и являются предвестниками весны."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Уже в Арле, куда он приехал в марте 1888 года, ван Гог был очарован фруктовыми садами с абрикосами, персиками и сливами в цвету. Цветущие деревья неоднократно появляются на картинах художника. Однако композиция «Цветущих веток миндаля» необычна для творчества ван Гога. Кажется, что ветки плывут на фоне голубого, с оттенками бирюзы, неба, и неясно, то ли зритель видит часть дерева, то ли ветки находятся в вазе, как в более ранних работах. Практически всё пространство картины заполнено ветвями, которые подчёркнуты благодаря тёмным контурам. И в резких контурах, и в расположении веток заметно влияние японской живописи, с которой ван Гог познакомился ещё в Париже."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 73,5 × 92 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В настоящее время картина выставлена в музее ван Гога в Амстердаме."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

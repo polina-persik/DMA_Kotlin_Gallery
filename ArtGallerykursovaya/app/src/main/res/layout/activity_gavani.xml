@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Gavani">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                app:srcCompat="@drawable/gaveni_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView441"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Картина «Гавань в Лорьяне» – это одна из самых известных пейзажных работ в творческой карьере Берты Моризо (годы жизни 1841-1895). В настоящее время она принадлежит Национальной Галерее Искусства в Вашингтоне, округ Колумбия, США, но далеко не всегда экспонируется там."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView455"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="В 1869 году Берта навестила свою родную сестру Эдму Понтильон (годы жизни 1839-1921) в её доме в Лорьяне (Франция). Именно тогда и была создана эта картина с местной гаванью. Сама Эдма также была нарисована Бертой в произведении «Колыбель» (1872 год) вместе со своей новорождённой дочерью, которая появилась на свет несколько позднее. На момент написания полотна обе сестры были активными художницами и проводили время вместе, рисуя на пленэре."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView456"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Выбор пейзажного жанра сразу связывает Берту с другими представителями импрессионистского движения, многие из которых специализировались именно на этом типе содержания своих картин. Девушка хорошо умела создавать подобные сцены, но позже стала более известной благодаря своим личным изображениям жизни женщин той эпохи."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView457"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Во время создания данной работы Моризо пыталась проложить свой собственный путь и создать более независимый для своих произведений выбор. Она экспериментировала со светом и цветом, вполне возможно, под влиянием некоторого числа работ Камиля Писсарро (годы жизни 1830-1903), написанных примерно в то же время. Её стиль также становится менее жёстким и более соответствующим тому, что впоследствии стало известно как импрессионистская техника."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView458"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Друзья художницы оказали ей большой приём, когда девушка представила работу, и вскоре она уже была выставлена в рамках самой первой в истории выставке художников-импрессионистов. В дальнейшем Моризо участвовала в большинстве выставок движения и зарекомендовала себя как одного из основных участников сей группы. Коллега-художник Гюстав Кайботт (годы жизни 1848-1894) даже оказал финансовую помощь для того, чтобы обеспечить продолжение и продвижение данного творческого течения."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView459"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Берта и её родная сестра были не только художницами, но и моделировали друг для друга работы. Именно в этой картине Моризо хотела создать такое потрясающее разнообразие цветов в пейзаже, чтобы взгляд зрителя не фокусировался только лишь на фигуре на переднем плане холста. Этой идее она научилась у всё того же Писсарро. А чтобы добиться своей цели в данной конкретной картине, девушка использует отражение воды."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView460"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Лицо Эдмы не детализировано, но её наряд очень яркий, а общая атмосфера пейзажа весьма и весьма позитивная. В последние годы две сестры уже не проводили так много времени вместе из-за изменившихся обстоятельств, и поэтому были крайне рады прожить свободные недели друг с другом в период визита Берты."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView461"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Размер: 43 х 72 сантиметра."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView462"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Местонахождение: Национальная Галерея Искусства (Вашингтон, округ Колумбия, США)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

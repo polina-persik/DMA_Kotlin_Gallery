@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".munk">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView105"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                app:srcCompat="@drawable/munk__1_" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Э́двард Мунк (норв. Edvard Munch; 12 декабря 1863, Лётен, Хедмарк — 23 января 1944, Экелю, близ Осло) — норвежский живописец, график, ранний представитель экспрессионизма и самый известный в мире норвежский художник."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView850"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Мунк дебютировал как художник на выставке в Осло в 1883 году. На протяжении всей жизни создавал большое количество работ; наследие Мунка составляют около 28 000 произведений, что делает его одним из самых плодовитых известных художников мира."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView851"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Около 20 000 работ он завещал городу Осло. Музей Мунка в Осло в районе Тёйене открылся в 1963 году, в 2021 году он переехал в новое здание в районе Бьёрвик."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView852"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Биография"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView853"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Детство"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView854"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Эдвард Мунк родился 12 декабря 1863 года в Лётене, в семье Кристиана Мунка из Кристиании и Лауры Катрин Мунк (урожденной Бьёльстад) из Фредрикстада. Его отец был военным врачом в военных казармах Тофсрудмоен в Лётене. В 1864 году семья переехала в Кристианию, так как отец был назначен корпусным врачом замка и крепости Акерсхус."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView855"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В Кристиании они поселились в доме рядом с крепостью. Здесь родились младшие братья и сестры Эдварда. Их звали Петер Андреас (1865 год), Лаура Катрин (1867 год) и Ингер Мари (1868 год). У него также была старшая сестра Йоханна Софи. Его мать была больна, и после родов она не надеялась выжить. 12 января 1868 года она написала прощальное письмо родным. Письмо было адресовано старшей дочери, и она писала, что «все мы, кого Бог так заботливо связал друг с другом, должны собраться на небесах, чтобы никогда больше не расставаться». Это письмо часто читалось вслух в кругу самых близких членов семьи."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView856"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1868 году семья Мунков переехала в новую, лучшую квартиру на Пилестредет 30, которая в то время находилась на окраине города. Здесь 29 декабря 1868 года умерла Лаура Мунк. Последнее воспоминание Эдварда о матери было связано с гостиной дома. «Мы все пятеро стояли вокруг неё. Отец прошелся по полу, сел и посмотрел на неё, сидящую на диване. Она улыбнулась, и слезы побежали по её щекам»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView857"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="После этого к ним переехала младшая сестра матери, Карен Бьёльстад, которая ранее жила с семьей Мунк."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView858"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1875 году семья снова переехала, на этот раз в район Грюнерлёкку. В то время это был новый район на восточной окраине города, населенный в основном промышленными рабочими. Отец с трудом справлялся с заработком, и «то, что финансы семьи иногда были очень скудными, вероятно, объяснялось также отсутствием у санитара финансового чутья, а также его мягким сердцем, молчаливым по отношению к бедным пациентам»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView859"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Карен Бьёльстад вела хозяйство, и семье удавалось поддерживать относительно средний уровень жизни. Помощь по хозяйству членов семьи была само собой разумеющейся, и семья не испытывала прямых материальных затруднений.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView860"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1877 году произошла ещё одна смерть. Старший ребёнок в семье Йоханна Софи умерла от туберкулеза. Сам Эдвард в детстве часто болел. Он страдал хроническим астматическим бронхитом, у него были тяжелые приступы ревматизма и ревматической лихорадки. Из-за этого он практически не получал школьного образования. Зимой ему приходилось подолгу оставаться дома, и впоследствии «дом» стал важной темой в его творчестве."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView861"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Молодость"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView862"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В ноябре 1880 году Мунк был принят в Королевскую школу рисования, а весной 1881 года начал изучать курс свободного рисунка, но только осенью того же года стал регулярно посещать занятия. Позже он перешел в класс лепки, где преподавал скульптор Юлиус Миддельтун. В следующем году Мунк покинул школу рисования и вместе с группой молодых коллег арендовал студию на улице Карла-Юхана."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView863"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В возрасте 19 лет Мунк поступил на работу.. В 1882—1883 годах он посещал школу живописи Кристиана Крога. В это же время он посещал «Академию на открытом воздухе» в Хаугфоссе, организованную по инициативе Фрица Таулова. В это время Мунк писал картины в натуралистическом стиле, как и многие другие художники, с которыми он был связан, но со временем порвал с натурализмом."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView864"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1883 году Мунк дебютировал на выставке «Промышленность и искусство», организованной им и еще пятью художниками, в том же году он участвовал в осенней выставке художников в Кристиании. Осенью 1884 года он вместе с Хальфданом Стрёмом и Йоргеном Сёренсеном работал в Мудуме, где написал картину «Утро» (также называемую «Девушка на краю кровати»), которая была представлена на Осенней выставке того же года. Картина была куплена Фрицом Тауловым, а в настоящее время находится в коллекции Расмуса Мейера (Кунстхалле Бергена)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView865"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Мунк восхищался Винсентом Ван Гогом как в плане экспрессии, так и в плане увлеченности его творчеством. О художественной общности между ними заговорили ещё в 1890-х годах. Мунк больше экспериментировал, чем Ван Гог, который в основном использовал масло на холсте. В отличие от Ван Гога, Мунк был признан практически сразу. Швейцарский художественный критик Вильгельм Риттер был «неохотным поклонником» Мунка и сомневался, можно ли считать работы Мунка искусством. Посетив большую выставку Мунка в Праге в 1905 году, Риттер написал, что выставочное пространство «пахнет моргом и аптекой, (…) безумием и бредом»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView866"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Мунк был на шесть лет старше известного норвежского скульптора Густава Вигеланда, и между ними существовал определённый взаимный интерес и вдохновение. Считается, что Вигеланд работал над кричащей фигурой за год до того, как Мунк создал «Крик». Мунк долгое время работал над мотивом картины «Человеческая гора», который имеет сходство с монолитом Вигеланда. Они одновременно находились в Берлине и несколько месяцев жили в одном отеле."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView867"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Адвокат и коллекционер произведений искусства Харальд Нёррегор был «важным» поклонником творчества Мунка на протяжении всей его жизни, а также адвокатом Мунка, его близким другом и одним из первых коллекционеров его картин. Нёррегор был женат на художнице Аасе Нёррегор, которая также была близка с Мунком. Оба они были неоднократно изображены на картинах Мунка."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView868"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Поездка за границу"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView869"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Художник Фриц Таулов признал талант Мунка как живописца и выделил ему частную стипендию. В 1886 годах Мунк написал картины «Больная девочка», «Половое созревание» и «Следующий день». Две последние картины погибли во время пожара, но мотивы повторялись в 1890-х годах. Весной 1889 году он организовал в Кристиании свою первую персональную выставку — редкую крупную ретроспективную персональную выставку из 109 картин и рисунков в малом зале Студенческого общества на Университетской улице, которая отражала его художественное развитие во время учёбы. На этом фоне он получил государственную стипендию для обучения в Париже."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView870"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Однако только через несколько лет его работы стали пользоваться международной популярностью. Его выставка в Берлине осенью 1892 года вызвала большое возмущение и привлекла к себе внимание, а в 1894 году вышла первая книга о Мунке, подготовленная Станиславом Пшибышевским, Майер-Грефе, Вилли Пастором и доктором Францем Серваесом. В 1899 году Национальная галерея приобрела картину «Весна» за 2 500 крон."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView871"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Обильное употребление алкоголя и неуправляемое поведение со временем привели к нервному срыву, сопровождавшемуся зрительными и слуховыми галлюцинациями. В 1908 году он был помещен в клинику нервных расстройств доктора Даниэля Якобсена в Копенгагене, где находился в течение шести месяцев и был полностью отучен от алкоголя и табака."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView872"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Взрослая жизнь"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView873"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="С 1913 по 1916 год Мунк жил в Гримсрёде на Елёйе в нынешнем муниципалитете Мосс. В 1916 году он купил усадьбу Экели, бывший питомник, отделенный от фермы Хусеби, ныне черта города Осло."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView874"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Эдвард Мунк жил там до своей смерти в 1944 году. Дом и сад в Экели сыграли центральную роль в его дальнейшем творчестве как художника. Его собственный дом является фоном для многих его картин, и он часто писал вид из окна дома, например, картину «Звездная ночь» (1922-24 годы). Многие автопортреты были написаны в доме в Экели, наиболее известна картина «Автопортрет. Между часами и кроватью», написанная в последние годы жизни художника. Красный флигель на участке повторяется во многих картинах, а сад и «лес» он часто использовал в качестве мотива или фона для картин."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView875"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1946 году городские власти Осло взяли в свои руки этот участок и организовали строительство 44 домов для художников. Дом, в котором Эдвард Мунк просуществовал 28 лет, был снесен в 1960 году. В 1933 году, в день своего 70-летия, Мунк был награждён высшей наградой Норвегии Большим крестом ордена Святого Олафа."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton129"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="112sp"
+                android:backgroundTint="#141414"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/group_18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

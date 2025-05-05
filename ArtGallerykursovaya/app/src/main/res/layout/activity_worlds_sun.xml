@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".WorldsSun">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="match_parent"
+                android:layout_height="510dp"
+                app:srcCompat="@drawable/son_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView386"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Сын человеческий» - пожалуй, самая известная картина Рене Магритта. По уровню популярности и частоте цитирования с ней может сравниться разве что «Вероломство образов» со знаменитой загадкой о том, что изображение трубки – это не трубка. «Сын человеческий» постоянно упоминается в разнообразных фильмах и телесериалах (в том числе и вездесущих «Симпсонах», где есть отсылки, кажется, к абсолютно всем мало-мальски значимым культурным явлениям). Одна из самых зрелищных и изящных отсылок к полотну присутствует в фильме «Афера Томаса Крауна» 1999 года, где во время кражи картины из музея по нему разгуливает целая дюжина мужчин в котелках, пальто и красных галстуках."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView407"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Это полотно перекликается с двумя другими работами Магритта – «Человек в котелке» (1964) и «Великая война» (1964). На первой изображен мужчина, очень похожий на героя «Сына человеческого», за тем лишь исключением, что здесь лицо человека закрывает летящий белый голубь. Героиня «Великой войны» - нарядно одетая дама с зонтиком, лицо которой то ли скрывает, то ли украшает букет цветов, - изображена на том же фоне, что и «Сын человеческий». Верхнюю половину фона занимает небо (в первом случае голубое с легкими облачками, во втором – покрытое мрачными тучами), нижнюю – море и невысокая стена или ограда. Считается, что зеленое яблоко, почти полностью скрывающее лицо мужчины в котелке, является символом искушений, которые преследуют современного Адама в нашем мире."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Сам Магритт говорил об этих полотнах следующее:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView409"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Интересное в этих картинах — это внезапно ворвавшееся в наше сознание присутствие открытого видимого и скрытого видимого, которое в природе никогда друг от друга не отделяется. Видимое всегда прячет за собой еще одно видимое. Мои картины просто выявляют такое положение вещей непосредственным и неожиданным образом. Между тем, что мир предлагает нам как видимое, и тем, что это данное видимое под собой прячет, разыгрывается некое действие»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView410"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 116×89 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView411"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: частная коллекция."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView412"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Упоминания о холсте и отсылки к его сюжету часто встречаются в сериалах и фильмах, например, в «Симпсонах», «Афере Томаса Крауна», «Персонаже» и «500 днях лета». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

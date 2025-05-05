@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".magritt">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/magritt__" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                app:srcCompat="@drawable/citata" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Карьера"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Самые ранние картины Магритта, датируемые примерно 1915 годом, были выполнены в импрессионистском стиле. В 1916–1918 годах он учился в Королевской академии изящных искусств в Брюсселе у Константа Монталя, но находил преподавание скучным. Он также посещал занятия в Королевской академии у художника и дизайнера плакатов Жисбера Комба. На картины, написанные им в 1918–1924 годах, повлияли футуризм и фигуративный кубизм Метцингера."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="С декабря 1920 по сентябрь 1921 года Магритт служила в бельгийской пехоте в фламандском городе Беверло недалеко от Леопольдсбурга. В 1922 году Магритт женился на Жоржетте Бергер, с которой познакомился в детстве в 1913 году. В том же 1922 году поэт Марсель Лекем показал Магритту репродукцию картины Джорджо де Кирико «Песнь любви» (написанной в 1914 году). Эта работа довела Магритта до слёз; он описал это как «один из самых трогательных моментов в моей жизни: мои глаза увидели мысль впервые». Картины бельгийского художника-символиста Уильяма Дегува де Нюкка также оказали влияние на Магритта, в частности его картина «Слепой дом» (1892) и вариации или серии Магритта на тему «Империя света»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1922–1923 годах Магритт работал чертёжником на фабрике обоев и был дизайнером плакатов и рекламы до 1926 года, когда контракт с галереей Le Centaure в Брюсселе позволил ему заниматься живописью на постоянной основе. В 1926 году Магритт написал свою первую сюрреалистическую картину «Утраченный жокей» (Le jockey perdu) и в 1927 году провёл свою первую персональную выставку в Брюсселе. Выставка получила плохие отзывы. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Подавленный неудачей, он переехал в Париж, где подружился с Андре Бретоном и стал членом группы сюрреалистов. Для сюрреализма Магритта характерно иллюзорное, сказочное качество. Он стал ведущим членом движения и оставался в Париже в течение трёх лет. В 1929 году он заключил контракт с галереей Гоманса в Париже вместе с Жаном Арпом и Ивом Танги. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="15 декабря 1929 года Магритт принял участие в последней публикации, № 12, журнала «La Révolution surréaliste» со своим эссе «Слова и образы», в котором слова играют с образами в соответствии с его работой «Измена образов». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Галерея Le Centaure закрылась в конце 1929 года, лишив Магритта дохода от контракта. Не добившись успеха в Париже, Магритт вернулся в Брюссель в 1930 году и возобновил работу в сфере рекламы. Он и его брат Поль основали агентство, которое приносило ему доход, позволяющий жить. В 1932 году Магритт вступил в Коммунистическую партию, из которой периодически выходил и возвращался в течение нескольких лет. В 1936 году у него состоялась первая персональная выставка в США в галерее Жюльена Леви в Нью-Йорке, а в 1938 году — в Лондонской галерее. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В период с 1934 по 1937 год Магритт рисовал афиши для немецкого дистрибьютора звукового кино Tobis Klangfilm под псевдонимом «Эмар». В городском архиве Лёвена хранятся семь афиш, нарисованных Магриттом."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="На ранних этапах своей карьеры британский покровитель сюрреалистов Эдвард Джеймс позволил Магритту бесплатно жить в его лондонском доме, где Магритт изучал архитектуру и рисовал. Джеймс изображён на двух работах Магритта, написанных в 1937 году, — «Принцип удовольствия» («Le Principe du Plaisir») и «Запрет на воспроизведение», также известной как «Не для воспроизведения». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Во время немецкой оккупации Бельгии во время Второй мировой войны он остался в Брюсселе, что привело к разрыву с Бретоном. В 1943–1944 годах он ненадолго обратился к красочному, живописному стилю, известному как «период Ренуара», в качестве реакции на чувство отчуждённости и покинутости, которое он испытывал, живя в оккупированной немцами Бельгии. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1946 году, отказавшись от насилия и пессимизма своих ранних работ, он вместе с несколькими другими бельгийскими художниками подписал манифест «Сюрреализм при свете дня». В 1947–1948 годах, в «периоде коров» Магритта, он писал в провокационном и грубом стиле фовизм. В это время Магритт зарабатывал на жизнь тем, что продавал подделки Пикассо, Бракса и де Кирико — мошеннический репертуар, который он позже расширил, начав печатать фальшивые банкноты в трудный послевоенный период. Этим он занимался вместе со своим братом Полем и коллегой-сюрреалистом и «суррогатным сыном» Марселем Мареном, на которого легла задача продавать подделки. В конце 1948 года Магритт вернулся к стилю и темам своего довоенного сюрреалистического искусства. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Во Франции работы Магритта были представлены на нескольких ретроспективных выставках, последняя из которых прошла в Центре Жоржа Помпиду (2016–2017). В США его работы были представлены на трёх ретроспективных выставках: в Музее современного искусства в 1965 году, в Метрополитен-музее в 1992 году и снова в Метрополитен-музее в 2013 году. Выставка под названием «Пятый сезон» в Музее современного искусства Сан-Франциско в 2018 году была посвящена его работам последних лет."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В политическом плане Магритт придерживался левых взглядов и сохранял тесные связи с Коммунистической партией даже в послевоенные годы. Однако он критиковал функционалистскую культурную политику левых коммунистов, заявляя, что &quot;Классовое сознание так же необходимо, как хлеб; но это не означает, что рабочие должны быть обречены на хлеб и воду и что хотеть курицу и шампанское было бы вредно. Для художника-коммуниста оправданием художественной деятельности является создание картин, которые могут представлять умственную роскошь&quot;. Оставаясь приверженцем политических левых, он, таким образом, выступал за определенную автономию искусства. В духовном плане Магритт был агностиком. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1960-х годах значительно возрос интерес к работам Магритта, и его образы повлияли на поп-арт, минимализм и концептуальное искусство. В 2005 году он занял 9-е место в валлонской версии De Grootste Belg (Величайший бельгиец); во фламандской версии он занял 18-е место."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:text="Философские и художественные жесты"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В работах Магритта часто изображается коллекция обычных предметов в необычном контексте, что придаёт знакомым вещам новое значение. Использование предметов не по назначению, а в качестве того, чем они кажутся, характерно для его картины «Измена образов» («La trahison des images»), на которой изображена трубка, похожая на модель для рекламы табачного магазина. Магритт написал под трубкой «Ceci n’est pas une pipe» («Это не трубка»), что кажется противоречием, но на самом деле это так: картина — это не трубка, это изображение трубки. Она не «удовлетворяет эмоционально»; когда Магритта однажды спросили об этом изображении, он ответил, что, конечно, это не трубка — просто попробуйте набить её табаком. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Сюзи Габлик описала работы Магритта как «систематическую попытку разрушить любой догматический взгляд на физический мир». Поэтому, когда Магритт рисовал камни, которые обычно считаются тяжёлыми неодушевлёнными предметами, он часто изображал их парящими в небе, как облака, или рисовал сцены с людьми и их окружением, превратившимися в камень. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Среди работ Магритта есть несколько сюрреалистических версий других известных картин, таких как «Перспектива I» и «Перспектива II», которые являются копиями «Портрета мадам Рекамье»Давида и «Балкона»Мане соответственно, но с человеческими фигурами, заменёнными гробами. В других работах Магритт бросает вызов сложности передачи смысла в искусстве с помощью повторяющегося мотива мольберта, как в его серии «Состояние человека» (1933, 1935) или «Прогулки Евклида» (1955), где шпили замка «нарисованы» на обычных улицах, которые видны на холсте. В письме Андре Бретону он писал о «Человеческом состоянии», что не имеет значения, отличается ли сцена за мольбертом от того, что на нём изображено, «но главное — устранить разницу между видом снаружи и изнутри комнаты». Окна на некоторых из этих картин обрамлены тяжёлыми шторами, что создаёт театральный мотив. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Стиль сюрреализма Магритта более репрезентативен, чем «автоматический» стиль таких художников, как Жоан Миро. Магритт использует обычные предметы в непривычных пространствах, стремясь создать поэтические образы. Он описывал процесс рисования как «искусство располагать цвета рядом друг с другом таким образом, чтобы их реальный вид исчезал, чтобы знакомые предметы — небо, люди, деревья, горы, мебель, звёзды, твёрдые структуры, граффити — объединялись в единый поэтически упорядоченный образ. Поэзия этого образа не нуждается в каком-либо символическом значении, старом или новом». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text='Рене Магритт описывал свои картины как "видимые образы, которые ничего не скрывают; они навевают тайну, и, действительно, когда человек видит одну из моих картин, он задает себе этот простой вопрос: "Что это значит?". Это ничего не значит, потому что тайна тоже ничего не значит, она непознаваема".'
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Постоянная игра Магритта с реальностью и иллюзией объясняется ранней смертью его матери. Психоаналитики, изучавшие детей, потерявших близких, предположили, что постоянная игра Магритта с реальностью и иллюзией отражает его «постоянное переключение с того, чего он хочет, — «мама жива» — на то, что он знает, — «мама умерла»». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Совсем недавно Патриция Оллмер продемонстрировала влияние ярмарочных аттракционов на творчество Магритта — от каруселей и цирков до панорам и сценических фокусов."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView286"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Роспись"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="220sp"
+                app:srcCompat="@drawable/group_17" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="112sp"
+                android:backgroundTint="#141414"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/group_18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

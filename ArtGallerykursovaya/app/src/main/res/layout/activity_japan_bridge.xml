@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".JapanBridge">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView100"
+                android:layout_width="match_parent"
+                android:layout_height="383dp"
+                app:srcCompat="@drawable/japan_bridge" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView627"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Это произведение в стиле &quot;импрессионизм&quot; относится к позднему творчеству художника. В 1883 году Клод Моне приобрел дом в городке Живерни в Северной Нормандии. Купив соседний участок земли художник создал на его месте живописный сад с цветами, экзотическими деревьями, прудом с кувшинками и мостиком в японском стиле. В этом тенистом таинственном уголке Моне 30 лет писал целую серию картин с водяными лилиями. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView631"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Благодаря успешной выставке работ Моне, устроенной покровителем импрессионистов Полем Дюран-Рюэлем в Париже в 1909, картины художника из этой серии очень быстро раскупались. В том числе американцами, которые проявляли большой интерес к импрессионистам."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView632"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Клод Моне предпочитал рисовать с натуры, отслеживая игру солнечного света на гладкой поверхности пруда. Один и тот же вид он мог писать в разных погодных и временных условиях, отслеживая эмоциональную реакцию на природу. Поэтому он часто работал над несколькими сюжетами сразу. Так, у него есть целая серия картин с прудом и японским мостиком, написанных в разной манере."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView633"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне накладывал на холст крупные мазки. Он использовал чистые краски, смешивая их на полотне."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина написана в сине-зеленых тонах и производит умиротворяющее впечатление. Разбавляют эту гамму бело-розовые вкрапления кувшинок на воде. Картина построена на контрасте света и тени. Художник использует множество оттенков зеленого, синего, желтого цветов."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView635"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На первом плане мы видим заросшую гладь пруда. В воде отражаются осока и деревья, которые растут на берегу. Они же видны на заднем плане. Изящный мостик в стиле Хокусая визуально делит полотно на две части. На его дне отражается рефлекс от воды. Он и в тени, и освещен солнцем одновременно. Мостик напоминает о присутствии человека в этой идиллической картине. По нему хочется пройтись, постоять посередине и полюбоваться на открывшийся вид. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Водная гладь создает перспективу, уводя взгляд к заднему плану. Там глубину создают густые деревья. Также пруд и заросли кувшинок дают ощущение горизонтали, которое повторяет дуга мостика. А деревья с травой раздвигают пространство ввысь своими вертикальными линиями. Этот контраст находит повторение в отражении на воде - между крупными блоками горизонтальных кувшинок, художник пишет небольшими вертикальными мазками отражение деревьев и травы в воде. Благодаря такому приему, в картине чувствуется простор, и есть ощущение воздуха, несмотря на ее небольшие размеры."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView637"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Многочисленные кувшинки изображены белыми, розовыми, синими мазками. Они привносят ощущение жизни в картину. Художнику удалось передать ощущение покоя и тишины. Глядя на полотно, слышишь, как щебечут птицы и жужжат насекомые. Чувствуешь легкий ветерок и тепло солнца. Картина оставляет эффект полного присутствия. Мир в отсутствие человека живет своей наполненной жизнью."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Данная картина хранится в Художественном музее Принстонского университета. Ее музею подарили наследники многолетнего попечителя учебного заведения Уильяма Черча Осборна в 1972 году."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

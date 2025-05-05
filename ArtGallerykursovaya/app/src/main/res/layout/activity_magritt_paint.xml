@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".magritt_paint">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView287"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Галерея"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                app:srcCompat="@drawable/magritte_museum" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView290"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Начало творческого пути, Брюссель (1915–1922)"
+                    android:textColor="#FBFBFB"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView289"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="В этот период Магритт экспериментировал в духе импрессионизма, пуризма, кубофутуризма, дадаистских игр и метафизики."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="12sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-10sp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/imageButton47"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/cat" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton48"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/pier_1" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView291"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Бельгийский сюрреализм (1923–1927)"
+                    android:textColor="#FBFBFB"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView292"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="В начале 20-х годов Магритт писал в стиле кубизма, при этом издавал дадаистский журнал и работал над книгой про абстракцию. "
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="12sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-10sp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/imageButton49"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/selfp_magritt" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton50"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/dgordgetta" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton51"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/window" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton52"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/mind_odinokogo_prohogego" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView293"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Парижский сюрреализм (1927–1938)"
+                    android:textColor="#FBFBFB"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView294"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Во время жизни в Париже с 1927 по 1930 год Магритт сблизился с французскими сюрреалистами во главе с Андре Бретоном. "
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="12sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-10sp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/imageButton53"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/lovers" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton54"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/answer" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton55"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/verolomstvo_29" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton56"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/princip" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView295"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Военные годы, «период Ренуара» (1940–1948)"
+                    android:textColor="#FBFBFB"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView296"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="С началом немецкой оккупации Магритт обратился к импрессионистической технике, близкой к манере Ренуара. Этот период продлился до 1947 года и получил название plein soleil (в переводе с французского — яркое солнце)."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="12sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-10sp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/imageButton57"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/morning" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton58"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/fire" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton59"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/plennitca" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton60"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/voice_of_the_blood" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView297"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Послевоенный период (1949–1967)"
+                    android:textColor="#FBFBFB"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView298"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="В послевоенные годы Магритт обратился к более декоративным элементам и экспериментам с цветом, что вызвало неоднозначную реакцию критиков. "
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="12sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-10sp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/imageButton61"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/imperiya_of_light" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton62"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/lich_tcennosti" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton63"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/struna" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton64"
+                            android:layout_width="243dp"
+                            android:layout_height="235dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#141414"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/world_s_son" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+
+                <TextView
+                    android:id="@+id/textView299"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2sp"
+                    android:text="У Магритта нельзя однозначно выделить «период расцвета». Каждое десятилетие творческой жизни, начиная с 1920-х и заканчивая 1960-ми годами, ознаменовано одним или несколькими знаковыми произведениями. Например, в 1928–1929 годах написано «Вероломство образов», в 1939–1957 годах — серия «Империя света», а в 1964 году — «Сын человеческий»."
+                    android:textColor="#FBFBFB"
+                    android:textSize="11sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

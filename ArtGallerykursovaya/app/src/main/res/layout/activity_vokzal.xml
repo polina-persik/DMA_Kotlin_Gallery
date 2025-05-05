@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Vokzal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView97"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                app:srcCompat="@drawable/vokzal_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView599"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Вокзал Сен-Лазар» (фр. La Gare Saint-Lazare) — серия картин французского живописца Клода Моне, посвящённых парижскому вокзалу Сен-Лазар, созданная в 1877 году. Всего в серии художником было написано 12 полотен."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView613"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Во время франко-прусской войны 1870—1871 годов Клод Моне находился в Лондоне, а по возвращении в Париж осенью 1871 года он некоторое время снимал мастерскую на улице Или в районе вокзала Сен-Лазар, поэтому район ему был хорошо знаком."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView614"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Лето и осень 1876 года Моне провёл в поместье Эрнеста Ошеде в Монжероне, где исполнил по заказу Ошеде четыре больших панно — «Пруд в Монжероне», «Уголок сада в Монжероне» (оба в Эрмитаже), «Индюшки» (Орсе) и «Охотник» (частная коллекция). Благодаря финансовой поддержке Ошеде Моне несколько поправил своё материальное положение и по возвращении из Монжерона в Париж смог заняться интересующими его городскими видами. Он решился на крайне рискованный эксперимент: его внимание привлёк вокзал Сен-Лазар[2]. С этого вокзала поезда отправлялись на нормандское побережье, в Руан, Шату, Буживаль, Лувесьен, Аржантёй, Ветёй, Понтуаз, Эраньи и Живерни — все эти места привлекали Моне и его товарищей-импрессионистов. В то время локомотивы с их высокими дымовыми трубами были символами прогресса. По свидетельству Джона Ревалда, «огромное здание со стеклянной крышей, под которой тяжёлые паровозы выпускали густой пар, приходящие и уходящие поезда, толпы народа и контраст между прозрачным небом и дымящими паровозами — всё это давало необычные, захватывающие сюжеты»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Осенью Моне подал запрос в железнодорожную контору на разрешение работать на вокзале и получил его в самом конце года. 17 января 1877 года он сообщил издателю Жоржу Шарпантье, что переезжает на улицу Монсо, 17, недалеко от вокзала. Его квартира находилась на первом этаже пятиэтажного дома и была типичной для холостяцких квартир, столь распространённых в Париже в XIX веке. Там была маленькая комната без камина, спальня, чулан и совершенно не было места для мастерской. Комната была сдана на имя Гюстава Кайботта, который ежеквартально отдавал своему другу 175 франков, чтобы тот мог оплатить аренду."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне не в первый раз занялся железнодорожной тематикой — ранее им было написано несколько картин на подобные сюжеты. Впервые вокзальные задворки он изобразил на картине 1872 года «Железнодорожная станция в Аржантёй» (холст, масло; 48 × 72 см; Орсе, инв. № RF 1986 55, в 1986—1997 годах хранилась и выставлялась в музее Таве-Делакур, Понтуаз, инв. № P.1986.1, затем вернулась в Орсе, с 2012 выставляется в Городском замке Овер-сюр-Уаз).  В 1875 году была написана картина «Поезд в снегу» (холст, масло; 59 × 78 см; музей Мармоттан-Моне, инв. № 4017). И наконец летом 1876 года Моне создал «Прибытие поезда в Монжерон» (холст, масло; 81 × 60 см; частная коллекция в США)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView617"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне работал над картинами с конца осени и всю зиму 1876/1877 года. Фактически это был его первый опыт работы над единой серией картин: «он изучал один и тот же мотив в различных аспектах «…» и продолжал энергично и мастерски схватывать специфический характер самого места и его атмосферы». Оскар Рейтерсверд отмечает, что Моне не просто бродил с мольбертом вокруг вокзала и запечатлевал подъездные пути и сортировочные станции, он «в сущности охотился за новыми художественными идеями». Моне действовал как художник-сенсуалист и «стремился уловить страстную напряжённость в этом наполненном шумом и лязгом зрелище, которое он расчленял и разделял на смутные и разорванные фрагметны, подобные собственным ощущениям. Он взрыхлял стальные корпуса и чугунные конструкции, лишал механизмы их технического содержания и проецировал на полотно лишь их свойства, рождающие у зрителя тревогу». Многие прохожие возмущались присутствием художника в столь странной, по их мнению, обстановке."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView618"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="4 апреля 1877 года в Париже открылась Третья выставка импрессионистов. На ней среди прочих своих работ Моне представил семь картин из серии (указан номер по каталогу-резоне Д. Вильденштейна, в скобках номер по выставочному каталогу) — W438 (102), W439 (100), W440 (97), W442 (98), W444, W447 и W448 (116, 117, 118 — номера последних трёх картин невозможно точно соотнести с номерами по выставочному каталогу, где они указаны просто под названием «Вокзал Сен-Лазар», без дополнительных уточнений). Рейтерсверд ошибочно утверждает, что в выставочный каталог было включено лишь шесть картин, одна шла без каталога."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView619"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В день открытия в газете Le Figaro был опубликован отзыв о выставке Альбера Мийо: «Болезненное любопытство привело нас в этот музей ужасов, названный выставкой импрессионистов. «…» Ни в одной из картин нет ни намёка на мысль или творческую идею. «…» Художник хотел одновременно создать впечатление уходящего поезда и поезда стоящего, и в конце концов удалось поразить нас неприятным ощущением, какое испытываешь, слыша одновременно свист нескольких локомотивов». В следующие дни хлынула целая волна крайне ругательных рецензий: «Вещи Клода Моне самые смехотворные на выставке», «Критика имеет право выразить своё замешательство перед этими дурацкими пейзажами», «Это намеренно отталкивающее и отвратительное сумасшествие», «А когда мы подошли к железнодорожным вокзалам — а такими их видеть мог только Моне — нас обуял хохот», «Имеет ли перрон, пышащий жаром и водяным паром, что либо общее с фиолетовыми и причудливыми вокзалами мсье Моне?». О Моне и Сезанне, против которых в основном и была направлена большая часть максимально негативных высказываний, в целом говорилось: «Дети, развлекающиеся бумагой и красками, добиваются большего успеха», «Они вызывают смех в то время, когда над ними следовало бы плакать. Они проявляют глубочайшую безграмотность в рисунке, композиции и передаче цвета». Суммируя подобные критические выпады, Рейтерсверд констатирует, что художественные критики в массе своей, столкнувшись с искусством импрессионистов, лишились способности понимать его."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Редкие комплиментарные реплики тонули в огромной массе подобных, не стесняющихся в выражениях, репортажах. Лишь Жорж Ривьер в нескольких больших статьях выступил в защиту импрессионистов в целом и Моне в частности: «Несмотря на монотонный и скупой сюжет, эти полотна поражают своим разнообразием. В них, как, впрочем, и во всех работах г-на Моне, сказывается композиционное мастерство, умение расположить предметы на полотне, что являлось всегда одной из сильных сторон художника». Далее он подробно описывает свои впечатления от «вокзалов» и в конце статьи резюмирует: «во всех этих вещах налицо та всеоживляющая сила, которую умеет придавать им только г-н Моне»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В целом выставка оценивалась как неудачная, художники не смогли даже отбить вложенные в организацию деньги. Моне продал четыре работы из серии, причём три из них (W439, W440 и W445) выкупил Эрнест Ошеде, а одну (W442) приобрёл врач Жорж де Беллио накануне открытия."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView622"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Впоследствии вся серия «Вокзал Сен-Лазар» была признана одним из выдающихся шедевров раннего импрессионизма. Профессор Академии художеств В. И. Раздольская писала:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView623"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«В этих картинах Моне смело утверждает новое понимание прекрасного в, казалось бы, прозаическом сюжете. Глаз художника открывает в нём бесконечные цветовые оттенки, а присущее ему композиционное воображение помогает объединить разрозненные наблюдения в целостную картину, исполненную захватывающей мощи. Смелость и динамика пространственных и света-теневых отношений, напряжённость цветовых контрастов делают эти полотна своеобразным романтическим апофеозом техники, в котором фантасмагория света преображает обыденность в чудо»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView624"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Другой исследователь отмечал:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView625"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«„Вокзалы“ Моне по масштабу и значимости — в одном ряду с „Соборами“ и „Нимфеями“. А по новизне мотива, по способности сделать достоянием новейшего искусства жёсткую технократическую реальность „железного века“, сохранив и упрочив при этом автономию и свободу искусства, „Вокзалы“ сравнимы лишь с „Железной дорогой“ Мане и городскими видами Кайботта. «…» Эти полотна, в числе которых есть и почти фрагментарные, укрупнённые композиции, напоминают отчасти и монтажные контрасты кино. Роднит их — кроме, разумеется, мотива — поразительная „сила мгновенности“, растворённость предметов в меняющейся словно на глазах световоздушной среде, наполненной призрачно подвижным паром, причудливым танцем прозрачных теней, „нематериальность“ которых могла бы контрастировать с грузными тушами локомотивов. Но и они, эти тяжёлые, тёмные, казалось бы вовсе лишённые поэтичности машины, стали на холстах Моне прекрасными кусками живописи, не потеряв, однако, красоты своих логичных и стройных индустриальных форм». "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

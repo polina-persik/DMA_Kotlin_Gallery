@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Lovers">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="match_parent"
+                android:layout_height="293dp"
+                app:srcCompat="@drawable/lovers_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView328"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Если не брать во внимание трагическую историю матери Рене Магритта, с которой часто связывают покровы на лицах героев картины «Влюбленные», существует еще одна версия о причинах, по которым художник так любил изображать «обезличенных» людей. Дело в том, что Магритт был страстным поклонником кинематографа, в частности, фильмов о Фантомасе 1913-1914 годов, снятых Луи Фейадом. По мнению некоторых искусствоведов, это увлечение во многом повлияло на творчество художника и пробудило в нем любовь к играм в прятки."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Существует несколько трактовок полотна «Влюбленные». Причем две из них являются полностью противоположными друг другу. Согласно первой, Магритт изобразил на картине олицетворение расхожей фразы «Любовь слепа». Причем слепота эта в данном случае абсолютна: герои картины являются загадкой и для окружающих, и друг для друга, к тому же, они так поглощены страстью, что не видят и не слышат ничего вокруг. Что касается второй, более оптимистической трактовки, мужчина и женщина на полотне сумели постичь любовь такой силы, что способны ощутить настоящую близость, несмотря на любые покровы тайн и разделяющие их преграды. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Вторая версия картины, появившаяся в том же 1928 году, написана совсем с другим настроением. Если первое полотно вызывает какое-то безотчетное содрогание, непостижимое ощущение безысходности или даже страх, то вторая картина, изображающая тех же возлюбленных, наполнена скорее умиротворением и покоем. Магритт переносит своих героев из замкнутого пространства комнаты и их собственного закрытого мирка в полный красок огромный мир, который символизирует пейзаж за их спинами. Лица мужчины и женщины по-прежнему закрыты тканью, но обращены к зрителю, а их позы стали более спокойными и расслабленными. И кажется, будто через тонкие покровы можно разглядеть их улыбки."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView334"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размеры: 54 см × 73,4 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView335"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Музей современного искусства Нью-Йорка."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

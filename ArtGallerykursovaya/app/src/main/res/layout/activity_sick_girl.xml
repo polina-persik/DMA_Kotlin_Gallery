@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".SickGirl">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView136"
+                android:layout_width="match_parent"
+                android:layout_height="406dp"
+                app:srcCompat="@drawable/sick_girl" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView886"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Больная девочка» (норв. Det syke barn) — картина норвежского художника Эдварда Мунка, написанная им в 1886 году. Хранится в Национальной галерее Осло."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView893"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В основе картины лежат воспоминания художника о болезни и смерти его старшей сестры, Юханны Софии «Софи» Мунк, умершей в 1877 году от туберкулёза (девятью годами ранее от того же заболевания скончалась мать семейства, Лаура Мунк). Совсем юная (Софи было всего пятнадцать лет) рыжеволосая девушка с изможденным лицом полулежит в постели, откинувшись на высоко поднятую подушку; рядом с ней, опустив в отчаянии голову и сжав руки, сидит немолодая женщина в тёмном платье — это тётка Софи и Эдварда Карен Бьёльстад, взявшая на себя заботы по ведению хозяйства в доме Мунков после смерти Лауры. Комната погружена в полумрак, но лицо девушки ярко освещено: как отмечают многие исследователи, оно словно растворяется в потоке света или само излучает свет."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView894"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Тематически картина перекликается с изображениями больных детей, встречающимися у многих художников того периода — в частности, у покровительствовавшего молодому Мунку Кристиана Крога («Больная девочка») и у Ханса Хейердала («Умирающее дитя»). В то же время, для Мунка она имела особое, личное значение: смерть сестры, «сгоревшей» от скоротечной чахотки буквально за считанные недели, стала одним из сильнейших впечатлений в его жизни, во многом повлияв на формирование его мрачного мироощущения. Несколькими годами позднее он напишет ещё одно крупное полотно, навеянное воспоминаниями о болезни сестры, но выдержанное в более светлых, оптимистичных тонах («Весна», 1889), а мотив «комнаты умирающего» появится в его творчестве ещё много раз («У смертного ложа (Агония)», 1895; «Комната умирающего», 1895; «Девочка у постели умершей матери», 1897—1899 и пр.) «Больная девочка» также существует в нескольких вариантах, включая шесть живописных полотен (1886, 1896, 1907, 1907, 1925, 1927) и ряд рисунков и гравюр. Позировала для полотна одиннадцатилетняя Бетси Нильсен (Мунк также написал её портрет). Позднее Бетси сообщала, что картина отчасти вдохновлена визитом доктора Кристиана Мунка в дом Нильсенов — их десятилетний сын сломал ногу. Эдвард, ассистировавший отцу при оказании помощи мальчику, был впечатлён видом Бетси, со слезами на глазах утешавшей брата, и перед уходом попросил разрешения сделать с неё несколько набросков."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView895"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Больная девочка», одно из первых крупных полотен Мунка, впервые была выставлена на Осенней художественной выставке 1886 года. Хотя тема для картины, как уже отмечалось, была избрана вполне традиционная, на молодого художника обрушился шквал критики: публику возмутило то, что молодой художник осмелился предоставить на выставку работу, казавшуюся незавершенным этюдом. Богемный писатель Ханс Егер в своём очерке о выставке цитирует характерное высказывание одного из посетителей: «Выставлять такое! Это же скандал! Картина не завершена и бесформенна, сверху вниз изображение рассекают странные полосы…». Редакция одной из газет писала: «Лучшая услуга, которую можно оказать Эдварду Мунку, это молча пройти мимо его картин. Картины Мунка значительно снизили уровень выставки. Приняв эти картины, жюри оказало ему плохую услугу». Другие публикации («Моргенпостен» от 18 октября 1886 года, «Федреланнет» от 30 октября 1886 года) были более доброжелательны, отмечая «своеобразие» и «трогательность» работы, но также упрекали художника в небрежности и нежелании совершенствовать технику. После прихода в Германии к власти нацистской партии вариант картины из Дрезденской галереи был пущен с молотка как образец «дегенеративного искусства» под похожими предлогами; сейчас он находится в Галерее Тейт в Лондоне. Сам Мунк считал эту работу очень важной для себя и впоследствии называл её «своим прорывом»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

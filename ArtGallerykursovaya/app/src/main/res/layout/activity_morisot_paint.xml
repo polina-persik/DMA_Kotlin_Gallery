@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".MorisotPaint">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView429"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:text="Галерея"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="match_parent"
+                android:layout_height="309dp"
+                app:srcCompat="@drawable/national_gallery_of_art" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView430"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Обучение (1857 - 1870)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView431"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Трудно проследить этапы обучения Моризо и определить точное влияние её учителей, потому что она никогда не была довольна своей работой и уничтожила почти все свои произведения, созданные до 1869 года. Её первый учитель, Жоффруа-Альфонс Шокар, обучил её основам рисования. Через несколько месяцев Моризо начала посещать занятия Гишара. В этот период она рисовала в основном античные классические фигуры. Когда Моризо заинтересовалась живописью на пленэре, Гишар отправил её вслед за Коро и Удино. Рисуя на открытом воздухе, она использовала акварель, которую легко носить с собой. В то время Моризо также заинтересовалась пастелью."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton66"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/sister" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton67"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/sisters_2_" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton69"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/gaveni" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton68"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/mom_and_sister" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView432"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Акварелист (1870 - 1874) "
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView433"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="В этот период Моризо по-прежнему испытывала трудности с масляной живописью и работала в основном акварелью. Её выбор цветов довольно сдержан, однако деликатное повторение оттенков создаёт сбалансированный эффект. Благодаря особым свойствам акварели как материала Моризо смогла создать полупрозрачную атмосферу и лёгкое прикосновение, которые придают её картинам свежесть."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton70"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/balkon" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton71"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/kolibel" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton72"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/chtenie" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton73"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/in_park" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView434"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Импрессионизм (1875 - 1885) "
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView435"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Став более уверенной в себе в масляной живописи, Моризо работала маслом, акварелью и пастелью одновременно, как и Дега. Она рисовала очень быстро, но делала много набросков в качестве подготовки, чтобы «нарисовать рот, глаза и нос одним мазком». Она делала бесчисленные этюды своих моделей, которых знала по жизни, поэтому хорошо их изучила. Когда ей стало неудобно рисовать на открытом воздухе, тщательно прорисованные акварели, созданные на подготовительных этапах, позволили ей продолжить рисовать в помещении."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton74"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/agen_mane" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton75"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/woman_tualet" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton76"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/psicho" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton77"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/summer_day" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView436"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Поворот (1885 - 1887)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView437"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="После 1885 года в работах Моризо стали преобладать рисунки. Моризо активно экспериментировала с углём и цветными карандашами. Её возродившийся интерес к рисованию был обусловлен влиянием друзей-импрессионистов, которые известны размытыми формами. В этот период Моризо уделяла особое внимание проработке форм и линий. Кроме того, на неё повлияли фотография и японизм. Она переняла стиль размещения объектов вдали от центра композиции из японских гравюр того времени."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton78"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/cage" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton80"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/in_bathroom" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton79"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/in_stolovaya" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView438"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Синтез (1887 - 1895)"
+                android:textColor="#FBFBFB"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView439"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingExtra="2sp"
+                android:text="Моризо начала использовать технику «квадратирования» и копировальную бумагу, чтобы точно перенести рисунок на холст. Применяя этот новый метод, Моризо смогла создавать композиции с более сложным взаимодействием между фигурами. Она делала акцент на композиции и формах, но при этом сохраняла импрессионистские мазки. Её оригинальный синтез импрессионистских мазков с широкими штрихами и световыми бликами, а также графический подход с чёткими линиями сделали её поздние работы уникальными."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton81"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/woman_in_park_11" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton82"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/orange" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton83"
+                        android:layout_width="243dp"
+                        android:layout_height="235dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#141414"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/goly_mane" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

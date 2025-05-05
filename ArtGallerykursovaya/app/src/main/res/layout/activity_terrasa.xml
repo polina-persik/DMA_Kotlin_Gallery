@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    android:backgroundTint="#141414"
+    tools:context=".Terrasa">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="495dp"
+                app:srcCompat="@drawable/terrasa_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Для творчества Ван Гога данная картина является уникальной. Винсенту ван Гогу претила обыденность, и в этой картине он её мастерски преодолевает. Как он потом написал своему брату: «Ночь гораздо живее и богаче красками, чем день». Интересной особенностью является то, что при написании картины художник не использовал ни грамма чёрной краски, и тем не менее ему удалось мастерски изобразить ночное небо и необыкновенное сияние звёзд. В композиции картины исследователи усматривают влияние работы Луи Анкетена «Авеню де Клиши вечером»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Ван Гог писал своей сестре:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2sp" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«По-правде говоря, я отвлекся от всех остальных дел и теперь тружусь над новой картиной, изображающий внешнюю часть одного ночного кафе: крошечные фигуры выпивающих на террасе людей, огромный жёлтый фонарь освещает террасу, дом и тротуар, и даже придает некоторую яркость мостовой, которая окрашивается в розоватово-фиолетовые тона. Треугольные фронтоны зданий на убегающей вдаль улице под синим небом, усыпанным звездами, кажутся тёмно-синими или фиолетовыми, и там ещё зелёное дерево»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Основной чертой Арльского периода является использование в большом количестве жёлтой краски, которая преобладает в палитре в таких насыщенных и ярких тонах, как в полотнах «Подсолнухи», — цвет приобретает особое сияние, как бы вырываясь из глубины изображения."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В научной статье, представленной на Европейской конференции IAFOR по искусству и гуманитарным наукам в 2013 году, была выдвинута теория о том, что Ван Гог задумал картину как уникально новаторскую «Тайную вечерю». Впоследствии эта статья была опубликована Обществом истории искусств в январском дополнении к журналу «История искусств» за 2014 год[ и в четырнадцатом томе журнала Anistoriton Journal of History, Archeology and Art History за июль 2014 года."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина и кафе фигурировали в фильме 1956 года «Жажда жизни» с Кирком Дугласом в главной роли, а затем в «Винсенте и Докторе» (2010), десятом эпизоде пятого сезона британского научно-фантастического телесериала «Доктор Кто» и в полностью нарисованном фильме «Ван Гог. С любовью, Винсент» (2017). Кафе также фигурировало в фильме «Ронин» (1998)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина была показана в сериале BBC 1980 года «100 великих картин»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 80,7 × 65,3 см. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Местонахождение: Музей Крёллер-Мюллер, Оттерло, Нидерланды. "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Историки искусства считают, что картина изображает сцену из романа Мопассана, в котором описывается группа людей, пьющих ночью, освещённых огнями здания."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

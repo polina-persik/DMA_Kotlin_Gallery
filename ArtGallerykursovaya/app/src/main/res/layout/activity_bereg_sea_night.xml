@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".BeregSeaNight">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView108"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                app:srcCompat="@drawable/bereg_sea_night" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView718"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="1837 г. Холст, масло. Размер: 58x81 см. Феодосийская картинная галерея имени И.К. Айвазовского"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView720"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Одна из самых ранних работ феодосийской коллекции художника. Картина «Берег моря ночью. У маяка» была написана во время обучения в Петербургской Академии художеств (1833–1839 гг.). Успехи И. К. Айвазовского и его &quot;выдающиеся способности к маринистической живописи&quot; в 1837 году были отмечены Большой золотой медалью. Это высшая награда Академии давала право на шестилетнюю заграничную командировку."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView721"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В 1836 году, благодаря просьбе профессора А. И. Зауервейда, он был прикомандирован на Балтийский флот для учебных занятий. Это было первое знакомство, начало глубокой привязанности и творческой связи И. К. Айвазовского с русским военно-морским флотом."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView730"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="а картине изображено побережье Кронштадта (главного форпоста Балтийского флота) в лунную ночь. Это произведение свидетельствует о больших достижениях в живописи еще совсем молодого художника. Изображен момент надвигающейся бури на побережье, когда небо заволокло тучами и лунный свет озарил несколько кораблей и лодок. Художник верно уловил и правдиво передал быстрое движение облаков по небу, их многослойность и глубину ночной синевы."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

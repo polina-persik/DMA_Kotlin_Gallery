@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".AlbumWindow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baner" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/van_gogh_dr_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/magritt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/frame_21" />
+
+                <ImageButton
+                    android:id="@+id/imageButton37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/frame_22" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/frame_10" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/aivazovsky" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/frame_6__1_" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#141414"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/munk" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

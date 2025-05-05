@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".HristosInGarden">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView130"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                app:srcCompat="@drawable/hristos_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView836"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Христос в Гефсиманском саду» — картина русского художника Архипа Куинджи (1841/1842—1910), написанная в 1901 году. Она является частью собрания Воронцовского дворца-музея в Алупке и выставляется в Шуваловском корпусе дворца. Размер картины — 107,5 × 143,5 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView840"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Почти двадцать лет никому не показывал Куинджи своих новых картин. Наконец, осенью 1901 года он решил показать четыре картины своим ученикам, а затем, 4 ноября, и избранной группе зрителей, среди которых были профессора Академии художеств, а также Дмитрий Менделеев с женой. Среди этих картин было полотно «Христос в Гефсиманском саду», которое произвело большое впечатление на посетителей. Один из них, писатель Иероним Ясинский, написал об этом событии восторженную статью под названием «Магический сеанс у А. И. Куинджи», в которой было такое описание:"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView841"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Опять собрался в складки чёрный коленкор — и мы увидели тёмный густолиственный кедровый и масленичный сад на горе Елеонской с ярко-тёмно-голубой прогалиной посредине, по которой, облитый тёмным лунным светом, шествовал Спаситель мира. Это — не лунный эффект, это — лунный свет по всей своей несказанной силе, золотисто-серебряный, мягкий, сливающийся с зеленью деревьев и травы, и пронизывающий собою белые ткани одежды. Какое-то ослепительное, непостижимое видение…»"
+                android:textColor="#FBFBFB"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView842"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Христос в Гефсиманском саду» — одна из немногих тематических картин в творчестве пейзажиста Куинджи. Судя по всему, главной целью художника была не новая интерпретация евангельского сюжета, а возможность использовать эффект лунного освещения для передачи напряжения и драматизма ситуации. В центре полотна изображён освещённый лунным светом Христос в белой одежде, а весь окружающий его Гефсиманский сад покрыт непроглядной тьмой, в которой прячутся противопоставляемые Христу злодеи. В целом цветовая гамма картины перекликается с эффектами освещения в «Лунной ночи на Днепре», но не повторяет её, а помогает произвести эмоциональное воздействие на зрителя."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

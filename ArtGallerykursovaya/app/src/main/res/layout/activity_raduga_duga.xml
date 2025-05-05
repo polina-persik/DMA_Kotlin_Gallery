@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".RadugaDuga">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView131"
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                app:srcCompat="@drawable/raduga_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView837"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Радуга» — картина русского художника Архипа Куинджи (1841/1842—1910), написанная между 1875 и 1879 годами. Размер полотна — 20 × 31 см. Картина написана маслом на бумаге, прикрепленной на картон. Хранится картина в Чувашском государственном художественном музее в городе Чебоксары."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView843"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На полотне изображен широкий ручей, вдоль берегов которого растут цветы и различные травы, а на воде возле берега раскачивается ряска светло-зеленого цвета. Видно, что только что прошел дождь, и все растения имеют яркий чистый цвет. На переднем плане трава изумрудного цвета, в её гуще видны различные цветы, написанные короткими мазками без детализации, придающие особую яркость и живость изображению. Удаляясь к горизонту, трава принимает светло-зеленый и жёлтый оттенки. А вдали видна гряда невысоких холмов, которые так же, как и трава, имеют жёлтый оттенок. Присутствие на полотне большого количества желтых тонов говорит о том, что картина изображает пору позднего лета, которое совсем скоро сменится осенью. Над холмами поднимается небо, затянутое темно-серой пеленой из туч."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView844"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="После прошедшего дождя солнце ещё не успело полноценно вступить в свои права на небосводе, но в левой части картины небо несколько светлее. И становится понятно, что солнце вот-вот снова появится, его лучи засверкают в дождевых каплях на мокрой траве и цветах."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView845"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Темное небо яркой дугой прочертила радуга, соединившая, подобно мосту, левую и правую части полотна. Автор изобразил радугу не в виде слияния спектра из семи цветов, а в виде яркой дуги, состоящей из трех горящих оттенков. Остальные цвета практически не видны. Они словно поглощены свинцово-серым небосводом. Радуга ярко сияет лишь в центральной части полотна. По краям она принимает более тусклый оттенок, при этом все цвета её сливаются и постепенно сходят на «нет»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".PapashaPoli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView94"
+                android:layout_width="match_parent"
+                android:layout_height="488dp"
+                app:srcCompat="@drawable/papasha_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView596"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Портрет папаши Поля» (фр. Le Père Paul), также известная как «Месье Поль» или «Шеф-повар», — картина французского художника Клода Моне, написанная маслом на холсте в 1882 году. Её размеры составляют 64,5 х 52,1 см. На полотне изображён Поль Антуан Графф, шеф-повар и владелец ресторана и отеля, где останавливался Моне во время своего визита в Пурвиль на берегу пролива Ла-Манш."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Ныне картина хранится в галерее Бельведер в Вене, столице Австрии."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView601"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Моне приехал в Пурвиль 15 февраля 1882 года, где провёл следующие несколько месяцев, создавая пейзажи побережья Нормандии. Проживал он в отеле A la Renommée des Galettes, работавшем при ресторане эльзасского шеф-повара Поля Антуана Граффа (1823—1893), известного среди местных как папаша Поль (Le Père Paul). Его фирменным блюдом были галеты, бретонская хрустящая выпечка. Они же отразились и в названии отеля. Позднее Моне запечатлел эту кулинарную гордость отца Поля в своём натюрморте «Галеты» (фр. Les Galettes)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView602"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В день своего приезда в Пурвиль Моне в письме своей спутнице и экономке Алисе Ошеде выразил сожаление по поводу того, что не прибыл туда раньше. Он описал отца Поля как отличного повара и остался доволен местом своего проживания: «Пейзаж очень красивый… нельзя быть ближе к морю, чем я сейчас, прямо на пляже, волны доходят до подвала нашего дома». Помимо портрета самого Граффа Моне также написал портрет его супруги. На картине «Матушка Поль» (фр. La Mère Paul) она изображена в тёмной одежде вместе со своим верным терьером Фоллеттом. Оба портрета супругов Графф, вероятно, были написаны Моне в качестве благодарности за их гостеприимство."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView98"
+                android:layout_width="match_parent"
+                android:layout_height="461dp"
+                app:srcCompat="@drawable/matushka" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView603"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Портрет отца Поля» и «Матушка Поль» — два из небольшого количества портретов, написанных Моне после смерти своей первой жены Камиллы в 1879 году. К другим относятся «Мишель Моне в шапке с помпоном» (1880), его автопортреты 1886 и 1917 годов, а также портрет рыбака «Поли» (1886). Рыбак Поли с окладистой бородой и характерными чертами лица имеет некоторое сходство с папашей Полем на портрете Моне. Мелисса Маккуиллан отметила в портретах Граффа и Поли «почти физиогномическое преувеличение», которое похоже на одну из его работ в качестве карикатуриста в юности. Искусствовед Ричард Р. Бреттелл также отметил сходство «Портрета папаши Поля» с ироническими рисунками Моне в подростковом возрасте."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView604"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Портрет папаши Поля» был подарком Моне Полю Антуану Граффу. После смерти Граффа в 1899 году посредством парижского отделения галереи Кнёдлер картина перешла во владение галериста Поля Дюран-Рюэля. В 1903 году он предоставил полотно для участия в выставке «Развитие импрессионизма в живописи и скульптуре», организованной Венским сецессионом, где также демонстрировалась парная к нему «Матушка Поль»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView605"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Впоследствии «Портрет папаши Поля» приобрела венская Современная галерея, предшественница нынешней галереи Бельведер."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

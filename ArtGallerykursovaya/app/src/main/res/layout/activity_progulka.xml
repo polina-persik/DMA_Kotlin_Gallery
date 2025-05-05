@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".Progulka">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView96"
+                android:layout_width="match_parent"
+                android:layout_height="488dp"
+                app:srcCompat="@drawable/progulka_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView598"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Прогулка. Дама с зонтиком» (фр. La Promenade) — картина Клода Моне, написанная в 1875 году. Также известна под названием «Камилла Моне с сыном Жаном». Крупнейшая работа художника 1870-х годов, в настоящее время хранящаяся в Национальной галерее искусства (Вашингтон)."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView609"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="На картине изображена супруга художника Камилла с их сыном Жаном в один из ветреных летних дней периода 1871—1877 годов, когда семейство Моне проживало в Аржантёе. Мадам Моне в развевающемся на ветру белом платье и шляпе с вуалью изображена с нижнего ракурса в перспективе восходящей прямой линии на фоне облаков в лазурном небе. Её фигура чуть смещена вправо от центра, визуально уравновешенная наклоном парасоля в руках, в куполе которого словно отражается зелень луговых трав под её ногами. Взгляд и положение тела подразумевают, что она внезапно осознаёт присутствие зрителя, обернувшись к нему, но не останавливаясь на месте, создавая убедительную иллюзию движения. Её семилетний сын, также внимательно смотрящий на зрителя, стоит дальше за пригорком, видимый лишь по пояс, что было необходимо художнику для создания объёма и глубины сцены. Низкий горизонт и размещение женской фигуры на фоне неба придают ей монументальность, необычную для картин Моне середины 1870-х годов.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView610"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Прогулка» принадлежит к серии летних картин, изображающих сад семейства Моне в Аржантёе и дикие маковые поля близ Коломба и Женвилье. Повседневная сцена из семейной жизни относится скорее к жанровой живописи, нежели к портрету, и написана с натуры на пленэре, вероятно, за один сеанс. Данный период творчества характеризуется возросшим интересом художника к разработке персонажей, начавших доминировать над пейзажем, что было несвойственно более ранним работам Моне, в которых человеческие фигуры играли незначительную роль. Тем не менее, передача ускользающего солнечного освещения сцены остаётся главной задачей художника, которую он решает композиционным строем цветовых пятен, выполненных свободными мазками кистью.  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина была выставлена под названием «La Promenade» вместе с 18-ю другими работами Моне на второй выставке импрессионистов в галерее Поля Дюран-Рюэля в апреле 1876 года. Несмотря на несколько благожелательных отзывов, «Прогулка» осталась практически незамеченной. Десять лет спустя Моне вернулся к данной теме, написав две схожих картины, изображающих дочь его второй жены Сюзанну Моне с парасолем в руках на лугу в Живерни, в настоящее время хранящиеся в Орсе. Джон Сингер Сарджент, видевший «Прогулку» на выставке 1876 года, позднее написал по её мотивам «Двух девушек с парасолями во Фладбери» (1886).  "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView612"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В ноябре 1876 года Моне продал картину румынскому врачу-гомеопату и коллекционеру живописи Жоржу де Беллио, после смерти которого «Прогулка» перешла по наследству его зятю Эрнесту Донопу де Монши и дочери Викторин, в собственности которых оставалась по крайней мере до 1897 года. В 1924 году владельцем картины являлся известный промышленник-шоколатье Жорж Менье. В 1965 году картина была приобретена американским филантропом Полом Меллоном, передавшим её в дар Национальной галерее искусств в 1983 году."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

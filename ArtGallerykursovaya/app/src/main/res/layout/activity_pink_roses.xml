@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".PinkRoses">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="489dp"
+                app:srcCompat="@drawable/pink_vase" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12sp" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="В то время, когда работа была написана, Ван Гог готовился покинуть больницу для душевнобольных в Сен-Реми-де-Прованс и перебраться в приют в тихом городке Овер-сюр-Уаз за пределами Парижа. Это полотно и его картина «Розовые розы» с похожей датировкой отражают оптимизм, который Ван Гог чувствовал в то время в отношении своего будущего, что проявилось как в выборе цветов в качестве предмета, так и в используемой цветовой гамме."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина написана Ван Гогом незадолго до освобождения из больницы для душевнобольных в Сен-Реми-де-Прованс. К концу своего пребывания в Сен-Реми и в предвкушении предстоящих дней в Овер-сюр-Уаз Ван Гог передавал свой оптимизм и энтузиазм, рисуя цветы. О том времени, когда Ван Гог написал этот натюрморт, он написал своей матери: «Но для здоровья, как вы говорите, очень необходимо работать в саду и наблюдать за растущими цветами»; «Последние дни в Сен-Реми я работал как сумасшедший. Прекрасные букеты цветов, фиолетовые ирисы, великолепные букеты из роз»."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Хотя не считается, что у Ван Гога есть определенная ассоциация для роз, очевидно, что он видел все цветущие растения как празднование рождения и возрождения — как наполненность жизнью. Это чувство подчеркивается свежим зелёным фоном, который имеет нежный цвет новых листьев весной. Волнообразные ленты краски, нанесенные диагональными штрихами, оживляют холст и воспроизводят завитые формы цветов и листьев. Первоначально розы были розовыми и создавали контраст дополнительных цветов с зелёным, однако цвет роз поблек со временем."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Картина является одним из нескольких примеров у Ван Гога перенасыщенности в натюрморте: плоскость картины переполнена вазой и избытком цветов. Другими примерами являются «Натюрморт с гвоздиками» и «Натюрморт с анемонами». Считается, что обильный букет роз — один из самых больших и красивых натюрмортов художника. Ван Гог нарисовал ещё одну картину из роз в Сен-Реми, которая выставлена в Метрополитен-музее в Нью-Йорке."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Когда Ван Гог покинул Сен-Реми 16 мая, обе картины с розами, написанные очень толстым слоем краски, были оставлены для просушки. Ван Гог предполагал, что для высыхания картин потребуется месяц. Картины прибыли в последнюю резиденцию Ван Гога в Овер-сюр-Уаз 24 июня."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Размер: 71 × 90 см."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Находится в Национальной галерее искусства в Вашингтоне (США). "
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
