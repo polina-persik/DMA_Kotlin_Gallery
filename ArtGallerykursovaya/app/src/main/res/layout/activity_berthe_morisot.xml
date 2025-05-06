@@ -253,14 +253,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp" />
 
-            <ImageButton
-                android:id="@+id/imageButton65"
+            <Button
+                android:id="@+id/button4"
                 android:layout_width="140dp"
-                android:layout_height="80dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="112sp"
                 android:backgroundTint="#141414"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/group_18" />
+                android:fontFamily="cursive"
+                android:text="Next ⇀"
+                android:textSize="20sp" />
 
             <Space
                 android:layout_width="match_parent"

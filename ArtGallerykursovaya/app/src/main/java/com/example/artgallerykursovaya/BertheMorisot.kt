@@ -1,14 +1,16 @@
 package com.example.artgallerykursovaya
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageButton
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class BertheMorisot : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -19,7 +21,7 @@ class BertheMorisot : AppCompatActivity() {
             insets
         }
         val intent = Intent(this, MorisotPaint::class.java)
-        var b =findViewById<ImageButton>(R.id.imageButton65)
+        var b =findViewById<Button>(R.id.button4)
         b.setOnClickListener {
             startActivity(intent)
         }
