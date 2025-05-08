@@ -2,7 +2,7 @@ package com.example.artgallerykursovaya
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageButton
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -20,7 +20,7 @@ class Kuindgi : AppCompatActivity() {
         }
 
         val intent = Intent(this, KuindgiPaint::class.java)
-        var a =findViewById<ImageButton>(R.id.imageButton100)
+        var a =findViewById<Button>(R.id.button5)
         a.setOnClickListener {
             startActivity(intent)
         }

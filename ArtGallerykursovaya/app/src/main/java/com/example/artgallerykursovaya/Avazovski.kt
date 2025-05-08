@@ -2,6 +2,7 @@ package com.example.artgallerykursovaya
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -20,7 +21,7 @@ class Avazovski : AppCompatActivity() {
         }
 
         val intent = Intent(this, AivazovskiPaint::class.java)
-        var a =findViewById<ImageButton>(R.id.imageButton101)
+        var a =findViewById<Button>(R.id.button6)
         a.setOnClickListener {
             startActivity(intent)
         }
