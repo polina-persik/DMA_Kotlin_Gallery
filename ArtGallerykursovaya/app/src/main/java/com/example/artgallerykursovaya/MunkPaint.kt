@@ -42,5 +42,59 @@ class MunkPaint : AppCompatActivity() {
         d.setOnClickListener {
             startActivity(intent4)
         }
+
+        val intent5 = Intent(this, Melanholiya::class.java)
+        var aa =findViewById<ImageButton>(R.id.imageButton134)
+        aa.setOnClickListener {
+            startActivity(intent5)
+        }
+
+        val intent6 = Intent(this, SecretSummerNight::class.java)
+        var bs =findViewById<ImageButton>(R.id.imageButton135)
+        bs.setOnClickListener {
+            startActivity(intent6)
+        }
+
+        val intent7 = Intent(this, Scream::class.java)
+        var cs =findViewById<ImageButton>(R.id.imageButton136)
+        cs.setOnClickListener {
+            startActivity(intent7)
+        }
+
+        val intent8 = Intent(this, Trevoga::class.java)
+        var dv =findViewById<ImageButton>(R.id.imageButton137)
+        dv.setOnClickListener {
+            startActivity(intent8)
+        }
+
+        val intent9 = Intent(this, EyesOnEyes::class.java)
+        var bo =findViewById<ImageButton>(R.id.imageButton138)
+        bo.setOnClickListener {
+            startActivity(intent9)
+        }
+
+        val intent10 = Intent(this, GirlsOnBrige::class.java)
+        var csf =findViewById<ImageButton>(R.id.imageButton139)
+        csf.setOnClickListener {
+            startActivity(intent10)
+        }
+
+        val intent11 = Intent(this, SelfportraitWithHands::class.java)
+        var ddv =findViewById<ImageButton>(R.id.imageButton140)
+        ddv.setOnClickListener {
+            startActivity(intent11)
+        }
+
+        val intent12 = Intent(this, Drovosek::class.java)
+        var ct =findViewById<ImageButton>(R.id.imageButton141)
+        ct.setOnClickListener {
+            startActivity(intent12)
+        }
+
+        val intent13 = Intent(this, SelfPBergen::class.java)
+        var dh =findViewById<ImageButton>(R.id.imageButton142)
+        dh.setOnClickListener {
+            startActivity(intent13)
+        }
     }
 }

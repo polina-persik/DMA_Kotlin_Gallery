@@ -2,6 +2,7 @@ package com.example.artgallerykursovaya
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -20,7 +21,7 @@ class munk : AppCompatActivity() {
         }
 
         val intent = Intent(this, MunkPaint::class.java)
-        var a =findViewById<ImageButton>(R.id.imageButton129)
+        var a =findViewById<Button>(R.id.button7)
         a.setOnClickListener {
             startActivity(intent)
         }

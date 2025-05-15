@@ -3,7 +3,6 @@ package com.example.artgallerykursovaya
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -56,12 +55,6 @@ class AlbumWindow : AppCompatActivity() {
         var pk =findViewById<ImageButton>(R.id.imageButton3)
         pk.setOnClickListener {
             startActivity(intent6)
-        }
-
-        val intent7 = Intent(this, Matiss::class.java)
-        var pka =findViewById<ImageButton>(R.id.imageButton7)
-        pka.setOnClickListener {
-            startActivity(intent7)
         }
 
         val intent8 = Intent(this, munk::class.java)

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    tools:context=".GirlsOnBrige">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView144"
+                android:layout_width="match_parent"
+                android:layout_height="429dp"
+                app:srcCompat="@drawable/girls_on_brige" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textView919"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="«Белая ночь. Осгардстран (Девушки на мосту)» — картина Эдварда Мунка, написанная в 1903 году."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView924"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Три девушки, стоящие на мосту, смотрят на воду, их фигуры застыли в неподвижных позах. Поверхность реки, подобно зеркалу, отражает кроны деревьев, дом на берегу, облака и солнце на небе."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView925"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Предполагается, что картина была создана специально для выставки в Салоне независимых в 1903 году. Там её приобрёл коллекционер Михаил Абрамович Морозов. После смерти Морозова картина перешла к его вдове Маргарите Кирилловне Морозовой, которая в 1910 году подарила её Третьяковской галерее."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView926"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Известно, что Мунк создал несколько вариантов этой картины: в течение 30 лет он написал 12 полотен с похожим сюжетом."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView927"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2sp"
+                android:text="Место нахождения: Государственный музей изобразительных искусств имени А. С. Пушкина."
+                android:textColor="#FBFBFB"
+                android:textSize="11sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

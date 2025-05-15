@@ -13,6 +13,33 @@
         android:theme="@style/Theme.ArtGallerykursovaya"
         tools:targetApi="31">
         <activity
+            android:name=".SelfPBergen"
+            android:exported="false" />
+        <activity
+            android:name=".Drovosek"
+            android:exported="false" />
+        <activity
+            android:name=".SelfportraitWithHands"
+            android:exported="false" />
+        <activity
+            android:name=".GirlsOnBrige"
+            android:exported="false" />
+        <activity
+            android:name=".EyesOnEyes"
+            android:exported="false" />
+        <activity
+            android:name=".Trevoga"
+            android:exported="false" />
+        <activity
+            android:name=".Scream"
+            android:exported="false" />
+        <activity
+            android:name=".SecretSummerNight"
+            android:exported="false" />
+        <activity
+            android:name=".Melanholiya"
+            android:exported="false" />
+        <activity
             android:name=".SummerNight"
             android:exported="false" />
         <activity
